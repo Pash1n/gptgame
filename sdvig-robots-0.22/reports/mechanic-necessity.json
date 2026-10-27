@@ -1,0 +1,37 @@
+[
+  {
+    "id": 3,
+    "without": "choices",
+    "found": false,
+    "searchComplete": true,
+    "expanded": 65
+  },
+  {
+    "id": 7,
+    "without": "freeze",
+    "found": false,
+    "searchComplete": true,
+    "expanded": 191
+  },
+  {
+    "id": 8,
+    "without": "thaw",
+    "found": false,
+    "searchComplete": true,
+    "expanded": 1441
+  },
+  {
+    "id": 10,
+    "without": "freeze",
+    "found": false,
+    "searchComplete": true,
+    "expanded": 15997
+  },
+  {
+    "id": 10,
+    "without": "thaw",
+    "found": false,
+    "searchComplete": true,
+    "expanded": 133899
+  }
+]

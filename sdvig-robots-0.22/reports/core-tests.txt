@@ -1,0 +1,16 @@
+✔ ten numbered puzzles have legal, non-initially-won witnesses within budget (2.709909ms)
+✔ matching colours never clear, fall or refill in delivery mode (0.332329ms)
+✔ a station can become unoccupied and all must be occupied simultaneously (0.177897ms)
+✔ tools consume one action and one charge, alter route, and preserve actor counts (0.630948ms)
+✔ thawing removes only selected ice and makes its cell available (0.452139ms)
+✔ free ice choices are reversible and do not spend tools or turns (0.254252ms)
+✔ frozen stations do not count even if a correctly coloured actor is inside (0.273821ms)
+✔ action budgets and invalid tool targets are enforced (1.296587ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 12.704104
