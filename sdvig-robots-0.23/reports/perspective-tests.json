@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-27T18:32:08.850Z",
+  "checks": [
+    "Projection/inverse round-trip 7,203 points over phone and desktop sizes; nearby cells larger",
+    "Real vertical three-cell drag follows left detour and wins level 5 in perspective",
+    "Captured pointer can drag left outside table; cyclic negative shift wins level 1",
+    "Alpha-aware robot body selection chooses its own row, not the tile behind its head",
+    "Moving robot grows toward camera and stays upright rather than flattening with the floor",
+    "Empty space outside projected table does not place a magnet or spend inventory"
+  ],
+  "timings": {
+    "medianMs": 0.10000000149011612,
+    "p95Ms": 0.3999999985098839
+  },
+  "browser": "154.0.8037.57",
+  "errors": []
+}

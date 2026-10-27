@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-27T18:32:41.316Z",
+  "checks": [
+    "Real touch chooses lower detour, shows white/colored path, wins with a three-cell drag; result undo is exact",
+    "Wrong last action opens loss dialog and can be undone",
+    "Ctrl+arrow performs a three-cell keyboard move within one action",
+    "Show-step button completes all 10 authored examples with real-time animations",
+    "Reduced motion keeps idle board stable"
+  ],
+  "errors": []
+}
