@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-28T10:18:36.037Z",
+  "passedLevels": 5,
+  "checks": [
+    "All five levels win through UI with network disabled after initial load",
+    "Only the HTML requested over HTTP; all scripts and sprites embedded"
+  ],
+  "localFile": "file:// launch not verified: managed Chromium policy blocks local file navigation",
+  "errors": []
+}

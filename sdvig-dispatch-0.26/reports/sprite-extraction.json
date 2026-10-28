@@ -1,0 +1,166 @@
+{
+  "adaptiveCrops": [
+    {
+      "name": "engine-east",
+      "sourceBox": [
+        0,
+        0,
+        414,
+        376
+      ]
+    },
+    {
+      "name": "engine-north",
+      "sourceBox": [
+        414,
+        0,
+        742,
+        376
+      ]
+    },
+    {
+      "name": "engine-west",
+      "sourceBox": [
+        742,
+        0,
+        1122,
+        376
+      ]
+    },
+    {
+      "name": "coupling-link",
+      "sourceBox": [
+        1122,
+        0,
+        1448,
+        376
+      ]
+    },
+    {
+      "name": "wagon-coral",
+      "sourceBox": [
+        0,
+        376,
+        396,
+        718
+      ]
+    },
+    {
+      "name": "wagon-aqua",
+      "sourceBox": [
+        396,
+        376,
+        750,
+        718
+      ]
+    },
+    {
+      "name": "wagon-mint",
+      "sourceBox": [
+        750,
+        376,
+        1126,
+        718
+      ]
+    },
+    {
+      "name": "train-shadow",
+      "sourceBox": [
+        1126,
+        376,
+        1448,
+        718
+      ]
+    },
+    {
+      "name": "parked-coral",
+      "sourceBox": [
+        0,
+        718,
+        392,
+        1086
+      ]
+    },
+    {
+      "name": "parked-aqua",
+      "sourceBox": [
+        392,
+        718,
+        748,
+        1086
+      ]
+    },
+    {
+      "name": "parked-mint",
+      "sourceBox": [
+        748,
+        718,
+        1112,
+        1086
+      ]
+    },
+    {
+      "name": "device-coupler",
+      "sourceBox": [
+        1112,
+        718,
+        1448,
+        1086
+      ]
+    }
+  ],
+  "gateCanvas": [
+    512,
+    768
+  ],
+  "gateContacts": [
+    {
+      "sourceBox": [
+        0,
+        0,
+        582,
+        724
+      ],
+      "leftPost": 0.19,
+      "rightPost": 0.81,
+      "groundY": 0.95
+    },
+    {
+      "sourceBox": [
+        582,
+        0,
+        1107,
+        724
+      ],
+      "leftPost": 0.19,
+      "rightPost": 0.81,
+      "groundY": 0.95
+    },
+    {
+      "sourceBox": [
+        1107,
+        0,
+        1658,
+        724
+      ],
+      "leftPost": 0.19,
+      "rightPost": 0.81,
+      "groundY": 0.95
+    },
+    {
+      "sourceBox": [
+        1658,
+        0,
+        2172,
+        724
+      ],
+      "leftPost": 0.19,
+      "rightPost": 0.81,
+      "groundY": 0.95
+    }
+  ],
+  "railRibbon": [
+    768,
+    256
+  ]
+}

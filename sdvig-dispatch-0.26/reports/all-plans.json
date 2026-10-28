@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-28T09:47:40.702Z",
+  "scope": "All discrete configurations exposed by the five fixed-track prototype levels; excludes future free track building",
+  "levels": [
+    {
+      "id": 1,
+      "validPlans": 1,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {},
+            "devices": {}
+          },
+          "steps": 4
+        }
+      ],
+      "authoredSteps": 4
+    },
+    {
+      "id": 2,
+      "validPlans": 2,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": false
+              }
+            },
+            "devices": {}
+          },
+          "steps": 7
+        }
+      ],
+      "authoredSteps": 7
+    },
+    {
+      "id": 3,
+      "validPlans": 4,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 0,
+                "auto": true
+              }
+            },
+            "devices": {}
+          },
+          "steps": 27
+        }
+      ],
+      "authoredSteps": 27
+    },
+    {
+      "id": 4,
+      "validPlans": 28,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler"
+            }
+          },
+          "steps": 34
+        }
+      ],
+      "authoredSteps": 34
+    },
+    {
+      "id": 5,
+      "validPlans": 76,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler",
+              "D": "coupler"
+            }
+          },
+          "steps": 34
+        }
+      ],
+      "authoredSteps": 34
+    }
+  ]
+}

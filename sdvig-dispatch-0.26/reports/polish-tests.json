@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-28T10:14:26.481Z",
+  "ports": 112,
+  "samples": 3696,
+  "checks": [
+    "Every rail join meets with identical position and tangent; gauge constant on all sampled straights and curves",
+    "Red, blue and mint wagons equally open gate on B; missing B names the exact platform and required action",
+    "Real UI exposes detach, parking on B, open gate, coupling, closing gate and exact empty-platform explanation",
+    "Blocked-gate modal and state identify B, without any blue-only restriction"
+  ],
+  "errors": []
+}
