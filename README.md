@@ -2,7 +2,7 @@
 
 Облегчён рендер версии 0.31: один проход сцены, объединённые тени вместо VSM с размытием, меньше лишних граней и источников света. На паузе и в скрытой вкладке отрисовка останавливается. Включены ограничение пикселей и автоматическое снижение разрешения при тормозах. Физика, предметы, управление и прогресс сохранены.
 
-- **[Скачать оптимизированную игру — 6,2 МБ](https://github.com/Pash1n/gptgame/raw/refs/heads/main/Sdvig_CRANE_0.32.zip?v=032)**. Распакуйте и откройте `Sdvig_MAGNETIC_CRANE.html` браузером.
+- **[Скачать оптимизированную игру — 6,1 МБ](https://github.com/Pash1n/gptgame/raw/refs/heads/main/Sdvig_CRANE_0.32.zip?v=032)**. Распакуйте и откройте `Sdvig_MAGNETIC_CRANE.html` браузером.
 - [Скриншот телефона](https://github.com/Pash1n/gptgame/raw/refs/heads/main/Sdvig_CRANE_0.32_phone.png?v=032) · [Скриншот ПК](https://github.com/Pash1n/gptgame/raw/refs/heads/main/Sdvig_CRANE_0.32_desktop.png?v=032).
 - [Исходники — 12,3 МБ](https://github.com/Pash1n/gptgame/raw/refs/heads/main/Sdvig_CRANE_0.32_sources.zip?v=032) · [Код](sdvig-crane-0.32/) · [Измерения, проверки и ограничения](Sdvig_CRANE_0.32_REPORT_RU.md).
 
