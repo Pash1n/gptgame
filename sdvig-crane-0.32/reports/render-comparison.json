@@ -1,0 +1,73 @@
+{
+  "baseline031": {
+    "environment": "Chromium SwiftShader software rendering; 1280x720, moving physics, GPU readPixels synchronization; not hardware FPS",
+    "medianBlockingFrameMs": 1442.2999999970198,
+    "p90BlockingFrameMs": 1525.2999999970198,
+    "calls": {
+      "min": 345,
+      "max": 345,
+      "mean": 345
+    },
+    "triangles": {
+      "min": 520334,
+      "max": 520334,
+      "mean": 520334
+    },
+    "physics10secondsMs": 172,
+    "pixel": [
+      103,
+      105,
+      94,
+      255
+    ],
+    "stats": {
+      "fps": 0,
+      "frameCost": 0,
+      "drawCalls": 345,
+      "triangles": 520334
+    },
+    "errors": []
+  },
+  "optimized032": {
+    "environment": "Chromium SwiftShader software rendering; 1280x720, moving physics, GPU readPixels synchronization; not hardware FPS",
+    "medianBlockingFrameMs": 958.3000000119209,
+    "p90BlockingFrameMs": 1014,
+    "calls": {
+      "min": 113,
+      "max": 126,
+      "mean": 118.95833333333333
+    },
+    "triangles": {
+      "min": 90108,
+      "max": 175512,
+      "mean": 129251.5
+    },
+    "physics10secondsMs": 172.70000000298023,
+    "pixel": [
+      102,
+      105,
+      94,
+      255
+    ],
+    "stats": {
+      "fps": 0,
+      "frameCost": 0,
+      "physicsMs": 0,
+      "renderMs": 0,
+      "renderCount": 32,
+      "resolutionScale": 1,
+      "adaptiveScale": 1,
+      "shadowInterval": 0.03333333333333333,
+      "graphicsMode": "auto",
+      "drawCalls": 126,
+      "triangles": 175512
+    },
+    "errors": []
+  },
+  "notes": [
+    "Software Chromium results only. readPixels forces GPU completion and includes synchronization overhead; do not interpret as real-device FPS.",
+    "Same 1280x720 viewport, physical motion, 5 warmup and 24 sampled frames. Default modes: old effects-on vs new automatic at scale 1.",
+    "Simulation code is byte-for-byte unchanged. Physics timing difference is measurement noise.",
+    "Triangle/draw counters include beauty and shadow passes. Shadows update at 30 Hz in the optimized version."
+  ]
+}

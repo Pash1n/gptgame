@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-28T17:05:08.156Z",
+  "checks": [
+    "One scene pass; merged shadow casters keep a shadow-update frame below 140 draws / 200k triangles at 1280×720; fast mode reduces pixel count",
+    "Paused / hidden animation callbacks perform zero renders and zero physics steps",
+    "Synthetic sustained 100ms frame intervals trigger bounded automatic resolution reduction; not a hardware FPS measurement",
+    "4K viewport respects the automatic 1.1-million-pixel budget",
+    "Old completed contracts and old economy preference migrate without losing progress"
+  ],
+  "modes": {
+    "auto": {
+      "fps": 0,
+      "frameCost": 0,
+      "physicsMs": 0,
+      "renderMs": 0,
+      "renderCount": 4,
+      "resolutionScale": 1,
+      "adaptiveScale": 1,
+      "shadowInterval": 0.03333333333333333,
+      "graphicsMode": "auto",
+      "drawCalls": 126,
+      "triangles": 175512
+    },
+    "sharp": {
+      "fps": 0,
+      "frameCost": 0,
+      "physicsMs": 0,
+      "renderMs": 0,
+      "renderCount": 6,
+      "resolutionScale": 1,
+      "adaptiveScale": 1,
+      "shadowInterval": 0.03333333333333333,
+      "graphicsMode": "sharp",
+      "drawCalls": 126,
+      "triangles": 175512
+    },
+    "fast": {
+      "fps": 0,
+      "frameCost": 0,
+      "physicsMs": 0,
+      "renderMs": 0,
+      "renderCount": 8,
+      "resolutionScale": 0.8,
+      "adaptiveScale": 1,
+      "shadowInterval": 0.05,
+      "graphicsMode": "fast",
+      "drawCalls": 126,
+      "triangles": 175512
+    }
+  },
+  "idle": {
+    "before": 9,
+    "paused": 9,
+    "hidden": 9,
+    "beforeTime": 0.18,
+    "afterTime": 0.18
+  },
+  "adaptive": {
+    "before": {
+      "fps": 0,
+      "frameCost": 0,
+      "physicsMs": 0,
+      "renderMs": 0,
+      "renderCount": 10,
+      "resolutionScale": 1,
+      "adaptiveScale": 1,
+      "shadowInterval": 0.03333333333333333,
+      "graphicsMode": "auto",
+      "drawCalls": 126,
+      "triangles": 175512
+    },
+    "after": {
+      "fps": 10.000000000000002,
+      "frameCost": 0.9000000059604645,
+      "physicsMs": 0.30000001192092896,
+      "renderMs": 0.5999999940395355,
+      "renderCount": 30,
+      "resolutionScale": 0.85,
+      "adaptiveScale": 0.85,
+      "shadowInterval": 0.03333333333333333,
+      "graphicsMode": "auto",
+      "drawCalls": 126,
+      "triangles": 175512
+    }
+  },
+  "pixels": 1098828,
+  "errors": []
+}
