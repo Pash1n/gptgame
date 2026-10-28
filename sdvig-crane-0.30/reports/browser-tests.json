@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-28T12:02:46.562Z",
+  "browser": "154.0.8037.57",
+  "checks": [
+    "Mouse drag reaches the projected floor point and moves a real suspended magnet",
+    "Height, magnet on/off, pause, resume and help controls work",
+    "First contract completed using only target, height and magnet controls: contact pickup, lifting, carry, release, physical fall and receiver scoring; previous train save untouched",
+    "All three jobs and free mode open; next contract and reset work",
+    "No horizontal overflow at 320×568, 390×844, 844×390, 1440×1120",
+    "Actual emulated touch targets the floor, toggles the magnet and lowers the winch; reduced-motion reset works"
+  ],
+  "stats": {
+    "fps": 0,
+    "frameCost": 0,
+    "drawCalls": 140,
+    "triangles": 125388
+  },
+  "errors": []
+}

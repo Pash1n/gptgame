@@ -1,0 +1,704 @@
+{
+  "date": "2026-10-28T11:55:34.223Z",
+  "method": "Controller only sets crane target, height and magnet on/off; never teleports or forces attachment of items",
+  "jobs": [
+    {
+      "job": 1,
+      "won": true,
+      "delivered": {
+        "robot": 2,
+        "gear": 1
+      },
+      "simulatedSeconds": 59.999999999997236,
+      "trace": [
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 1,
+          "time": 8
+        },
+        {
+          "kind": "deliver",
+          "id": "item-0",
+          "type": "robot",
+          "bin": "repair",
+          "time": 26.6
+        },
+        {
+          "kind": "attach",
+          "id": "item-8",
+          "type": "robot",
+          "depth": 1,
+          "time": 37.1
+        },
+        {
+          "kind": "attach",
+          "id": "item-17",
+          "type": "gear",
+          "depth": 1,
+          "time": 38.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-2",
+          "type": "pipe",
+          "depth": 1,
+          "time": 38.7
+        },
+        {
+          "kind": "deliver",
+          "id": "item-8",
+          "type": "robot",
+          "bin": "repair",
+          "time": 55.4
+        },
+        {
+          "kind": "reject",
+          "id": "item-2",
+          "type": "pipe",
+          "bin": "repair",
+          "reason": "Это труба: нужен приёмник «Переработка».",
+          "time": 56.5
+        },
+        {
+          "kind": "deliver",
+          "id": "item-17",
+          "type": "gear",
+          "bin": "repair",
+          "time": 56.6
+        }
+      ]
+    },
+    {
+      "job": 2,
+      "won": true,
+      "delivered": {
+        "gear": 4,
+        "robot": 2
+      },
+      "simulatedSeconds": 185.49999999999562,
+      "trace": [
+        {
+          "kind": "attach",
+          "id": "item-1",
+          "type": "gear",
+          "depth": 1,
+          "time": 8.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-16",
+          "type": "bolt",
+          "depth": 2,
+          "time": 8.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-6",
+          "type": "engine",
+          "depth": 1,
+          "time": 8.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-17",
+          "type": "gear",
+          "depth": 3,
+          "time": 8.5
+        },
+        {
+          "kind": "attach",
+          "id": "item-1",
+          "type": "gear",
+          "depth": 1,
+          "time": 37.5
+        },
+        {
+          "kind": "attach",
+          "id": "item-17",
+          "type": "gear",
+          "depth": 2,
+          "time": 37.5
+        },
+        {
+          "kind": "attach",
+          "id": "item-10",
+          "type": "bolt",
+          "depth": 2,
+          "time": 37.5
+        },
+        {
+          "kind": "attach",
+          "id": "item-5",
+          "type": "gear",
+          "depth": 2,
+          "time": 37.6
+        },
+        {
+          "kind": "attach",
+          "id": "item-2",
+          "type": "pipe",
+          "depth": 3,
+          "time": 37.7
+        },
+        {
+          "kind": "reject",
+          "id": "item-17",
+          "type": "gear",
+          "bin": "scrap",
+          "reason": "Это шестерня: нужен приёмник «Ремонт».",
+          "time": 58
+        },
+        {
+          "kind": "attach",
+          "id": "item-3",
+          "type": "robot",
+          "depth": 1,
+          "time": 66.2
+        },
+        {
+          "kind": "attach",
+          "id": "item-9",
+          "type": "gear",
+          "depth": 2,
+          "time": 66.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-4",
+          "type": "bolt",
+          "depth": 3,
+          "time": 66.5
+        },
+        {
+          "kind": "attach",
+          "id": "item-8",
+          "type": "robot",
+          "depth": 2,
+          "time": 66.6
+        },
+        {
+          "kind": "attach",
+          "id": "item-14",
+          "type": "bolt",
+          "depth": 1,
+          "time": 66.6
+        },
+        {
+          "kind": "reject",
+          "id": "item-14",
+          "type": "bolt",
+          "bin": "repair",
+          "reason": "Это болт: нужен приёмник «Переработка».",
+          "time": 84.7
+        },
+        {
+          "kind": "reject",
+          "id": "item-4",
+          "type": "bolt",
+          "bin": "repair",
+          "reason": "Это болт: нужен приёмник «Переработка».",
+          "time": 84.8
+        },
+        {
+          "kind": "deliver",
+          "id": "item-9",
+          "type": "gear",
+          "bin": "repair",
+          "time": 85.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-17",
+          "type": "gear",
+          "depth": 1,
+          "time": 95.6
+        },
+        {
+          "kind": "attach",
+          "id": "item-17",
+          "type": "gear",
+          "depth": 1,
+          "time": 124.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-8",
+          "type": "robot",
+          "depth": 1,
+          "time": 124.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-2",
+          "type": "pipe",
+          "depth": 2,
+          "time": 124.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-1",
+          "type": "gear",
+          "depth": 3,
+          "time": 124.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-3",
+          "type": "robot",
+          "depth": 1,
+          "time": 124.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 2,
+          "time": 124.5
+        },
+        {
+          "kind": "attach",
+          "id": "item-16",
+          "type": "bolt",
+          "depth": 3,
+          "time": 124.5
+        },
+        {
+          "kind": "attach",
+          "id": "item-12",
+          "type": "robot",
+          "depth": 2,
+          "time": 125
+        },
+        {
+          "kind": "attach",
+          "id": "item-6",
+          "type": "engine",
+          "depth": 1,
+          "time": 154.8
+        },
+        {
+          "kind": "attach",
+          "id": "item-1",
+          "type": "gear",
+          "depth": 1,
+          "time": 162.8
+        },
+        {
+          "kind": "attach",
+          "id": "item-16",
+          "type": "bolt",
+          "depth": 2,
+          "time": 162.8
+        },
+        {
+          "kind": "attach",
+          "id": "item-3",
+          "type": "robot",
+          "depth": 2,
+          "time": 162.8
+        },
+        {
+          "kind": "attach",
+          "id": "item-17",
+          "type": "gear",
+          "depth": 1,
+          "time": 162.8
+        },
+        {
+          "kind": "attach",
+          "id": "item-13",
+          "type": "gear",
+          "depth": 3,
+          "time": 162.8
+        },
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 2,
+          "time": 163.5
+        },
+        {
+          "kind": "deliver",
+          "id": "item-13",
+          "type": "gear",
+          "bin": "repair",
+          "time": 180.8
+        },
+        {
+          "kind": "deliver",
+          "id": "item-1",
+          "type": "gear",
+          "bin": "repair",
+          "time": 181.1
+        },
+        {
+          "kind": "reject",
+          "id": "item-16",
+          "type": "bolt",
+          "bin": "repair",
+          "reason": "Это болт: нужен приёмник «Переработка».",
+          "time": 181.1
+        },
+        {
+          "kind": "deliver",
+          "id": "item-3",
+          "type": "robot",
+          "bin": "repair",
+          "time": 181.9
+        },
+        {
+          "kind": "deliver",
+          "id": "item-0",
+          "type": "robot",
+          "bin": "repair",
+          "time": 182.4
+        },
+        {
+          "kind": "deliver",
+          "id": "item-17",
+          "type": "gear",
+          "bin": "repair",
+          "time": 182.6
+        }
+      ]
+    },
+    {
+      "job": 3,
+      "won": true,
+      "delivered": {
+        "pipe": 2,
+        "engine": 1,
+        "bolt": 2,
+        "robot": 2
+      },
+      "simulatedSeconds": 320.9999999998724,
+      "trace": [
+        {
+          "kind": "attach",
+          "id": "item-5",
+          "type": "gear",
+          "depth": 1,
+          "time": 8.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-6",
+          "type": "engine",
+          "depth": 2,
+          "time": 8.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 1,
+          "time": 8.3
+        },
+        {
+          "kind": "reject",
+          "id": "item-15",
+          "type": "tire",
+          "bin": "scrap",
+          "reason": "Резина не подходит ни одному из этих приёмников.",
+          "time": 17.7
+        },
+        {
+          "kind": "attach",
+          "id": "item-8",
+          "type": "robot",
+          "depth": 1,
+          "time": 37.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-6",
+          "type": "engine",
+          "depth": 1,
+          "time": 37.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-5",
+          "type": "gear",
+          "depth": 1,
+          "time": 37.9
+        },
+        {
+          "kind": "reject",
+          "id": "item-0",
+          "type": "robot",
+          "bin": "scrap",
+          "reason": "Это робот: нужен приёмник «Ремонт».",
+          "time": 55.6
+        },
+        {
+          "kind": "reject",
+          "id": "item-5",
+          "type": "gear",
+          "bin": "scrap",
+          "reason": "Это шестерня: нужен приёмник «Ремонт».",
+          "time": 55.7
+        },
+        {
+          "kind": "attach",
+          "id": "item-6",
+          "type": "engine",
+          "depth": 1,
+          "time": 66
+        },
+        {
+          "kind": "attach",
+          "id": "item-12",
+          "type": "robot",
+          "depth": 2,
+          "time": 66
+        },
+        {
+          "kind": "attach",
+          "id": "item-5",
+          "type": "gear",
+          "depth": 3,
+          "time": 78.8
+        },
+        {
+          "kind": "reject",
+          "id": "item-12",
+          "type": "robot",
+          "bin": "scrap",
+          "reason": "Это робот: нужен приёмник «Ремонт».",
+          "time": 84.1
+        },
+        {
+          "kind": "deliver",
+          "id": "item-11",
+          "type": "pipe",
+          "bin": "scrap",
+          "time": 84.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-6",
+          "type": "engine",
+          "depth": 1,
+          "time": 94.6
+        },
+        {
+          "kind": "attach",
+          "id": "item-12",
+          "type": "robot",
+          "depth": 2,
+          "time": 95.1
+        },
+        {
+          "kind": "attach",
+          "id": "item-5",
+          "type": "gear",
+          "depth": 3,
+          "time": 95.4
+        },
+        {
+          "kind": "deliver",
+          "id": "item-6",
+          "type": "engine",
+          "bin": "scrap",
+          "time": 114.2
+        },
+        {
+          "kind": "attach",
+          "id": "item-4",
+          "type": "bolt",
+          "depth": 1,
+          "time": 124.8
+        },
+        {
+          "kind": "attach",
+          "id": "item-2",
+          "type": "pipe",
+          "depth": 1,
+          "time": 124.9
+        },
+        {
+          "kind": "attach",
+          "id": "item-3",
+          "type": "robot",
+          "depth": 1,
+          "time": 125.9
+        },
+        {
+          "kind": "attach",
+          "id": "item-10",
+          "type": "bolt",
+          "depth": 1,
+          "time": 153.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 2,
+          "time": 153.5
+        },
+        {
+          "kind": "attach",
+          "id": "item-3",
+          "type": "robot",
+          "depth": 1,
+          "time": 153.8
+        },
+        {
+          "kind": "attach",
+          "id": "item-16",
+          "type": "bolt",
+          "depth": 1,
+          "time": 154
+        },
+        {
+          "kind": "deliver",
+          "id": "item-16",
+          "type": "bolt",
+          "bin": "scrap",
+          "time": 171.8
+        },
+        {
+          "kind": "reject",
+          "id": "item-3",
+          "type": "robot",
+          "bin": "scrap",
+          "reason": "Это робот: нужен приёмник «Ремонт».",
+          "time": 172.8
+        },
+        {
+          "kind": "attach",
+          "id": "item-14",
+          "type": "bolt",
+          "depth": 1,
+          "time": 182.8
+        },
+        {
+          "kind": "attach",
+          "id": "item-9",
+          "type": "gear",
+          "depth": 2,
+          "time": 183.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-4",
+          "type": "bolt",
+          "depth": 1,
+          "time": 211.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-2",
+          "type": "pipe",
+          "depth": 1,
+          "time": 214.4
+        },
+        {
+          "kind": "deliver",
+          "id": "item-2",
+          "type": "pipe",
+          "bin": "scrap",
+          "time": 229.9
+        },
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 1,
+          "time": 239.7
+        },
+        {
+          "kind": "attach",
+          "id": "item-10",
+          "type": "bolt",
+          "depth": 2,
+          "time": 239.7
+        },
+        {
+          "kind": "attach",
+          "id": "item-3",
+          "type": "robot",
+          "depth": 1,
+          "time": 240.4
+        },
+        {
+          "kind": "deliver",
+          "id": "item-10",
+          "type": "bolt",
+          "bin": "scrap",
+          "time": 258.2
+        },
+        {
+          "kind": "reject",
+          "id": "item-0",
+          "type": "robot",
+          "bin": "scrap",
+          "reason": "Это робот: нужен приёмник «Ремонт».",
+          "time": 258.5
+        },
+        {
+          "kind": "reject",
+          "id": "item-3",
+          "type": "robot",
+          "bin": "scrap",
+          "reason": "Это робот: нужен приёмник «Ремонт».",
+          "time": 259.2
+        },
+        {
+          "kind": "attach",
+          "id": "item-3",
+          "type": "robot",
+          "depth": 1,
+          "time": 268.9
+        },
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 2,
+          "time": 268.9
+        },
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 1,
+          "time": 297.9
+        },
+        {
+          "kind": "attach",
+          "id": "item-3",
+          "type": "robot",
+          "depth": 2,
+          "time": 297.9
+        },
+        {
+          "kind": "attach",
+          "id": "item-8",
+          "type": "robot",
+          "depth": 2,
+          "time": 298.1
+        },
+        {
+          "kind": "deliver",
+          "id": "item-8",
+          "type": "robot",
+          "bin": "repair",
+          "time": 316.6
+        },
+        {
+          "kind": "deliver",
+          "id": "item-3",
+          "type": "robot",
+          "bin": "repair",
+          "time": 316.9
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-28T12:12:22.268Z",
+  "checks": [
+    "Only the single HTML fetched over HTTP: all code and textures embedded",
+    "Space toggles magnet while height slider is focused; focused buttons retain native keyboard activation",
+    "All three jobs and free mode initialize after network disabled",
+    "First contract completed with natural pickup/carry/drop and both robots physically delivered, network disabled"
+  ],
+  "errors": [],
+  "localFile": "file:// not automatically verified; managed Chromium policy blocks local-file navigation"
+}
