@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-27T19:01:43.731Z",
+  "permutations": 1290,
+  "gestures": 20,
+  "checks": [
+    "Prepared routes are immutable, produce exact tagged permutations, and reject changed detours",
+    "Blocked upper preference on level 4 shows the real lower bypass, before and after tapping magnet",
+    "Twenty real horizontal/vertical drags in both directions keep identical routes through hold, release and final state"
+  ],
+  "errors": []
+}

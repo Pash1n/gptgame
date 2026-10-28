@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-27T19:07:30.598Z",
+  "checks": [
+    "All 10 selector buttons present",
+    "Actual tenth button opens tenth puzzle",
+    "Tenth puzzle wins with impulse, magnet and snake",
+    "Only the HTML is requested over HTTP; all 77 resources embedded",
+    "After initial load, level 1 wins with network explicitly offline"
+  ],
+  "localFile": {
+    "tested": false,
+    "reason": "Managed Chromium blocks file:// navigation (ERR_BLOCKED_BY_ADMINISTRATOR); local file launch not verified."
+  },
+  "errors": []
+}

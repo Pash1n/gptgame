@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-27T19:07:34.349Z",
+  "browser": "154.0.8037.57",
+  "passedLevels": 10,
+  "levels": [
+    {
+      "id": 1,
+      "passed": true,
+      "actions": 1
+    },
+    {
+      "id": 2,
+      "passed": true,
+      "actions": 1
+    },
+    {
+      "id": 3,
+      "passed": true,
+      "actions": 1
+    },
+    {
+      "id": 4,
+      "passed": true,
+      "actions": 1
+    },
+    {
+      "id": 5,
+      "passed": true,
+      "actions": 1
+    },
+    {
+      "id": 6,
+      "passed": true,
+      "actions": 2
+    },
+    {
+      "id": 7,
+      "passed": true,
+      "actions": 2
+    },
+    {
+      "id": 8,
+      "passed": true,
+      "actions": 2
+    },
+    {
+      "id": 9,
+      "passed": true,
+      "actions": 2
+    },
+    {
+      "id": 10,
+      "passed": true,
+      "actions": 3
+    }
+  ],
+  "checks": [
+    "All 10 witnesses run through real UI action/animation engine and win; state matches shared rules after every action",
+    "Actual freeze-button + cell click consumes one action; undo restores exact inventory and state",
+    "Free choice and its undo history survive reload",
+    "Actual thaw control removes ice and spends its charge",
+    "No horizontal overflow at 320x568",
+    "No horizontal overflow at 390x844",
+    "No horizontal overflow at 844x390",
+    "No horizontal overflow at 1440x1000"
+  ],
+  "errors": []
+}

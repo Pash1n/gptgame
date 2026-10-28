@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-27T19:04:09.387Z",
+  "checks": [
+    "Idle sprite frames and suspension animate without changing puzzle state",
+    "Live detour and destination ghosts do not mutate state; cancel returns exact board with no history/action",
+    "0.21 save imported on same origin; old save remains byte-for-byte unchanged",
+    "HUD counter stays inside plaque and page fits phone/landscape widths"
+  ],
+  "errors": []
+}
