@@ -1,0 +1,1 @@
+{"name":"sdvig-magnetic-scrapyard","version":"0.33.0","private":true,"type":"module","scripts":{"build":"node tools/build.mjs","test":"node tools/test-physics.mjs"},"dependencies":{"three":"0.170.0","cannon-es":"0.20.0"},"devDependencies":{"esbuild":"0.25.0"}}

@@ -1,0 +1,13 @@
+{ jitterFramesNew: 599, jitterFrames032: 300 }
+✔ 60, 120 and 144 Hz callbacks retain a 60 Hz render cadence (2.547685ms)
+✔ jittered 60 Hz does not repeatedly discard the early callback (1.025189ms)
+✔ long stalls have bounded physics dt and no catch-up render storm (0.196976ms)
+✔ reset after suspension discards all wall time (0.111177ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9.943712

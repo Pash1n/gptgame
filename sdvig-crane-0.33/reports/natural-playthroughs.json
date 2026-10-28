@@ -1,0 +1,1265 @@
+{
+  "date": "2026-10-28T18:06:00.815Z",
+  "method": "Only crane targets, height, magnet switch and physics time; no cargo teleportation or forced grip",
+  "jobs": [
+    {
+      "job": 1,
+      "won": true,
+      "delivered": {
+        "robot": 2,
+        "gear": 2
+      },
+      "simulatedSeconds": 59.999999999997236,
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.1520875403286537,
+            0.24331099110070967,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -2.148282966252725,
+            0.24408035130116532,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.148282966252725,
+            0.24408035130116532,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -0.9593402131752825,
+            -2.1226040964959147,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -0.9593402131752825,
+            -2.1226040964959147,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -0.9593402131752825,
+            -2.1226040964959147,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        }
+      ],
+      "trace": [
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 1,
+          "time": 8.1
+        },
+        {
+          "kind": "attach",
+          "id": "item-2",
+          "type": "pipe",
+          "depth": 2,
+          "time": 8.2
+        },
+        {
+          "kind": "attach",
+          "id": "item-4",
+          "type": "bolt",
+          "depth": 2,
+          "time": 9
+        },
+        {
+          "kind": "reject",
+          "id": "item-4",
+          "type": "bolt",
+          "bin": "repair",
+          "reason": "Это болт: нужен приёмник «Переработка».",
+          "time": 27.4
+        },
+        {
+          "kind": "deliver",
+          "id": "item-0",
+          "type": "robot",
+          "bin": "repair",
+          "time": 27.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-9",
+          "type": "robot",
+          "depth": 1,
+          "time": 37.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-2",
+          "type": "pipe",
+          "depth": 1,
+          "time": 37.6
+        },
+        {
+          "kind": "attach",
+          "id": "item-1",
+          "type": "gear",
+          "depth": 1,
+          "time": 39.1
+        },
+        {
+          "kind": "attach",
+          "id": "item-7",
+          "type": "gear",
+          "depth": 2,
+          "time": 40.2
+        },
+        {
+          "kind": "deliver",
+          "id": "item-7",
+          "type": "gear",
+          "bin": "repair",
+          "time": 55.4
+        },
+        {
+          "kind": "deliver",
+          "id": "item-1",
+          "type": "gear",
+          "bin": "repair",
+          "time": 55.4
+        },
+        {
+          "kind": "reject",
+          "id": "item-2",
+          "type": "pipe",
+          "bin": "repair",
+          "reason": "Это труба: нужен приёмник «Переработка».",
+          "time": 56.5
+        },
+        {
+          "kind": "deliver",
+          "id": "item-9",
+          "type": "robot",
+          "bin": "repair",
+          "time": 56.9
+        }
+      ]
+    },
+    {
+      "job": 2,
+      "won": true,
+      "delivered": {
+        "robot": 2,
+        "gear": 3
+      },
+      "simulatedSeconds": 118.00000000003998,
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            0.5411015966293518,
+            -0.3911426042289818,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            0.5411015966293518,
+            -0.3911426042289818,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            0.5411015966293518,
+            -0.3911426042289818,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.376795859439203,
+            1.481640051770205,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -2.376795859439203,
+            1.481640051770205,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.376795859439203,
+            1.481640051770205,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            2.395433351098832,
+            -2.034248400839043,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            2.395433351098832,
+            -2.034248400839043,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            2.395433351098832,
+            -2.034248400839043,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            3.753721408628842,
+            4.282159580405122,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            3.753721408628842,
+            4.282159580405122,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            3.753721408628842,
+            3.6,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        }
+      ],
+      "trace": [
+        {
+          "kind": "attach",
+          "id": "item-1",
+          "type": "gear",
+          "depth": 1,
+          "time": 8.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-4",
+          "type": "bolt",
+          "depth": 2,
+          "time": 8.6
+        },
+        {
+          "kind": "attach",
+          "id": "item-3",
+          "type": "robot",
+          "depth": 2,
+          "time": 9.5
+        },
+        {
+          "kind": "deliver",
+          "id": "item-3",
+          "type": "robot",
+          "bin": "repair",
+          "time": 26.6
+        },
+        {
+          "kind": "attach",
+          "id": "item-2",
+          "type": "gear",
+          "depth": 1,
+          "time": 37.7
+        },
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 2,
+          "time": 38
+        },
+        {
+          "kind": "deliver",
+          "id": "item-1",
+          "type": "gear",
+          "bin": "repair",
+          "time": 55.6
+        },
+        {
+          "kind": "deliver",
+          "id": "item-0",
+          "type": "robot",
+          "bin": "repair",
+          "time": 55.7
+        },
+        {
+          "kind": "deliver",
+          "id": "item-2",
+          "type": "gear",
+          "bin": "repair",
+          "time": 55.8
+        },
+        {
+          "kind": "attach",
+          "id": "item-5",
+          "type": "gear",
+          "depth": 1,
+          "time": 66.5
+        },
+        {
+          "kind": "attach",
+          "id": "item-5",
+          "type": "gear",
+          "depth": 1,
+          "time": 94.9
+        },
+        {
+          "kind": "deliver",
+          "id": "item-5",
+          "type": "gear",
+          "bin": "repair",
+          "time": 113.4
+        }
+      ]
+    },
+    {
+      "job": 3,
+      "won": true,
+      "delivered": {
+        "engine": 1,
+        "pipe": 1,
+        "bolt": 2,
+        "gear": 1,
+        "robot": 1
+      },
+      "simulatedSeconds": 291.99999999989876,
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            2.330585708953183,
+            -2.2105089151423734,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            2.330585708953183,
+            -2.2105089151423734,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            2.330585708953183,
+            -2.2105089151423734,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            0.3220767713152578,
+            -1.1127254667612447,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            0.32206274352059355,
+            -1.112716780645228,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            0.32206274352059355,
+            -1.112716780645228,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -0.3575668722247791,
+            -1.7203572500949573,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -0.3598918720091855,
+            -1.7217893961111328,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -0.3598918720091855,
+            -1.7217893961111328,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -0.49831844569379213,
+            0.875815852902316,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -0.49831844569379213,
+            0.875815852902316,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -0.49831844569379213,
+            0.875815852902316,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.4948415103668795,
+            -2.2526942794158265,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -2.4948415103668795,
+            -2.2526942794158265,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.4948415103668795,
+            -2.2526942794158265,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -5.94944349743922,
+            -0.44275598807966426,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -5.94944349743922,
+            -0.44275598807966426,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -5.65,
+            -0.44275598807966426,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.513898494957663,
+            1.3882549459768843,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -2.513898494957663,
+            1.3882549459768843,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.513898494957663,
+            1.3882549459768843,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -0.16353277627179846,
+            -0.8823637217992639,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -0.16353277627179846,
+            -0.8823637217992639,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -0.16353277627179846,
+            -0.8823637217992639,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -5.986402124405413,
+            1.0776965017922961,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -5.985941316206523,
+            1.0787949475287222,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -5.65,
+            1.0787949475287222,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -5.3151742349251885,
+            2.9955433828219156,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -5.3151742349251885,
+            2.9955433828219156,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -5.3151742349251885,
+            2.9955433828219156,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        }
+      ],
+      "trace": [
+        {
+          "kind": "attach",
+          "id": "item-5",
+          "type": "engine",
+          "depth": 1,
+          "time": 8.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-5",
+          "type": "engine",
+          "depth": 1,
+          "time": 37.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-1",
+          "type": "gear",
+          "depth": 2,
+          "time": 37.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 1,
+          "time": 37.8
+        },
+        {
+          "kind": "attach",
+          "id": "item-5",
+          "type": "engine",
+          "depth": 1,
+          "time": 66.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-1",
+          "type": "gear",
+          "depth": 2,
+          "time": 66.4
+        },
+        {
+          "kind": "reject",
+          "id": "item-1",
+          "type": "gear",
+          "bin": "scrap",
+          "reason": "Это шестерня: нужен приёмник «Ремонт».",
+          "time": 84.4
+        },
+        {
+          "kind": "deliver",
+          "id": "item-5",
+          "type": "engine",
+          "bin": "scrap",
+          "time": 87.2
+        },
+        {
+          "kind": "attach",
+          "id": "item-4",
+          "type": "bolt",
+          "depth": 1,
+          "time": 95.5
+        },
+        {
+          "kind": "attach",
+          "id": "item-2",
+          "type": "pipe",
+          "depth": 1,
+          "time": 96.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-7",
+          "type": "bolt",
+          "depth": 1,
+          "time": 124.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-2",
+          "type": "pipe",
+          "depth": 1,
+          "time": 153.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-4",
+          "type": "bolt",
+          "depth": 2,
+          "time": 153.3
+        },
+        {
+          "kind": "deliver",
+          "id": "item-2",
+          "type": "pipe",
+          "bin": "scrap",
+          "time": 172.9
+        },
+        {
+          "kind": "attach",
+          "id": "item-7",
+          "type": "bolt",
+          "depth": 1,
+          "time": 182.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 2,
+          "time": 183
+        },
+        {
+          "kind": "reject",
+          "id": "item-0",
+          "type": "robot",
+          "bin": "scrap",
+          "reason": "Это робот: нужен приёмник «Ремонт».",
+          "time": 200
+        },
+        {
+          "kind": "deliver",
+          "id": "item-7",
+          "type": "bolt",
+          "bin": "scrap",
+          "time": 202.7
+        },
+        {
+          "kind": "attach",
+          "id": "item-4",
+          "type": "bolt",
+          "depth": 1,
+          "time": 211.5
+        },
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 1,
+          "time": 240.2
+        },
+        {
+          "kind": "attach",
+          "id": "item-1",
+          "type": "gear",
+          "depth": 2,
+          "time": 240.2
+        },
+        {
+          "kind": "attach",
+          "id": "item-4",
+          "type": "bolt",
+          "depth": 1,
+          "time": 240.3
+        },
+        {
+          "kind": "reject",
+          "id": "item-0",
+          "type": "robot",
+          "bin": "scrap",
+          "reason": "Это робот: нужен приёмник «Ремонт».",
+          "time": 259.2
+        },
+        {
+          "kind": "deliver",
+          "id": "item-4",
+          "type": "bolt",
+          "bin": "scrap",
+          "time": 259.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 1,
+          "time": 268.8
+        },
+        {
+          "kind": "attach",
+          "id": "item-1",
+          "type": "gear",
+          "depth": 2,
+          "time": 269.2
+        },
+        {
+          "kind": "deliver",
+          "id": "item-1",
+          "type": "gear",
+          "bin": "repair",
+          "time": 287.5
+        },
+        {
+          "kind": "deliver",
+          "id": "item-0",
+          "type": "robot",
+          "bin": "repair",
+          "time": 287.6
+        }
+      ]
+    }
+  ]
+}
