@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-28T08:34:29.079Z",
+  "browser": "154.0.8037.57",
+  "levels": [
+    {
+      "id": 1,
+      "steps": 4,
+      "won": true
+    },
+    {
+      "id": 2,
+      "steps": 7,
+      "won": true
+    },
+    {
+      "id": 3,
+      "steps": 27,
+      "won": true
+    },
+    {
+      "id": 4,
+      "steps": 34,
+      "won": true
+    },
+    {
+      "id": 5,
+      "steps": 34,
+      "won": true
+    }
+  ],
+  "checks": [
+    "All five authored examples win through real UI, with full state comparison after each animation step",
+    "Manual device/turnout programming, saved plan reload, locked run settings, pause, single step and free rewind",
+    "Wrong route fails with editable plan; old game save key unchanged",
+    "No horizontal overflow 320×568",
+    "No horizontal overflow 390×844",
+    "No horizontal overflow 844×390",
+    "No horizontal overflow 1440×1150",
+    "Actual touch changes board turnout and the programmed train wins level 2",
+    "Reduced motion keeps planning board stable"
+  ],
+  "errors": []
+}
