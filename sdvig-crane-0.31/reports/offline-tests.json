@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-28T14:25:40.261Z",
+  "checks": [
+    "All code, models, material and workshop background textures embedded: only HTML fetched over HTTP",
+    "All four layouts initialize after network disabled",
+    "Keyboard magnet and bundled two-finger controller work offline",
+    "First contract completed by adaptive crane control without cargo teleportation, network disabled"
+  ],
+  "result": {
+    "won": true,
+    "delivered": {
+      "robot": 2,
+      "gear": 2
+    }
+  },
+  "errors": [],
+  "localFile": "file:// not verified automatically: managed Chromium policy blocks local-file navigation"
+}

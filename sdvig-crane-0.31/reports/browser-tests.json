@@ -1,0 +1,842 @@
+{
+  "date": "2026-10-28T14:15:38.841Z",
+  "browser": "154.0.8037.57",
+  "checks": [
+    "Real mouse drag moves the suspended crane; wheel-up raises height",
+    "Space, modal help, menu pause/resume and saved economy preference work",
+    "All three contracts physically completed in browser by adaptive target/height/magnet controller; no cargo teleportation or forced joints; old save untouched",
+    "Full viewport and magnet button fit 320×568, 390×844, 430×932, 844×390, 1440×900; mobile slider hidden",
+    "Actual CDP two-finger touch: first moves X/Z, second changes only height; promotion after lifting first is jump-free; releasing fingers does not drop cargo"
+  ],
+  "solved": [
+    {
+      "job": 1,
+      "completed": true,
+      "delivered": {
+        "robot": 2,
+        "gear": 2
+      },
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.1520875403286537,
+            0.24331099110070967,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -2.148282966252725,
+            0.24408035130116532,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.148282966252725,
+            0.24408035130116532,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -0.9593402131752825,
+            -2.1226040964959147,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -0.9593402131752825,
+            -2.1226040964959147,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -0.9593402131752825,
+            -2.1226040964959147,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        }
+      ]
+    },
+    {
+      "job": 2,
+      "completed": true,
+      "delivered": {
+        "robot": 2,
+        "gear": 3
+      },
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            0.5411015966293518,
+            -0.3911426042289818,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            0.5411015966293518,
+            -0.3911426042289818,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            0.5411015966293518,
+            -0.3911426042289818,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.376795859439203,
+            1.481640051770205,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -2.376795859439203,
+            1.481640051770205,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.376795859439203,
+            1.481640051770205,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            2.395433351098832,
+            -2.034248400839043,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            2.395433351098832,
+            -2.034248400839043,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            2.395433351098832,
+            -2.034248400839043,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            3.7537214133695556,
+            4.282159709404983,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            3.7537214133695556,
+            4.282159709404983,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            3.7537214133695556,
+            3.6,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        }
+      ]
+    },
+    {
+      "job": 3,
+      "completed": true,
+      "delivered": {
+        "bolt": 2,
+        "engine": 1,
+        "pipe": 1,
+        "gear": 1,
+        "robot": 1
+      },
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            2.330585708953183,
+            -2.2105089151423734,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            2.330585708953183,
+            -2.2105089151423734,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            2.330585708953183,
+            -2.2105089151423734,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            0.3220767716828642,
+            -1.1127254636446922,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            0.32206274395972545,
+            -1.1127167775495308,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            0.32206274395972545,
+            -1.1127167775495308,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -0.24118107983224923,
+            -0.8908279906325499,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -0.24118107983224923,
+            -0.8908279906325499,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -0.24118107983224923,
+            -0.8908279906325499,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.760202756541328,
+            4.0981144846153335,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -2.760202756541328,
+            4.0981144846153335,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.760202756541328,
+            3.6,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            2.727886519842939,
+            0.1363970402602674,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            2.727886519842939,
+            0.1363970402602674,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            2.727886519842939,
+            0.1363970402602674,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.494934779813173,
+            -2.2530006797008313,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -2.494934779813173,
+            -2.2530006797008313,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.494934779813173,
+            -2.2530006797008313,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            1.7339144742404478,
+            -0.08066554460258557,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            1.7339135085948758,
+            -0.08066857956686913,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            1.7339135085948758,
+            -0.08066857956686913,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -0.2001905537895128,
+            -1.8548481712923475,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -0.20018666948853203,
+            -1.8548597106965923,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -0.20018666948853203,
+            -1.8548597106965923,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -4.007344749365324,
+            2.8801642319841267,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            -4.007344749365324,
+            2.8801642319841267,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -4.007344749365324,
+            2.8801642319841267,
+            3.4
+          ]
+        },
+        {
+          "advance": 5
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            3.4
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 6
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "fps": 0,
+    "frameCost": 0,
+    "drawCalls": 335,
+    "triangles": 518798
+  },
+  "errors": []
+}

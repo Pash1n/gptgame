@@ -1,0 +1,13 @@
+{
+  "frames": 36,
+  "simulatedSeconds": 18,
+  "playbackSeconds": 7.2,
+  "speed": 2.5,
+  "scope": [
+    "natural magnetic contact pickup",
+    "physical lift",
+    "pendulum swing and carry"
+  ],
+  "cargoTeleportation": false,
+  "deliveryShown": false
+}

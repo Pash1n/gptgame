@@ -1,0 +1,13 @@
+✔ first finger moves, second finger changes height independently (3.590565ms)
+✔ removing second finger preserves first-finger role and issues no movement (0.305689ms)
+✔ removing first finger promotes the remaining one without a jump (0.160081ms)
+✔ extra fingers, duplicate releases and late move events cannot disturb active roles (0.154632ms)
+✔ cancel/clear resets every role; a new gesture starts without delta (0.163245ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 13.02398
