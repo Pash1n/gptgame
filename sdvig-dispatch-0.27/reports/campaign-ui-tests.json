@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-28T10:50:32.532Z",
+  "checks": [
+    "0.26 save retained; next after level 5 opens 6",
+    "25-button strip scrolls on phone; last level reloads; old plans preserved; both gate conditions shown",
+    "Actual out-of-order pass shows work-order sprite, clear reason and unchanged pending station",
+    "Fuel shortage is visible, names charge limit and rewinds for free",
+    "Both gate panels animate during multi-gate solutions; fuel matches every tick; level 25 next wraps to 1",
+    "Complex 4-goal and 5-device layouts stay within all four viewport widths"
+  ],
+  "errors": []
+}

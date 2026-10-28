@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-28T10:51:31.399Z",
+  "browser": "154.0.8037.57",
+  "levels": [
+    {
+      "id": 1,
+      "steps": 4,
+      "won": true
+    },
+    {
+      "id": 2,
+      "steps": 7,
+      "won": true
+    },
+    {
+      "id": 3,
+      "steps": 27,
+      "won": true
+    },
+    {
+      "id": 4,
+      "steps": 34,
+      "won": true
+    },
+    {
+      "id": 5,
+      "steps": 34,
+      "won": true
+    },
+    {
+      "id": 6,
+      "steps": 8,
+      "won": true
+    },
+    {
+      "id": 7,
+      "steps": 32,
+      "won": true
+    },
+    {
+      "id": 8,
+      "steps": 32,
+      "won": true
+    },
+    {
+      "id": 9,
+      "steps": 52,
+      "won": true
+    },
+    {
+      "id": 10,
+      "steps": 36,
+      "won": true
+    },
+    {
+      "id": 11,
+      "steps": 52,
+      "won": true
+    },
+    {
+      "id": 12,
+      "steps": 56,
+      "won": true
+    },
+    {
+      "id": 13,
+      "steps": 52,
+      "won": true
+    },
+    {
+      "id": 14,
+      "steps": 97,
+      "won": true
+    },
+    {
+      "id": 15,
+      "steps": 58,
+      "won": true
+    },
+    {
+      "id": 16,
+      "steps": 23,
+      "won": true
+    },
+    {
+      "id": 17,
+      "steps": 31,
+      "won": true
+    },
+    {
+      "id": 18,
+      "steps": 24,
+      "won": true
+    },
+    {
+      "id": 19,
+      "steps": 24,
+      "won": true
+    },
+    {
+      "id": 20,
+      "steps": 29,
+      "won": true
+    },
+    {
+      "id": 21,
+      "steps": 33,
+      "won": true
+    },
+    {
+      "id": 22,
+      "steps": 51,
+      "won": true
+    },
+    {
+      "id": 23,
+      "steps": 72,
+      "won": true
+    },
+    {
+      "id": 24,
+      "steps": 68,
+      "won": true
+    },
+    {
+      "id": 25,
+      "steps": 97,
+      "won": true
+    }
+  ],
+  "checks": [
+    "All 25 authored examples win through real UI, with full state comparison after each animation step",
+    "Manual device/turnout programming, saved plan reload, locked run settings, pause, single step and free rewind",
+    "Wrong route fails with editable plan; old game save key unchanged",
+    "No horizontal overflow 320×568",
+    "No horizontal overflow 390×844",
+    "No horizontal overflow 844×390",
+    "No horizontal overflow 1440×1150",
+    "Actual touch changes board turnout and the programmed train wins level 2",
+    "Reduced motion keeps planning board stable"
+  ],
+  "errors": []
+}

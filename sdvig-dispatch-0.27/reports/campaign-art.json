@@ -1,0 +1,56 @@
+[
+  {
+    "sprite": "fuel-full",
+    "wholeObjectBounds": [
+      157,
+      17,
+      440,
+      483
+    ]
+  },
+  {
+    "sprite": "fuel-half",
+    "wholeObjectBounds": [
+      623,
+      17,
+      906,
+      485
+    ]
+  },
+  {
+    "sprite": "fuel-empty",
+    "wholeObjectBounds": [
+      1097,
+      16,
+      1380,
+      486
+    ]
+  },
+  {
+    "sprite": "work-order",
+    "wholeObjectBounds": [
+      77,
+      503,
+      454,
+      970
+    ]
+  },
+  {
+    "sprite": "route-emblem",
+    "wholeObjectBounds": [
+      521,
+      536,
+      1011,
+      977
+    ]
+  },
+  {
+    "sprite": "dual-gate-emblem",
+    "wholeObjectBounds": [
+      987,
+      534,
+      1501,
+      971
+    ]
+  }
+]

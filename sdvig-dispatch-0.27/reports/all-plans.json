@@ -1,0 +1,875 @@
+{
+  "date": "2026-10-28T10:49:47.101Z",
+  "scope": "All discrete configurations exposed by all 25 authored campaign levels; excludes future free track building",
+  "levels": [
+    {
+      "id": 1,
+      "validPlans": 1,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {},
+            "devices": {}
+          },
+          "steps": 4
+        }
+      ],
+      "authoredSteps": 4
+    },
+    {
+      "id": 2,
+      "validPlans": 2,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": false
+              }
+            },
+            "devices": {}
+          },
+          "steps": 7
+        }
+      ],
+      "authoredSteps": 7
+    },
+    {
+      "id": 3,
+      "validPlans": 4,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 0,
+                "auto": true
+              }
+            },
+            "devices": {}
+          },
+          "steps": 27
+        }
+      ],
+      "authoredSteps": 27
+    },
+    {
+      "id": 4,
+      "validPlans": 28,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler"
+            }
+          },
+          "steps": 34
+        }
+      ],
+      "authoredSteps": 34
+    },
+    {
+      "id": 5,
+      "validPlans": 76,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler",
+              "D": "coupler"
+            }
+          },
+          "steps": 34
+        }
+      ],
+      "authoredSteps": 34
+    },
+    {
+      "id": 6,
+      "validPlans": 4,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": false
+              },
+              "E": {
+                "choice": 0,
+                "auto": false
+              }
+            },
+            "devices": {}
+          },
+          "steps": 8
+        }
+      ],
+      "authoredSteps": 8
+    },
+    {
+      "id": 7,
+      "validPlans": 8,
+      "winningPlans": 2,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": false
+              },
+              "E": {
+                "choice": 0,
+                "auto": true
+              }
+            },
+            "devices": {}
+          },
+          "steps": 52
+        },
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": false
+              },
+              "E": {
+                "choice": 1,
+                "auto": true
+              }
+            },
+            "devices": {}
+          },
+          "steps": 32
+        }
+      ],
+      "authoredSteps": 32
+    },
+    {
+      "id": 8,
+      "validPlans": 8,
+      "winningPlans": 2,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 0,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": false
+              }
+            },
+            "devices": {}
+          },
+          "steps": 32
+        },
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": false
+              }
+            },
+            "devices": {}
+          },
+          "steps": 52
+        }
+      ],
+      "authoredSteps": 32
+    },
+    {
+      "id": 9,
+      "validPlans": 16,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": true
+              }
+            },
+            "devices": {}
+          },
+          "steps": 52
+        }
+      ],
+      "authoredSteps": 52
+    },
+    {
+      "id": 10,
+      "validPlans": 16,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": false
+              },
+              "E": {
+                "choice": 1,
+                "auto": true
+              }
+            },
+            "devices": {}
+          },
+          "steps": 36
+        }
+      ],
+      "authoredSteps": 36
+    },
+    {
+      "id": 11,
+      "validPlans": 32,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": true
+              }
+            },
+            "devices": {
+              "N": "coupler"
+            }
+          },
+          "steps": 52
+        }
+      ],
+      "authoredSteps": 52
+    },
+    {
+      "id": 12,
+      "validPlans": 32,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 1,
+                "auto": true
+              }
+            },
+            "devices": {
+              "N": "coupler"
+            }
+          },
+          "steps": 56
+        }
+      ],
+      "authoredSteps": 56
+    },
+    {
+      "id": 13,
+      "validPlans": 32,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": true
+              }
+            },
+            "devices": {
+              "N": "coupler"
+            }
+          },
+          "steps": 52
+        }
+      ],
+      "authoredSteps": 52
+    },
+    {
+      "id": 14,
+      "validPlans": 64,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 1,
+                "auto": true
+              }
+            },
+            "devices": {
+              "N": "coupler",
+              "P": "coupler"
+            }
+          },
+          "steps": 97
+        }
+      ],
+      "authoredSteps": 97
+    },
+    {
+      "id": 15,
+      "validPlans": 128,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 1,
+                "auto": true
+              }
+            },
+            "devices": {
+              "L": "coupler",
+              "N": "coupler",
+              "P": "coupler"
+            }
+          },
+          "steps": 58
+        }
+      ],
+      "authoredSteps": 58
+    },
+    {
+      "id": 16,
+      "validPlans": 112,
+      "winningPlans": 2,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": false
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler"
+            }
+          },
+          "steps": 23
+        },
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": true
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler"
+            }
+          },
+          "steps": 23
+        }
+      ],
+      "authoredSteps": 23
+    },
+    {
+      "id": 17,
+      "validPlans": 112,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": false
+              },
+              "E": {
+                "choice": 1,
+                "auto": true
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler"
+            }
+          },
+          "steps": 31
+        }
+      ],
+      "authoredSteps": 31
+    },
+    {
+      "id": 18,
+      "validPlans": 304,
+      "winningPlans": 2,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": false
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler",
+              "N": "coupler"
+            }
+          },
+          "steps": 24
+        },
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": true
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler",
+              "N": "coupler"
+            }
+          },
+          "steps": 24
+        }
+      ],
+      "authoredSteps": 24
+    },
+    {
+      "id": 19,
+      "validPlans": 624,
+      "winningPlans": 4,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": false
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler",
+              "F": "off",
+              "G": "coupler"
+            }
+          },
+          "steps": 24
+        },
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": false
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler",
+              "F": "coupler",
+              "G": "off"
+            }
+          },
+          "steps": 24
+        },
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": true
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler",
+              "F": "off",
+              "G": "coupler"
+            }
+          },
+          "steps": 24
+        },
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": true
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler",
+              "F": "coupler",
+              "G": "off"
+            }
+          },
+          "steps": 24
+        }
+      ],
+      "authoredSteps": 24
+    },
+    {
+      "id": 20,
+      "validPlans": 1008,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": false
+              },
+              "E": {
+                "choice": 0,
+                "auto": true
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler",
+              "F": "magnet",
+              "G": "coupler"
+            }
+          },
+          "steps": 29
+        }
+      ],
+      "authoredSteps": 29
+    },
+    {
+      "id": 21,
+      "validPlans": 624,
+      "winningPlans": 4,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": false
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler",
+              "F": "off",
+              "G": "coupler"
+            }
+          },
+          "steps": 33
+        },
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": false
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler",
+              "F": "coupler",
+              "G": "off"
+            }
+          },
+          "steps": 33
+        },
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": true
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler",
+              "F": "off",
+              "G": "coupler"
+            }
+          },
+          "steps": 33
+        },
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": true
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler",
+              "F": "coupler",
+              "G": "off"
+            }
+          },
+          "steps": 33
+        }
+      ],
+      "authoredSteps": 33
+    },
+    {
+      "id": 22,
+      "validPlans": 16,
+      "winningPlans": 2,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 0,
+                "auto": true
+              },
+              "E": {
+                "choice": 1,
+                "auto": false
+              }
+            },
+            "devices": {}
+          },
+          "steps": 51
+        },
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 0,
+                "auto": true
+              },
+              "E": {
+                "choice": 1,
+                "auto": true
+              }
+            },
+            "devices": {}
+          },
+          "steps": 51
+        }
+      ],
+      "authoredSteps": 51
+    },
+    {
+      "id": 23,
+      "validPlans": 64,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 1,
+                "auto": true
+              }
+            },
+            "devices": {
+              "N": "coupler",
+              "P": "coupler"
+            }
+          },
+          "steps": 72
+        }
+      ],
+      "authoredSteps": 72
+    },
+    {
+      "id": 24,
+      "validPlans": 1008,
+      "winningPlans": 1,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": false
+              },
+              "E": {
+                "choice": 0,
+                "auto": true
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler",
+              "F": "magnet",
+              "G": "coupler"
+            }
+          },
+          "steps": 68
+        }
+      ],
+      "authoredSteps": 68
+    },
+    {
+      "id": 25,
+      "validPlans": 1616,
+      "winningPlans": 2,
+      "solutions": [
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": true
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler",
+              "F": "off",
+              "G": "coupler",
+              "N": "coupler"
+            }
+          },
+          "steps": 97
+        },
+        {
+          "plan": {
+            "switches": {
+              "A": {
+                "choice": 1,
+                "auto": true
+              },
+              "E": {
+                "choice": 0,
+                "auto": true
+              }
+            },
+            "devices": {
+              "B": "magnet",
+              "C": "coupler",
+              "F": "coupler",
+              "G": "off",
+              "N": "coupler"
+            }
+          },
+          "steps": 97
+        }
+      ],
+      "authoredSteps": 97
+    }
+  ]
+}

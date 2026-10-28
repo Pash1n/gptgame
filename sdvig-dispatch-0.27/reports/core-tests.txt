@@ -1,0 +1,17 @@
+✔ all 25 authored plans deliver every cargo within limit without changing config or plan (15.96291ms)
+✔ every frame conserves each unique cargo and train stays contiguous and non-overlapping (14.226304ms)
+✔ wagons follow the exact previous position of the participant ahead, through changing turnouts (0.378368ms)
+✔ wrong branch, missing alternation and missing devices do not silently solve levels 2 to 5 (6.572384ms)
+✔ delivery order is blue/red and mint/red/blue; only tail cargo unloads (0.924688ms)
+✔ button wagon opens gate; pickup returns it and closes gate, without recoupling in capture tick (0.725609ms)
+✔ automatic turnout waits for whole train to clear before changing branch (0.382674ms)
+✔ preview is exactly the same future head sequence as real transitions (72.170827ms)
+✔ limited device inventory and malformed plan are enforced (0.858419ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 122.628342

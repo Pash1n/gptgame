@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-28T10:47:57.991Z",
+  "baseline": "0.26",
+  "plans": 111,
+  "frames": 2332,
+  "unchanged": [
+    "win/fail outcomes",
+    "number of logical steps",
+    "all train positions at every step"
+  ],
+  "changed": [
+    "event metadata",
+    "gate explanation",
+    "presentation duration and graphics"
+  ]
+}
