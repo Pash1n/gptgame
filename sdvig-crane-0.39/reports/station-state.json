@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-29T09:49:30.521Z",
+  "checks": [
+    "0.36 gearbox inventory and complete assembly migrate without clearing old contracts, story or graphics",
+    "Migration is idempotent; module inventories isolated",
+    "Sequential unlocks require previously assembled module",
+    "Final station requires all five modules and includes drive coupler + hose kit",
+    "Assembling station alone does not mark first launch complete"
+  ]
+}

@@ -1,0 +1,18 @@
+const{chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs');
+(async()=>{
+ const b=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox','--use-angle=swiftshader','--enable-unsafe-swiftshader']}),p=await b.newPage({viewport:{width:1100,height:800}}),errors=[],results=[];p.on('pageerror',e=>errors.push(e.message));await p.addInitScript(()=>requestAnimationFrame=()=>0);
+ await p.goto('http://127.0.0.1:8149/?test=1');await p.waitForFunction(()=>document.documentElement.dataset.ready==='true'||document.documentElement.dataset.error,null,{timeout:120000,polling:100});assert(!await p.evaluate(()=>document.documentElement.dataset.error));
+ const profile=await p.evaluate(()=>CraneTest.snapshot().save);
+ for(const id of [19,20,21]){
+  const data=await p.evaluate(id=>{const t=performance.now();CraneTest.reset(id);CraneTest.graphics('fast');CraneTest.render();const setup=performance.now()-t,s=CraneTest.snapshot();if(!s.pile.matricesFinite)throw Error("Invalid instance transforms");return{count:s.pile.count,awake:s.pile.awake,batches:s.pile.batches,drawCalls:s.stats.drawCalls,triangles:s.stats.triangles,setupMs:setup};},id);
+  assert(data.batches<240);assert(data.drawCalls<550);assert.equal(data.awake,0);
+  const bench=await p.evaluate(()=>{const samples=[];for(let i=0;i<3;i++){const t=performance.now();CraneTest.render();samples.push(performance.now()-t);}return samples;});data.cpuRenderSubmitMs=bench;results.push(data);console.log(JSON.stringify(data));
+ }
+ await p.evaluate(()=>{CraneTest.reset(20);CraneTest.render()});await p.screenshot({timeout:120000,path:'/workspace/artifacts/Sdvig_CRANE_0.39_heap.png'});
+ // Native magnet extraction, no cargo placement or forced wake-ups.
+ const exercise=await p.evaluate(()=>{const original=CraneTest.snapshot();let maxHeld=0,maxAwake=0;const steps=[];for(let n=0;n<60;n++){const t=n*.18;CraneTest.target(Math.sin(t*.8)*2.7,-1.3+Math.cos(t*.7)*1.2,n<25?2.5:3.7);if(n===0)CraneTest.magnet(true);if(n===48)CraneTest.magnet(false);const start=performance.now();CraneTest.advance(.18,false);steps.push(performance.now()-start);const s=CraneTest.snapshot();maxHeld=Math.max(maxHeld,s.held.length);maxAwake=Math.max(maxAwake,s.pile.awake);}const s=CraneTest.snapshot();return{maxHeld,maxAwake,failed:s.failed,completed:s.completed,steps,save:s.save,disturbed:s.items.filter((i,k)=>i.position.some((v,a)=>Math.abs(v-original.items[k].position[a])>.12)).length};});assert(exercise.maxHeld>0);assert(exercise.maxAwake>0);assert(!exercise.failed);assert(!exercise.completed);assert.deepEqual(exercise.save,profile);
+ await p.setViewportSize({width:390,height:844});await p.evaluate(()=>{CraneTest.resize();CraneTest.render()});await p.screenshot({timeout:120000,path:'/workspace/artifacts/Sdvig_CRANE_0.39_phone.png'});assert(await p.locator('#pile-stats').isVisible());
+ // Menu size switch without test mode (normal player can reach every preset).
+ await p.locator('#menu').click({force:true});await p.locator('#job-select').selectOption('19');assert.equal(await p.evaluate(()=>CraneTest.snapshot().pile.count),120);await p.locator('#menu').click({force:true});await p.locator('#job-select').selectOption('21');assert.equal(await p.evaluate(()=>CraneTest.snapshot().pile.count),400);
+ assert.deepEqual(errors,[]);fs.writeFileSync('reports/pile-browser.json',JSON.stringify({date:new Date().toISOString(),renderer:'Chromium SwiftShader software renderer; CPU submission timings are not GPU timings or hardware FPS',results,exercise,errors},null,2));await b.close();console.log('PASS heap instancing, real extraction, native wake, save isolation, portrait and size menu');
+})().catch(e=>{console.error(e);process.exit(1)});

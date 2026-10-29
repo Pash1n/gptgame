@@ -1,0 +1,250 @@
+{
+  "date": "2026-10-29T09:43:04.880Z",
+  "checks": [
+    "40 native world resets cycle 120/240/400; previous world bodies, constraints, listener and helper temporaries released",
+    "One world alive during gameplay; zero after final disposal",
+    "Finite transforms and bounded linear WASM heap"
+  ],
+  "cycles": [
+    {
+      "cycle": 0,
+      "count": 120,
+      "wasmHeapBytes": 134217728,
+      "bodies": 144
+    },
+    {
+      "cycle": 1,
+      "count": 240,
+      "wasmHeapBytes": 134217728,
+      "bodies": 264
+    },
+    {
+      "cycle": 2,
+      "count": 400,
+      "wasmHeapBytes": 134217728,
+      "bodies": 424
+    },
+    {
+      "cycle": 3,
+      "count": 120,
+      "wasmHeapBytes": 134217728,
+      "bodies": 144
+    },
+    {
+      "cycle": 4,
+      "count": 240,
+      "wasmHeapBytes": 134217728,
+      "bodies": 264
+    },
+    {
+      "cycle": 5,
+      "count": 400,
+      "wasmHeapBytes": 134217728,
+      "bodies": 424
+    },
+    {
+      "cycle": 6,
+      "count": 120,
+      "wasmHeapBytes": 134217728,
+      "bodies": 144
+    },
+    {
+      "cycle": 7,
+      "count": 240,
+      "wasmHeapBytes": 134217728,
+      "bodies": 264
+    },
+    {
+      "cycle": 8,
+      "count": 400,
+      "wasmHeapBytes": 134217728,
+      "bodies": 424
+    },
+    {
+      "cycle": 9,
+      "count": 120,
+      "wasmHeapBytes": 134217728,
+      "bodies": 144
+    },
+    {
+      "cycle": 10,
+      "count": 240,
+      "wasmHeapBytes": 134217728,
+      "bodies": 264
+    },
+    {
+      "cycle": 11,
+      "count": 400,
+      "wasmHeapBytes": 134217728,
+      "bodies": 424
+    },
+    {
+      "cycle": 12,
+      "count": 120,
+      "wasmHeapBytes": 134217728,
+      "bodies": 144
+    },
+    {
+      "cycle": 13,
+      "count": 240,
+      "wasmHeapBytes": 134217728,
+      "bodies": 264
+    },
+    {
+      "cycle": 14,
+      "count": 400,
+      "wasmHeapBytes": 134217728,
+      "bodies": 424
+    },
+    {
+      "cycle": 15,
+      "count": 120,
+      "wasmHeapBytes": 134217728,
+      "bodies": 144
+    },
+    {
+      "cycle": 16,
+      "count": 240,
+      "wasmHeapBytes": 134217728,
+      "bodies": 264
+    },
+    {
+      "cycle": 17,
+      "count": 400,
+      "wasmHeapBytes": 134217728,
+      "bodies": 424
+    },
+    {
+      "cycle": 18,
+      "count": 120,
+      "wasmHeapBytes": 134217728,
+      "bodies": 144
+    },
+    {
+      "cycle": 19,
+      "count": 240,
+      "wasmHeapBytes": 134217728,
+      "bodies": 264
+    },
+    {
+      "cycle": 20,
+      "count": 400,
+      "wasmHeapBytes": 134217728,
+      "bodies": 424
+    },
+    {
+      "cycle": 21,
+      "count": 120,
+      "wasmHeapBytes": 134217728,
+      "bodies": 144
+    },
+    {
+      "cycle": 22,
+      "count": 240,
+      "wasmHeapBytes": 134217728,
+      "bodies": 264
+    },
+    {
+      "cycle": 23,
+      "count": 400,
+      "wasmHeapBytes": 134217728,
+      "bodies": 424
+    },
+    {
+      "cycle": 24,
+      "count": 120,
+      "wasmHeapBytes": 134217728,
+      "bodies": 144
+    },
+    {
+      "cycle": 25,
+      "count": 240,
+      "wasmHeapBytes": 134217728,
+      "bodies": 264
+    },
+    {
+      "cycle": 26,
+      "count": 400,
+      "wasmHeapBytes": 134217728,
+      "bodies": 424
+    },
+    {
+      "cycle": 27,
+      "count": 120,
+      "wasmHeapBytes": 134217728,
+      "bodies": 144
+    },
+    {
+      "cycle": 28,
+      "count": 240,
+      "wasmHeapBytes": 134217728,
+      "bodies": 264
+    },
+    {
+      "cycle": 29,
+      "count": 400,
+      "wasmHeapBytes": 134217728,
+      "bodies": 424
+    },
+    {
+      "cycle": 30,
+      "count": 120,
+      "wasmHeapBytes": 134217728,
+      "bodies": 144
+    },
+    {
+      "cycle": 31,
+      "count": 240,
+      "wasmHeapBytes": 134217728,
+      "bodies": 264
+    },
+    {
+      "cycle": 32,
+      "count": 400,
+      "wasmHeapBytes": 134217728,
+      "bodies": 424
+    },
+    {
+      "cycle": 33,
+      "count": 120,
+      "wasmHeapBytes": 134217728,
+      "bodies": 144
+    },
+    {
+      "cycle": 34,
+      "count": 240,
+      "wasmHeapBytes": 134217728,
+      "bodies": 264
+    },
+    {
+      "cycle": 35,
+      "count": 400,
+      "wasmHeapBytes": 134217728,
+      "bodies": 424
+    },
+    {
+      "cycle": 36,
+      "count": 120,
+      "wasmHeapBytes": 134217728,
+      "bodies": 144
+    },
+    {
+      "cycle": 37,
+      "count": 240,
+      "wasmHeapBytes": 134217728,
+      "bodies": 264
+    },
+    {
+      "cycle": 38,
+      "count": 400,
+      "wasmHeapBytes": 134217728,
+      "bodies": 424
+    },
+    {
+      "cycle": 39,
+      "count": 120,
+      "wasmHeapBytes": 134217728,
+      "bodies": 144
+    }
+  ]
+}

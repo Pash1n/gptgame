@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-29T09:46:58.078Z",
+  "method": "Serial on same Node process/machine, same 0.38 baked layouts, same target/magnet script, both fixed 1/60 step, 3s idle +12s motion, physics step wall CPU including JS bridge/game checks; no rendering or hardware FPS. Different solvers need not produce identical trajectories or contact counts. Fresh world each run. Single thread Jolt, no static pile substitution.",
+  "results": [
+    {
+      "engine": "Cannon 0.38",
+      "count": 120,
+      "idle": {
+        "medianMs": 0.16489799999999377,
+        "p95Ms": 0.6112569999999948,
+        "meanMs": 0.26904656111111114,
+        "maxMs": 6.589448000000004
+      },
+      "active": {
+        "medianMs": 5.051630999999816,
+        "p95Ms": 7.145893000000001,
+        "meanMs": 4.934017315277772,
+        "maxMs": 74.03328399999987
+      },
+      "maxHeld": 8,
+      "maxAwake": 101
+    },
+    {
+      "engine": "Jolt 0.39",
+      "count": 120,
+      "idle": {
+        "medianMs": 0.1661619999999857,
+        "p95Ms": 0.5225120000000061,
+        "meanMs": 0.2429032166666856,
+        "maxMs": 6.157351999999719
+      },
+      "active": {
+        "medianMs": 1.2822649999998248,
+        "p95Ms": 2.097853000000214,
+        "meanMs": 1.2590419263888906,
+        "maxMs": 17.13068800000019
+      },
+      "maxHeld": 10,
+      "maxAwake": 115
+    },
+    {
+      "engine": "Cannon 0.38",
+      "count": 240,
+      "idle": {
+        "medianMs": 0.33642499999950815,
+        "p95Ms": 0.555674000000181,
+        "meanMs": 0.36917022222219203,
+        "maxMs": 1.8395620000001145
+      },
+      "active": {
+        "medianMs": 12.159034000000247,
+        "p95Ms": 14.94230299999981,
+        "meanMs": 11.580457366666689,
+        "maxMs": 28.4023959999995
+      },
+      "maxHeld": 10,
+      "maxAwake": 223
+    },
+    {
+      "engine": "Jolt 0.39",
+      "count": 240,
+      "idle": {
+        "medianMs": 0.21149700000023586,
+        "p95Ms": 0.4671010000001843,
+        "meanMs": 0.2551349666666283,
+        "maxMs": 2.2410609999988083
+      },
+      "active": {
+        "medianMs": 4.969449000000168,
+        "p95Ms": 6.878555999999662,
+        "meanMs": 4.764430097222193,
+        "maxMs": 12.492941999998948
+      },
+      "maxHeld": 8,
+      "maxAwake": 235
+    },
+    {
+      "engine": "Cannon 0.38",
+      "count": 400,
+      "idle": {
+        "medianMs": 0.7426850000010745,
+        "p95Ms": 0.8347730000023148,
+        "meanMs": 0.7375437666667091,
+        "maxMs": 2.5663229999991017
+      },
+      "active": {
+        "medianMs": 23.28502699999808,
+        "p95Ms": 29.286636000004364,
+        "meanMs": 23.19236276527784,
+        "maxMs": 67.8993589999991
+      },
+      "maxHeld": 9,
+      "maxAwake": 391
+    },
+    {
+      "engine": "Jolt 0.39",
+      "count": 400,
+      "idle": {
+        "medianMs": 0.25500299999839626,
+        "p95Ms": 0.32485799999994924,
+        "meanMs": 0.26981644444410147,
+        "maxMs": 0.9222239999944577
+      },
+      "active": {
+        "medianMs": 13.423734000003606,
+        "p95Ms": 18.71013099999982,
+        "meanMs": 13.88656711805573,
+        "maxMs": 34.782782999995106
+      },
+      "maxHeld": 9,
+      "maxAwake": 390
+    }
+  ]
+}

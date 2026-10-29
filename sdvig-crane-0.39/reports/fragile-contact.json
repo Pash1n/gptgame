@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-29T09:42:47.224Z",
+  "method": "Explicit collision fixture, not a level solution.",
+  "contacts": 95,
+  "checks": [
+    "Powered magnet contact does not damage radiator during capture",
+    "A high-speed drop onto floor still breaks same radiator and fails the job"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "identicalTo": "0.38",
+  "files": [
+    "style.css",
+    "src/models.js",
+    "src/pile-renderer.js",
+    "src/assembly.js",
+    "src/module-models.js",
+    "src/station-parts.js",
+    "src/gantry.js",
+    "src/yard.js",
+    "src/pile-layouts.js",
+    "assets/tex-rust.webp",
+    "assets/tex-floor.webp",
+    "assets/tex-steel.webp",
+    "assets/ui-restart.webp",
+    "assets/ui-magnet.webp",
+    "assets/tex-teal.webp",
+    "assets/tex-coral.webp",
+    "assets/panel-dark.webp",
+    "assets/workshop.webp",
+    "assets/tex-ivory.webp",
+    "assets/panel-mission.webp"
+  ],
+  "note": "Main scene camera and input code retained. Physics integration/import, initialization, diagnostic engine label and debug stats changed. UI version text updated."
+}

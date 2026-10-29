@@ -1,0 +1,6 @@
+import {afterEach} from 'node:test';
+afterEach(()=>{for(const w of liveWorlds)w.dispose();});
+import {initJolt,liveWorlds} from '../src/jolt-backend.js';
+await initJolt();
+import assert from'node:assert/strict';import fs from'node:fs';import{CranePhysics,JOBS}from'../src/physics.js';
+const w=new CranePhysics({mission:JOBS[17],seed:JOBS[17].seed});for(const i of w.items)w.world.removeBody(i.body);w.items=[];const p=w.magnet.position,item=w.spawn('radiator',{x:p.x,y:p.y-1,z:p.z},0,{x:Math.PI/2,y:0,z:0});item.body.velocity.set(0,8,0);let contacts=0;item.body.addEventListener('collide',e=>{if(e.body===w.magnet)contacts++;});w.setMagnet(true);for(let i=0;i<120;i++)w.step(1/120);assert(contacts>0);assert(!w.failed);assert.equal(item.damage,0);w.setMagnet(false);item.body.position.set(2,4,0);item.body.velocity.set(0,-20,0);item.body.aabbNeedsUpdate=true;for(let i=0;i<120;i++)w.step(1/120);assert(w.failed&&item.damage>=1);fs.writeFileSync('reports/fragile-contact.json',JSON.stringify({date:new Date().toISOString(),method:'Explicit collision fixture, not a level solution.',contacts,checks:['Powered magnet contact does not damage radiator during capture','A high-speed drop onto floor still breaks same radiator and fails the job']},null,2));console.log('PASS',contacts,'magnet contacts safe; floor drop fails.');
