@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-29T14:46:18.634Z",
+  "checks": [
+    "Actual workbench raycast, visible camera flight before dialog, stationary screen and paused physics",
+    "Program windows minimize, restore from taskbar, close and reopen from desktop icon",
+    "Painted desktop shortcuts open program windows; purchase confirmation, reserved stock and locked contracts remain functional",
+    "Return camera flight restores warehouse and keyboard focus",
+    "Monitor interface, windows, scrolling and blur resume at 320x568",
+    "Monitor interface, windows, scrolling and blur resume at 390x844",
+    "Monitor interface, windows, scrolling and blur resume at 844x390",
+    "Blur during approach cancels pending dialog and preserves pause"
+  ],
+  "beforeCamera": [
+    7,
+    13.831673051209627,
+    14.355294139736582
+  ],
+  "midCamera": [
+    7.932996508959083,
+    10.648684695388674,
+    9.659653811773238
+  ],
+  "endCamera": [
+    10.6,
+    1.5500000000000007,
+    -3.7630000000000017
+  ],
+  "errors": [],
+  "renderer": "Chromium SwiftShader; real RAF transition, not hardware FPS evidence"
+}
