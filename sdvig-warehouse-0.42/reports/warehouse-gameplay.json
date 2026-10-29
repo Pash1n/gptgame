@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-29T13:22:59.901Z",
+  "method": "Normal rig requests, crane target movement, fixed steps, detach. No cargo placement or score edits.",
+  "checks": [
+    "Exactly four marked storage locations, four independent native Jolt pallets",
+    "Crane movement restricted to compact warehouse",
+    "All four actual pickups, pendulum carries, dock releases, worker unrigging, forklift loads and two truck departures",
+    "Pause freezes state; physics resources released"
+  ],
+  "trace": [
+    {
+      "id": "pallet-0",
+      "total": 1,
+      "order": 0,
+      "worker": "idle",
+      "truck": "parked"
+    },
+    {
+      "id": "pallet-1",
+      "total": 2,
+      "order": 1,
+      "worker": "idle",
+      "truck": "parked"
+    },
+    {
+      "id": "pallet-2",
+      "total": 3,
+      "order": 1,
+      "worker": "idle",
+      "truck": "parked"
+    },
+    {
+      "id": "pallet-3",
+      "total": 4,
+      "order": 1,
+      "worker": "idle",
+      "truck": "finished"
+    }
+  ]
+}

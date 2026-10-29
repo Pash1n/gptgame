@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-29T13:28:50.432Z",
+  "checks": [
+    "Only initial HTML requested; WASM, 12 image textures embedded",
+    "Native worker preparation and actual hook attachment offline",
+    "Restart creates a clean 4-pallet scene without previous state"
+  ],
+  "requests": [
+    "http://127.0.0.1:8137/Sdvig_WAREHOUSE_0.42.html?test=1"
+  ],
+  "errors": [],
+  "fileProtocol": "HTTP with network disabled after initial request; file:// blocked by managed browser, not claimed automated tested."
+}
