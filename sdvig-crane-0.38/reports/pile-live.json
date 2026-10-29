@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-29T09:15:03.204Z",
+  "renderer": "Chromium SwiftShader, software GPU; diagnostic only, not hardware/mobile FPS",
+  "secondsWall": 5.5,
+  "frames": 5,
+  "secondsSimulation": 0.16666666666666666,
+  "stats": {
+    "fps": 1.1111728429357177,
+    "frameCost": 4.5999999940395355,
+    "physicsMs": 1.2000000178813934,
+    "renderMs": 3.199999988079071,
+    "renderCount": 13,
+    "resizeCount": 2,
+    "contextLost": false,
+    "rafActive": true,
+    "memory": {
+      "geometries": 250,
+      "textures": 12
+    },
+    "programs": 20,
+    "resolutionScale": 0.8,
+    "adaptiveScale": 1,
+    "shadowInterval": 0.05,
+    "graphicsMode": "fast",
+    "drawCalls": 242,
+    "triangles": 1067320
+  },
+  "pile": {
+    "count": 240,
+    "awake": 0,
+    "instanced": true,
+    "matricesFinite": true,
+    "batches": 142
+  },
+  "errors": []
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-29T07:22:40.450Z",
+  "method": "Explicit isolated physical fixtures, not level solutions.",
+  "checks": [
+    "Needed cog plus wrong bolt: neither consumed; remove bolt, cog is accepted.",
+    "Two required cogs accepted atomically, both counted.",
+    "Duplicate beyond remaining quota blocks the complete batch.",
+    "Required part blocks scrap too; remove it, scrap is consumed without scoring station parts.",
+    "Delayed falling wrong part prevents premature consumption of earlier correct cargo.",
+    "Held wrong cargo lifted fully above the rim no longer blocks settled correct cargo, even while still above the receiver.",
+    "Part resting out of reach on top of the gate returns to the pad without scoring; receiver contents excluded from recovery."
+  ]
+}
