@@ -1,0 +1,15 @@
+✔ the hanging chain stays constrained and a target actually moves the magnet (380.020519ms)
+✔ rigid bodies hit the floor, rotate and transfer a collision impulse (167.033828ms)
+✔ rubber is not magnetic, and the 12 kg load limit is enforced (120.260512ms)
+✔ turning the magnet off preserves momentum and wakes sleeping cargo (251.882965ms)
+✔ receivers accept only released matching cargo, reject wrong cargo with a reason (270.556649ms)
+✔ held cargo never scores even inside a receiver; paused worlds do not advance (117.087412ms)
+✔ four seeded piles survive extended operation without lost or non-finite bodies (2158.86262ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3479.324964

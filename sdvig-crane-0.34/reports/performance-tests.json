@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-28T18:50:50.713Z",
+  "checks": [
+    "One main scene plus small one-object silhouette; merged shadow casters keep a shadow-update frame below 175 draws / 230k triangles at 1280×720; fast mode reduces pixel count",
+    "Paused / hidden animation callbacks perform zero renders and zero physics steps",
+    "Synthetic sustained 100ms frame intervals trigger bounded automatic resolution reduction; not a hardware FPS measurement",
+    "4K viewport respects the automatic 1.1-million-pixel budget",
+    "Old completed contracts and old economy preference migrate without losing progress"
+  ],
+  "modes": {
+    "auto": {
+      "fps": 0,
+      "frameCost": 0,
+      "physicsMs": 0,
+      "renderMs": 0,
+      "renderCount": 4,
+      "resizeCount": 1,
+      "contextLost": false,
+      "rafActive": false,
+      "memory": {
+        "geometries": 144,
+        "textures": 12
+      },
+      "programs": 17,
+      "resolutionScale": 1,
+      "adaptiveScale": 1,
+      "shadowInterval": 0.03333333333333333,
+      "graphicsMode": "auto",
+      "drawCalls": 150,
+      "triangles": 184270
+    },
+    "sharp": {
+      "fps": 0,
+      "frameCost": 0,
+      "physicsMs": 0,
+      "renderMs": 0,
+      "renderCount": 6,
+      "resizeCount": 1,
+      "contextLost": false,
+      "rafActive": false,
+      "memory": {
+        "geometries": 144,
+        "textures": 12
+      },
+      "programs": 17,
+      "resolutionScale": 1,
+      "adaptiveScale": 1,
+      "shadowInterval": 0.03333333333333333,
+      "graphicsMode": "sharp",
+      "drawCalls": 150,
+      "triangles": 184270
+    },
+    "fast": {
+      "fps": 0,
+      "frameCost": 0,
+      "physicsMs": 0,
+      "renderMs": 0,
+      "renderCount": 8,
+      "resizeCount": 2,
+      "contextLost": false,
+      "rafActive": false,
+      "memory": {
+        "geometries": 144,
+        "textures": 12
+      },
+      "programs": 17,
+      "resolutionScale": 0.8,
+      "adaptiveScale": 1,
+      "shadowInterval": 0.05,
+      "graphicsMode": "fast",
+      "drawCalls": 150,
+      "triangles": 184270
+    }
+  },
+  "idle": {
+    "before": 9,
+    "paused": 9,
+    "hidden": 9,
+    "beforeTime": 0.18,
+    "afterTime": 0.18
+  },
+  "adaptive": {
+    "before": {
+      "fps": 0,
+      "frameCost": 0,
+      "physicsMs": 0,
+      "renderMs": 0,
+      "renderCount": 10,
+      "resizeCount": 3,
+      "contextLost": false,
+      "rafActive": false,
+      "memory": {
+        "geometries": 144,
+        "textures": 12
+      },
+      "programs": 17,
+      "resolutionScale": 1,
+      "adaptiveScale": 1,
+      "shadowInterval": 0.03333333333333333,
+      "graphicsMode": "auto",
+      "drawCalls": 150,
+      "triangles": 184270
+    },
+    "after": {
+      "fps": 10.000000000000002,
+      "frameCost": 1.2999999970197678,
+      "physicsMs": 0.4000000059604645,
+      "renderMs": 0.8999999910593033,
+      "renderCount": 30,
+      "resizeCount": 4,
+      "contextLost": false,
+      "rafActive": false,
+      "memory": {
+        "geometries": 144,
+        "textures": 12
+      },
+      "programs": 17,
+      "resolutionScale": 0.85,
+      "adaptiveScale": 0.85,
+      "shadowInterval": 0.03333333333333333,
+      "graphicsMode": "auto",
+      "drawCalls": 150,
+      "triangles": 184270
+    }
+  },
+  "pixels": 1098828,
+  "errors": []
+}
