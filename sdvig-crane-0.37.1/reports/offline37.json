@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-29T07:57:19.851Z",
+  "checks": [
+    "Only initial HTML requested, network disabled thereafter",
+    "All 19 layouts initialize, including 24/27/29/33/37-item chapter levels",
+    "Keyboard magnet works offline",
+    "All six workshop recipes available offline in temporary preview",
+    "Real mouse drag installs first aggregate in final station offline"
+  ],
+  "counts": [
+    10,
+    10,
+    9,
+    4,
+    4,
+    5,
+    5,
+    4,
+    5,
+    4,
+    5,
+    6,
+    5,
+    12,
+    24,
+    27,
+    29,
+    33,
+    37
+  ],
+  "requests": [
+    "http://127.0.0.1:8137/Sdvig_CRANE_0.37.html?test=1"
+  ],
+  "errors": [],
+  "fileProtocol": "HTTP with network disabled is automated evidence; file:// navigation restricted by managed browser and not claimed tested."
+}

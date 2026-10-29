@@ -1,0 +1,1467 @@
+{
+  "date": "2026-10-29T07:50:20.097Z",
+  "inventoryFixture": "Inventory imported from all five completed Node crane playthroughs, not claimed as browser crane playthroughs.",
+  "checks": [
+    "Normal progression locks four later station levels until the previous assembly is finished.",
+    "All five module assemblies plus complete station assembled by actual mouse drags and four hold-to-fasten operations each; 37 placed parts including drive and hose connections.",
+    "Pistons move, generator rotor turns, cooling flow animates, instrument needles move; station launches on its grounded platform and lights workshop.",
+    "All module completions, station launch and old contracts/story survive reload.",
+    "390×844: seven real CDP one-finger drags and four held bolts assemble the control panel; preview leaves the real profile unchanged."
+  ],
+  "snapshots": [
+    {
+      "id": "gearbox",
+      "assembly": {
+        "heroVisible": null,
+        "active": true,
+        "preview": false,
+        "step": 6,
+        "phase": "ready",
+        "running": true,
+        "moduleId": "gearbox",
+        "station": {
+          "built": 1,
+          "online": false,
+          "finalReady": false
+        },
+        "partsReady": true,
+        "mobile": false,
+        "parts": [
+          {
+            "id": "housing",
+            "type": "housing",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 671.488902300563,
+              "y": 424.40310174931386
+            },
+            "target": {
+              "x": 671.488902300563,
+              "y": 424.40310174931386
+            },
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "shaft-a",
+            "type": "shaft",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 622.0958781003324,
+              "y": 347.71992629877593
+            },
+            "target": {
+              "x": 622.0958781003324,
+              "y": 347.71992629877593
+            },
+            "position": [
+              -0.48,
+              0.67,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              1.6250000000000786,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "shaft-b",
+            "type": "shaft",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 719.4239111322951,
+              "y": 368.31289301865434
+            },
+            "target": {
+              "x": 719.4239111322951,
+              "y": 368.31289301865434
+            },
+            "position": [
+              0.48,
+              0.67,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              -1.6250000000000786,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "cog-a",
+            "type": "cog",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 622.0958781003324,
+              "y": 347.71992629877593
+            },
+            "target": {
+              "x": 622.0958781003324,
+              "y": 347.71992629877593
+            },
+            "position": [
+              -0.48,
+              0.67,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              1.6250000000000786,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "cog-b",
+            "type": "cog",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 719.4239111322951,
+              "y": 368.31289301865434
+            },
+            "target": {
+              "x": 719.4239111322951,
+              "y": 368.31289301865434
+            },
+            "position": [
+              0.48,
+              0.67,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              -1.467920367320589,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "cover",
+            "type": "cover",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 699.8209800288432,
+              "y": 184.56455713864656
+            },
+            "target": {
+              "x": 668.578580173249,
+              "y": 296.77960301437525
+            },
+            "position": [
+              0,
+              2.0502629852009,
+              -0.6244902632854357
+            ],
+            "rotation": [
+              -1.3252955618617577,
+              0,
+              0,
+              "XYZ"
+            ]
+          }
+        ],
+        "angle": 1.6250000000000786,
+        "fluidVisible": false,
+        "floorVisible": false,
+        "bolts": [
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 602.7911047476042,
+              "y": 146.95932957412342
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 526.8687123808726,
+              "y": 187.66192014510725
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 801.4506324437245,
+              "y": 175.67895919780855
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 740.3406846851403,
+              "y": 222.38181688621032
+            }
+          }
+        ],
+        "calls": 71,
+        "triangles": 152688
+      },
+      "station": {
+        "built": 1,
+        "online": false,
+        "finalReady": false
+      }
+    },
+    {
+      "id": "motor",
+      "assembly": {
+        "heroVisible": null,
+        "active": true,
+        "preview": false,
+        "step": 6,
+        "phase": "ready",
+        "running": true,
+        "moduleId": "motor",
+        "station": {
+          "built": 2,
+          "online": false,
+          "finalReady": false
+        },
+        "partsReady": true,
+        "mobile": false,
+        "parts": [
+          {
+            "id": "block",
+            "type": "engineBlock",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 671.488902300563,
+              "y": 424.40310174931386
+            },
+            "target": {
+              "x": 671.488902300563,
+              "y": 424.40310174931386
+            },
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "crank",
+            "type": "crank",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 670.9334943102746,
+              "y": 400.047340481272
+            },
+            "target": {
+              "x": 670.9334943102746,
+              "y": 400.047340481272
+            },
+            "position": [
+              0,
+              0.25,
+              0
+            ],
+            "rotation": [
+              1.6249999999999076,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "piston-a",
+            "type": "piston",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 628.0394560365052,
+              "y": 349.9940401146145
+            },
+            "target": {
+              "x": 628.3762837241486,
+              "y": 358.058365882014
+            },
+            "position": [
+              -0.42,
+              0.6598825072431869,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "piston-b",
+            "type": "piston",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 713.2080564402836,
+              "y": 384.42564318317056
+            },
+            "target": {
+              "x": 713.1824666430934,
+              "y": 376.260022522417
+            },
+            "position": [
+              0.42,
+              0.500117492756813,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "flywheel",
+            "type": "flywheel",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 773.7781843944459,
+              "y": 423.2457730405255
+            },
+            "target": {
+              "x": 773.7781843944459,
+              "y": 423.2457730405255
+            },
+            "position": [
+              1,
+              0.25,
+              0
+            ],
+            "rotation": [
+              1.6249999999999076,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "head",
+            "type": "engineHead",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 668.9461246654192,
+              "y": 312.89717075414353
+            },
+            "target": {
+              "x": 668.9461246654192,
+              "y": 312.89717075414353
+            },
+            "position": [
+              0,
+              1.1,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          }
+        ],
+        "angle": 1.6249999999999076,
+        "fluidVisible": false,
+        "floorVisible": false,
+        "bolts": [
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 614.2964976752284,
+              "y": 272.99156505453254
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 574.0440297227295,
+              "y": 301.394541255861
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 763.2139939329721,
+              "y": 300.806294780438
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 728.9121329805905,
+              "y": 332.235049999065
+            }
+          }
+        ],
+        "calls": 93,
+        "triangles": 151448
+      },
+      "station": {
+        "built": 2,
+        "online": false,
+        "finalReady": false
+      }
+    },
+    {
+      "id": "generator",
+      "assembly": {
+        "heroVisible": null,
+        "active": true,
+        "preview": false,
+        "step": 5,
+        "phase": "ready",
+        "running": true,
+        "moduleId": "generator",
+        "station": {
+          "built": 3,
+          "online": false,
+          "finalReady": false
+        },
+        "partsReady": true,
+        "mobile": false,
+        "parts": [
+          {
+            "id": "frame",
+            "type": "genFrame",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 671.488902300563,
+              "y": 424.40310174931386
+            },
+            "target": {
+              "x": 671.488902300563,
+              "y": 424.40310174931386
+            },
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "coil-a",
+            "type": "coil",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 623.6093729896692,
+              "y": 360.0166443069871
+            },
+            "target": {
+              "x": 623.6093729896692,
+              "y": 360.0166443069871
+            },
+            "position": [
+              -0.47,
+              0.55,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "coil-b",
+            "type": "coil",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 718.386222185512,
+              "y": 380.4538747365086
+            },
+            "target": {
+              "x": 718.386222185512,
+              "y": 380.4538747365086
+            },
+            "position": [
+              0.47,
+              0.55,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "rotor",
+            "type": "rotor",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 670.2268715110908,
+              "y": 369.06050466975483
+            },
+            "target": {
+              "x": 670.2268715110908,
+              "y": 369.06050466975483
+            },
+            "position": [
+              0,
+              0.56,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              1.6249999999999076,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "cap",
+            "type": "genCap",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 628.065772508214,
+              "y": 406.70341846402494
+            },
+            "target": {
+              "x": 628.065772508214,
+              "y": 406.70341846402494
+            },
+            "position": [
+              0,
+              0.56,
+              0.77
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          }
+        ],
+        "angle": 1.6249999999999076,
+        "fluidVisible": false,
+        "floorVisible": false,
+        "bolts": [
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 550.7901129331644,
+              "y": 442.21565475464996
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 701.9767126874739,
+              "y": 479.9512626485087
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 545.0934159369091,
+              "y": 371.1963701366355
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 701.3369803359363,
+              "y": 406.414579040852
+            }
+          }
+        ],
+        "calls": 89,
+        "triangles": 157960
+      },
+      "station": {
+        "built": 3,
+        "online": false,
+        "finalReady": false
+      }
+    },
+    {
+      "id": "cooling",
+      "assembly": {
+        "heroVisible": null,
+        "active": true,
+        "preview": false,
+        "step": 6,
+        "phase": "ready",
+        "running": true,
+        "moduleId": "cooling",
+        "station": {
+          "built": 4,
+          "online": false,
+          "finalReady": false
+        },
+        "partsReady": true,
+        "mobile": false,
+        "parts": [
+          {
+            "id": "rad",
+            "type": "radiator",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 685.3762157213902,
+              "y": 352.49179257672097
+            },
+            "target": {
+              "x": 685.3762157213902,
+              "y": 352.49179257672097
+            },
+            "position": [
+              0,
+              0.59,
+              -0.3
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "pump",
+            "type": "pump",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 713.8781416404925,
+              "y": 464.4745602550055
+            },
+            "target": {
+              "x": 713.8781416404925,
+              "y": 464.4745602550055
+            },
+            "position": [
+              0.72,
+              0.1,
+              0.62
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "pipe-a",
+            "type": "coolantPipe",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 597.526994615865,
+              "y": 391.239512925034
+            },
+            "target": {
+              "x": 597.526994615865,
+              "y": 391.239512925034
+            },
+            "position": [
+              -0.7,
+              0.23,
+              0.1
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "pipe-b",
+            "type": "coolantPipe",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 737.4393384458665,
+              "y": 423.169361315144
+            },
+            "target": {
+              "x": 737.4393384458665,
+              "y": 423.169361315144
+            },
+            "position": [
+              0.7,
+              0.23,
+              0.1
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "fan",
+            "type": "fan",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 662.300269669118,
+              "y": 372.9957464363563
+            },
+            "target": {
+              "x": 662.300269669118,
+              "y": 372.9957464363563
+            },
+            "position": [
+              0,
+              0.59,
+              0.15
+            ],
+            "rotation": [
+              0,
+              0,
+              3.5749999999997972,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "tank",
+            "type": "coolantTank",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 553.0406079685405,
+              "y": 357.1290178664472
+            },
+            "target": {
+              "x": 553.0406079685405,
+              "y": 357.1290178664472
+            },
+            "position": [
+              -0.8,
+              0.79,
+              0.63
+            ],
+            "rotation": [
+              0,
+              0.024963283513495915,
+              0,
+              "XYZ"
+            ]
+          }
+        ],
+        "angle": 1.6249999999999076,
+        "fluidVisible": true,
+        "floorVisible": false,
+        "bolts": [
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 617.1773033125969,
+              "y": 384.2747501667185
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 791.721972562147,
+              "y": 423.43053382613186
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 545.3273703175886,
+              "y": 445.45194521722993
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 732.3904105952013,
+              "y": 492.4412249011626
+            }
+          }
+        ],
+        "calls": 99,
+        "triangles": 146832
+      },
+      "station": {
+        "built": 4,
+        "online": false,
+        "finalReady": false
+      }
+    },
+    {
+      "id": "control",
+      "assembly": {
+        "heroVisible": null,
+        "active": true,
+        "preview": false,
+        "step": 7,
+        "phase": "ready",
+        "running": true,
+        "moduleId": "control",
+        "station": {
+          "built": 5,
+          "online": false,
+          "finalReady": true
+        },
+        "partsReady": true,
+        "mobile": false,
+        "parts": [
+          {
+            "id": "cabinet",
+            "type": "console",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 670.8208830695737,
+              "y": 395.1091103107167
+            },
+            "target": {
+              "x": 670.8208830695737,
+              "y": 395.1091103107167
+            },
+            "position": [
+              0,
+              0.3,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "board-a",
+            "type": "circuit",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 609.296726547788,
+              "y": 399.3108671429312
+            },
+            "target": {
+              "x": 609.296726547788,
+              "y": 399.3108671429312
+            },
+            "position": [
+              -0.4,
+              0.36,
+              0.4
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "board-b",
+            "type": "circuit",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 691.0120899080805,
+              "y": 418.1090120677199
+            },
+            "target": {
+              "x": 691.0120899080805,
+              "y": 418.1090120677199
+            },
+            "position": [
+              0.4,
+              0.36,
+              0.4
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "meter-a",
+            "type": "meter",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 588.7033152908526,
+              "y": 367.85476510777664
+            },
+            "target": {
+              "x": 588.7033152908526,
+              "y": 367.85476510777664
+            },
+            "position": [
+              -0.43,
+              0.78,
+              0.66
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ],
+            "needle": 0.0584140021593621
+          },
+          {
+            "id": "meter-b",
+            "type": "meter",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 679.6070541560856,
+              "y": 387.93504324146147
+            },
+            "target": {
+              "x": 679.6070541560856,
+              "y": 387.93504324146147
+            },
+            "position": [
+              0.43,
+              0.78,
+              0.66
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ],
+            "needle": 0.0296538407089329
+          },
+          {
+            "id": "switch",
+            "type": "lever",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 704.4221997871879,
+              "y": 479.0244610523005
+            },
+            "target": {
+              "x": 704.4221997871879,
+              "y": 479.0244610523005
+            },
+            "position": [
+              0.65,
+              -0.04,
+              0.66
+            ],
+            "rotation": [
+              0,
+              0,
+              -0.18,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "harness",
+            "type": "harness",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 626.7742382499522,
+              "y": 461.6345863226885
+            },
+            "target": {
+              "x": 626.7742382499522,
+              "y": 461.6345863226885
+            },
+            "position": [
+              -0.1,
+              -0.06,
+              0.66
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          }
+        ],
+        "angle": 1.6249999999999076,
+        "fluidVisible": false,
+        "floorVisible": false,
+        "bolts": [
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 600.7115377125587,
+              "y": 298.27870858947443
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 561.6650398610258,
+              "y": 326.6033869022889
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 778.159084310872,
+              "y": 333.1058423567094
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 745.914521580381,
+              "y": 365.05703307469304
+            }
+          }
+        ],
+        "calls": 104,
+        "triangles": 147192
+      },
+      "station": {
+        "built": 5,
+        "online": false,
+        "finalReady": true
+      }
+    },
+    {
+      "id": "station",
+      "assembly": {
+        "heroVisible": true,
+        "active": true,
+        "preview": false,
+        "step": 7,
+        "phase": "ready",
+        "running": true,
+        "moduleId": "station",
+        "station": {
+          "built": 5,
+          "online": true,
+          "finalReady": true
+        },
+        "partsReady": true,
+        "mobile": false,
+        "parts": [
+          {
+            "id": "unit-motor",
+            "type": "unit-motor",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 99.08320216987167,
+              "y": -93.7004481361888
+            },
+            "target": {
+              "x": 99.08320216987167,
+              "y": -93.7004481361888
+            },
+            "position": [
+              -1.38,
+              0.355,
+              -0.0744
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "unit-gearbox",
+            "type": "unit-gearbox",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 113.37255203087145,
+              "y": -40.38333700711788
+            },
+            "target": {
+              "x": 113.37255203087145,
+              "y": -40.38333700711788
+            },
+            "position": [
+              -0.2,
+              0.16,
+              -0.3
+            ],
+            "rotation": [
+              0,
+              1.5707963267948966,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "unit-generator",
+            "type": "unit-generator",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 119.10456413839482,
+              "y": -5.856501980669826
+            },
+            "target": {
+              "x": 119.10456413839482,
+              "y": -5.856501980669826
+            },
+            "position": [
+              1.1,
+              0.212,
+              -0.5256
+            ],
+            "rotation": [
+              0,
+              1.5707963267948966,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "unit-cooling",
+            "type": "unit-cooling",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": -19.717634363312193,
+              "y": -60.40016555675302
+            },
+            "target": {
+              "x": -19.717634363312193,
+              "y": -60.40016555675302
+            },
+            "position": [
+              -1.22,
+              0.16,
+              0.98
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "unit-control",
+            "type": "unit-control",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": -95.24772429641908,
+              "y": 24.992049423757397
+            },
+            "target": {
+              "x": -95.24772429641908,
+              "y": 24.992049423757397
+            },
+            "position": [
+              1.35,
+              0.16,
+              0.98
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ],
+            "needle": 0.0584140021593621
+          },
+          {
+            "id": "coupling",
+            "type": "driveCoupler",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 99.31227433355693,
+              "y": -72.81845268977769
+            },
+            "target": {
+              "x": 99.31227433355693,
+              "y": -72.81845268977769
+            },
+            "position": [
+              0,
+              0.475,
+              -0.3
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          },
+          {
+            "id": "connections",
+            "type": "stationHoses",
+            "placed": true,
+            "available": true,
+            "visible": true,
+            "screen": {
+              "x": 78.59163327096711,
+              "y": -12.733005197332348
+            },
+            "target": {
+              "x": 78.59163327096711,
+              "y": -12.733005197332348
+            },
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              "XYZ"
+            ]
+          }
+        ],
+        "angle": 1.6249999999999076,
+        "fluidVisible": false,
+        "floorVisible": true,
+        "bolts": [
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 220.82474811633125,
+              "y": -75.20737470117938
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": -18.014596353233223,
+              "y": -61.27868956667623
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": 180.2973316315205,
+              "y": 64.0160114386321
+            }
+          },
+          {
+            "done": true,
+            "turn": 1,
+            "screen": {
+              "x": -151.68755428224063,
+              "y": 90.2475902499826
+            }
+          }
+        ],
+        "calls": 151,
+        "triangles": 267344
+      },
+      "station": {
+        "built": 5,
+        "online": true,
+        "finalReady": true
+      }
+    }
+  ],
+  "errors": [],
+  "finalSave": {
+    "completed": {
+      "0": true,
+      "2": true
+    },
+    "storyCompleted": {
+      "pip": true
+    },
+    "stationModules": {
+      "gearbox": {
+        "parts": {
+          "housing": 1,
+          "shaft": 2,
+          "cog": 2,
+          "cover": 1
+        },
+        "assembly": {
+          "placed": 6,
+          "bolts": 4,
+          "boltMask": 15,
+          "finished": true
+        }
+      },
+      "motor": {
+        "parts": {
+          "engineBlock": 1,
+          "crank": 1,
+          "piston": 2,
+          "flywheel": 1,
+          "engineHead": 1
+        },
+        "assembly": {
+          "placed": 6,
+          "bolts": 4,
+          "boltMask": 15,
+          "finished": true
+        }
+      },
+      "generator": {
+        "parts": {
+          "genCap": 1,
+          "genFrame": 1,
+          "coil": 2,
+          "rotor": 1
+        },
+        "assembly": {
+          "placed": 5,
+          "bolts": 4,
+          "boltMask": 15,
+          "finished": true
+        }
+      },
+      "cooling": {
+        "parts": {
+          "radiator": 1,
+          "coolantTank": 1,
+          "pump": 1,
+          "coolantPipe": 2,
+          "fan": 1
+        },
+        "assembly": {
+          "placed": 6,
+          "bolts": 4,
+          "boltMask": 15,
+          "finished": true
+        }
+      },
+      "control": {
+        "parts": {
+          "console": 1,
+          "circuit": 2,
+          "meter": 2,
+          "lever": 1,
+          "harness": 1
+        },
+        "assembly": {
+          "placed": 7,
+          "bolts": 4,
+          "boltMask": 15,
+          "finished": true
+        }
+      }
+    },
+    "stationAssembly": {
+      "placed": 7,
+      "bolts": 4,
+      "boltMask": 15,
+      "finished": true
+    },
+    "stationCurrent": "station",
+    "gearboxAssembly": {
+      "placed": 6,
+      "bolts": 4,
+      "boltMask": 15,
+      "finished": true
+    },
+    "stationOnline": true
+  }
+}
