@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-29T10:44:10.171Z",
+  "method": "Explicit isolated body-position fixtures, not a player walkthrough.",
+  "checks": [
+    "Wrong product on transfer pad is named and cannot be loaded",
+    "Two adjacent pallets in transfer area block loading",
+    "Removing wrong pallet allows native correct product; forklift approaches actual off-center cargo position"
+  ]
+}

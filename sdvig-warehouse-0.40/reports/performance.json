@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-29T10:40:13.689Z",
+  "description": "Node CPU full warehouse simulation step only, 20 whole-pallet bodies, worker pathfinding and crane; 10s idle +50s movement. No hardware FPS claim.",
+  "idle": {
+    "medianMs": 0.029303999999996222,
+    "p95Ms": 0.11539300000001163,
+    "maxMs": 4.9358820000000065
+  },
+  "active": {
+    "medianMs": 0.024185999999986052,
+    "p95Ms": 0.0626749999999845,
+    "maxMs": 0.4215030000000013
+  }
+}

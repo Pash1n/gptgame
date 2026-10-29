@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-29T10:46:15.945Z",
+  "renderer": "Chromium SwiftShader software GPU, frozen RAF and native target-driven gameplay; no hardware FPS claim",
+  "checks": [
+    "Real mouse ray pick requests worker, worker reaches pallet and rigs it",
+    "Native Jolt pickup and travel, suspended release blocked, real detach button, worker unrig and forklift loading",
+    "Physical WASD key events move target; mouse selection does not drive crane",
+    "Resume clears focused menu button; space cannot reopen it",
+    "Controls fit 320x568",
+    "Controls fit 390x844",
+    "Controls fit 844x390",
+    "Real CDP two-finger gesture moves crane and adjusts hoist independently"
+  ],
+  "stats": {
+    "fps": 0,
+    "physicsMs": 0,
+    "frameMs": 0,
+    "drawCalls": 131,
+    "triangles": 121168,
+    "geometries": 152
+  },
+  "errors": []
+}
