@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-29T15:12:27.682Z",
+  "checks": [
+    "First launch defaults to sharp quality",
+    "Manual quality selection persists across reload",
+    "Physical supplier load depresses chassis; detailed sprung body and grounded wheels render",
+    "Loaded supplier and suspension survive actual browser reload"
+  ],
+  "errors": [],
+  "renderer": "Chromium SwiftShader, no hardware FPS evidence"
+}
