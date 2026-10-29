@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-29T15:28:32.559Z",
+  "checks": [
+    "Real inspection menu opens detailed crane; barrel rotates when cable length changes",
+    "WASD exits inspection and restores working camera",
+    "Quiet unframed corner status, no floating hints at 1360x800",
+    "Quiet unframed corner status, no floating hints at 320x568",
+    "Quiet unframed corner status, no floating hints at 390x844",
+    "Quiet unframed corner status, no floating hints at 844x390"
+  ],
+  "errors": [],
+  "renderer": "Chromium SwiftShader; actual WebGL screenshots, not hardware FPS proof"
+}

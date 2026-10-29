@@ -1,0 +1,1 @@
+Jolt Physics.js 1.1.1 from npm jolt-physics. Release single-thread WebAssembly compat build, unmodified. Embedded WASM, no external runtime file or cross-origin isolation requirement. MIT license in LICENSE. npm tarball SHA1: 0c1e01d544fb76a0e887b25ba15f9949be2681f5. Upstream: https://github.com/jrouwe/JoltPhysics.js . types.d.ts is upstream API reference.
