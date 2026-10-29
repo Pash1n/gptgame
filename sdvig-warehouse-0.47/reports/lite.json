@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-29T17:34:03.050Z",
+  "checks": [
+    "Scene uses baked/basic materials: zero lights, zero PBR meshes, shadow mapping off and no postprocessing",
+    "Batched worker still deforms while walking; actual purchased cargo and saved suspension remain",
+    "Native hook, hoist, placement and detach work with new baked render path",
+    "Controls fit 320x568, 390x844 and 844x390; corner hints remain unobtrusive",
+    "Blur/Continue works; unchanged scene skips drawing while RAF and game clock continue"
+  ],
+  "info": {
+    "lights": 0,
+    "pbr": 0,
+    "basic": 100,
+    "skinSamples": [
+      [
+        0,
+        0.9503591247009378,
+        0
+      ],
+      [
+        0,
+        0.9903591461586099,
+        0.12036000192165375
+      ],
+      [
+        0.007499999832361937,
+        1.330359179537211,
+        0.15199999511241913
+      ],
+      [
+        0,
+        1.4553590603279214,
+        0.06499999761581421
+      ],
+      [
+        0,
+        1.7391591854499917,
+        0
+      ],
+      [
+        0.0949999988079071,
+        1.5453590937065225,
+        0.11699999868869781
+      ],
+      [
+        -0.193381205201149,
+        0.8602592826485492,
+        0.1057560765237886
+      ],
+      [
+        0.027499999850988388,
+        0.9843591638015847,
+        0.14249999821186066
+      ],
+      [
+        -0.03279274329543114,
+        0.11056639091244747,
+        0.20520725846290588
+      ]
+    ],
+    "shadows": false
+  },
+  "stats": {
+    "fps": 39.416633819703286,
+    "physicsMs": 0.09999999403953552,
+    "frameMs": 0.29999998211860657,
+    "shadowUpdates": 0,
+    "renderFrames": 51,
+    "workerPose": {
+      "time": 85.04999999999632,
+      "walk": 0.0000010700242392348184,
+      "rig": 0,
+      "turnPhase": 0,
+      "hipShiftX": 1.2839149376466723e-8,
+      "hipY": 0.8722498738515577,
+      "torsoPitch": 5.885133315791501e-8,
+      "torsoRoll": 1.9258724064700084e-8,
+      "twist": 2.9958015211755687e-8,
+      "headPitch": -2.675060598087046e-8,
+      "legs": [
+        {
+          "hip": -0.1582797778761838,
+          "knee": 0.31655940660055826,
+          "ankle": -0.15827962872437445,
+          "targetZ": 5.8914958545566075e-8,
+          "targetY": 0.08,
+          "stance": true
+        },
+        {
+          "hip": -0.15828064356237057,
+          "knee": 0.31656161630577967,
+          "ankle": -0.158281001745982,
+          "targetZ": -1.3002647372667247e-7,
+          "targetY": 0.08000013931767429,
+          "stance": false
+        }
+      ],
+      "arms": [
+        {
+          "shoulder": -4.565605597927313e-9,
+          "elbow": -0.18000010700242391,
+          "wrist": 0
+        },
+        {
+          "shoulder": 4.565605597927271e-9,
+          "elbow": -0.18000010700242391,
+          "wrist": 0
+        }
+      ]
+    },
+    "drawCalls": 92,
+    "triangles": 112924,
+    "renderPixels": 329160,
+    "shadowMaps": 0,
+    "postPasses": 0,
+    "workerBatches": 9,
+    "skippedFrames": 73,
+    "geometries": 105
+  },
+  "errors": [],
+  "renderer": "Chromium SwiftShader; emulated viewports, not physical phones"
+}

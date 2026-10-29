@@ -1,0 +1,310 @@
+{
+  "date": "2026-10-29T17:35:21.801Z",
+  "method": "Same 1360x800, DPR1, sharp, view(7,19), two real purchased motor pallets, 12 frames each, gl.finish and synchronous readPixels wait for rendered pixel. SwiftShader software GPU; not hardware FPS or gameplay RAF measurement.",
+  "results": [
+    {
+      "version": "0.46",
+      "idleForced": {
+        "medianMs": 1535.2999999821186,
+        "p95Ms": 8577.100000023842,
+        "minMs": 1391.5,
+        "samples": [
+          1391.5,
+          1418.9000000059605,
+          1443.699999988079,
+          1493.1000000238419,
+          1496.5,
+          1526.9000000059605,
+          1535.2999999821186,
+          1547.800000011921,
+          1554.5999999940395,
+          1599.5,
+          1611,
+          8577.100000023842
+        ],
+        "stats": {
+          "fps": 1.904761904761903,
+          "physicsMs": 0.9000000059604645,
+          "frameMs": 3.199999988079071,
+          "shadowUpdates": 24,
+          "renderFrames": 33,
+          "workerPose": {
+            "time": 12.166666666666675,
+            "walk": 0,
+            "rig": 0,
+            "turnPhase": 0,
+            "hipShiftX": 0,
+            "hipY": 0.8702730672485995,
+            "torsoPitch": 0,
+            "torsoRoll": 0,
+            "twist": 0,
+            "headPitch": 0,
+            "legs": [
+              {
+                "hip": -0.15827904992482136,
+                "knee": 0.3165580998496427,
+                "ankle": -0.15827904992482136,
+                "targetZ": 0,
+                "targetY": 0.08,
+                "stance": true
+              },
+              {
+                "hip": -0.15827904992482136,
+                "knee": 0.3165580998496427,
+                "ankle": -0.15827904992482136,
+                "targetZ": 0,
+                "targetY": 0.08,
+                "stance": true
+              }
+            ],
+            "arms": [
+              {
+                "shoulder": 0,
+                "elbow": -0.18,
+                "wrist": 0
+              },
+              {
+                "shoulder": 0,
+                "elbow": -0.18,
+                "wrist": 0
+              }
+            ]
+          },
+          "drawCalls": 358,
+          "triangles": 807972,
+          "geometries": 121
+        }
+      },
+      "movingCrane": {
+        "medianMs": 1585.0999999940395,
+        "p95Ms": 5991.800000011921,
+        "minMs": 1449.300000011921,
+        "samples": [
+          1449.300000011921,
+          1482.699999988079,
+          1548.8999999761581,
+          1557.5999999940395,
+          1567.2999999821186,
+          1583.0999999940395,
+          1585.0999999940395,
+          1587.2999999821186,
+          1599,
+          1612.1000000238419,
+          1817.5999999940395,
+          5991.800000011921
+        ],
+        "stats": {
+          "fps": 1.904761904761903,
+          "physicsMs": 0.9000000059604645,
+          "frameMs": 3.199999988079071,
+          "shadowUpdates": 39,
+          "renderFrames": 48,
+          "workerPose": {
+            "time": 12.416666666666687,
+            "walk": 0,
+            "rig": 0,
+            "turnPhase": 0,
+            "hipShiftX": 0,
+            "hipY": 0.8689464028400026,
+            "torsoPitch": 0,
+            "torsoRoll": 0,
+            "twist": 0,
+            "headPitch": 0,
+            "legs": [
+              {
+                "hip": -0.15827904992482136,
+                "knee": 0.3165580998496427,
+                "ankle": -0.15827904992482136,
+                "targetZ": 0,
+                "targetY": 0.08,
+                "stance": true
+              },
+              {
+                "hip": -0.15827904992482136,
+                "knee": 0.3165580998496427,
+                "ankle": -0.15827904992482136,
+                "targetZ": 0,
+                "targetY": 0.08,
+                "stance": true
+              }
+            ],
+            "arms": [
+              {
+                "shoulder": 0,
+                "elbow": -0.18,
+                "wrist": 0
+              },
+              {
+                "shoulder": 0,
+                "elbow": -0.18,
+                "wrist": 0
+              }
+            ]
+          },
+          "drawCalls": 360,
+          "triangles": 807976,
+          "geometries": 122
+        }
+      },
+      "renderer": "WebKit WebGL",
+      "pixels": 1088000
+    },
+    {
+      "version": "0.47",
+      "idleForced": {
+        "medianMs": 185.80000001192093,
+        "p95Ms": 1034.699999988079,
+        "minMs": 150.19999998807907,
+        "samples": [
+          150.19999998807907,
+          159.80000001192093,
+          175.89999997615814,
+          183.19999998807907,
+          183.60000002384186,
+          185.69999998807907,
+          185.80000001192093,
+          186.2000000178814,
+          186.69999998807907,
+          189.7000000178814,
+          201.69999998807907,
+          1034.699999988079
+        ],
+        "stats": {
+          "fps": 0.8571727357353598,
+          "physicsMs": 0.30000001192092896,
+          "frameMs": 0.5,
+          "shadowUpdates": 0,
+          "renderFrames": 49,
+          "workerPose": {
+            "time": 12.216666666666677,
+            "walk": 0,
+            "rig": 0,
+            "turnPhase": 0,
+            "hipShiftX": 0,
+            "hipY": 0.870003445724628,
+            "torsoPitch": 0,
+            "torsoRoll": 0,
+            "twist": 0,
+            "headPitch": 0,
+            "legs": [
+              {
+                "hip": -0.15827904992482136,
+                "knee": 0.3165580998496427,
+                "ankle": -0.15827904992482136,
+                "targetZ": 0,
+                "targetY": 0.08,
+                "stance": true
+              },
+              {
+                "hip": -0.15827904992482136,
+                "knee": 0.3165580998496427,
+                "ankle": -0.15827904992482136,
+                "targetZ": 0,
+                "targetY": 0.08,
+                "stance": true
+              }
+            ],
+            "arms": [
+              {
+                "shoulder": 0,
+                "elbow": -0.18,
+                "wrist": 0
+              },
+              {
+                "shoulder": 0,
+                "elbow": -0.18,
+                "wrist": 0
+              }
+            ]
+          },
+          "drawCalls": 108,
+          "triangles": 118028,
+          "renderPixels": 1088000,
+          "shadowMaps": 0,
+          "postPasses": 0,
+          "workerBatches": 9,
+          "skippedFrames": 5,
+          "geometries": 101
+        }
+      },
+      "movingCrane": {
+        "medianMs": 175.5,
+        "p95Ms": 706.4000000059605,
+        "minMs": 156.60000002384186,
+        "samples": [
+          156.60000002384186,
+          157.69999998807907,
+          158.59999999403954,
+          167.40000000596046,
+          171.40000000596046,
+          173.5,
+          175.5,
+          177.5,
+          186,
+          187.30000001192093,
+          197.10000002384186,
+          706.4000000059605
+        ],
+        "stats": {
+          "fps": 0.8571727357353598,
+          "physicsMs": 0.30000001192092896,
+          "frameMs": 0.5,
+          "shadowUpdates": 0,
+          "renderFrames": 64,
+          "workerPose": {
+            "time": 12.46666666666669,
+            "walk": 0,
+            "rig": 0,
+            "turnPhase": 0,
+            "hipShiftX": 0,
+            "hipY": 0.868698206951149,
+            "torsoPitch": 0,
+            "torsoRoll": 0,
+            "twist": 0,
+            "headPitch": 0,
+            "legs": [
+              {
+                "hip": -0.15827904992482136,
+                "knee": 0.3165580998496427,
+                "ankle": -0.15827904992482136,
+                "targetZ": 0,
+                "targetY": 0.08,
+                "stance": true
+              },
+              {
+                "hip": -0.15827904992482136,
+                "knee": 0.3165580998496427,
+                "ankle": -0.15827904992482136,
+                "targetZ": 0,
+                "targetY": 0.08,
+                "stance": true
+              }
+            ],
+            "arms": [
+              {
+                "shoulder": 0,
+                "elbow": -0.18,
+                "wrist": 0
+              },
+              {
+                "shoulder": 0,
+                "elbow": -0.18,
+                "wrist": 0
+              }
+            ]
+          },
+          "drawCalls": 109,
+          "triangles": 118030,
+          "renderPixels": 1088000,
+          "shadowMaps": 0,
+          "postPasses": 0,
+          "workerBatches": 9,
+          "skippedFrames": 5,
+          "geometries": 102
+        }
+      },
+      "renderer": "WebKit WebGL",
+      "pixels": 1088000
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-29T17:38:03.155Z",
+  "method": "Only purchase/sale commands, normal crane targets, rigging, detach, fixed stepping and serialized save reloads; no cargo position or money edits.",
+  "checks": [
+    "Real debit, quantity validation, incoming capacity reservation and single truck guard",
+    "Save/restore an arriving supplier, exactly two real physical pallets on trailer",
+    "Both pallets physically lifted from truck and accepted only after placement in warehouse bays",
+    "Sale reserves exact cargo; payment is withheld until loading and departure",
+    "Two interchangeable trailer slots, real crane loads, automatic unrigging, trailer departure, one-time settlement and exact profit",
+    "Second product, repeated purchases, all four storage places filled and over-capacity rejected",
+    "Pause preserves economy and physics; all worlds disposed"
+  ],
+  "trace": [
+    {
+      "id": "cargo-1-0",
+      "x": 1,
+      "z": -2.5,
+      "cash": 700,
+      "trade": {
+        "kind": "buy",
+        "type": "motors",
+        "count": 2,
+        "number": 1,
+        "spawned": true,
+        "ids": [
+          "cargo-1-0",
+          "cargo-1-1"
+        ],
+        "price": 1300,
+        "loaded": 2
+      },
+      "worker": "idle"
+    },
+    {
+      "id": "cargo-1-1",
+      "x": 6,
+      "z": -2.5,
+      "cash": 700,
+      "trade": null,
+      "worker": "idle"
+    },
+    {
+      "id": "cargo-1-0",
+      "x": 15.6,
+      "z": -1.55,
+      "cash": 700,
+      "trade": {
+        "kind": "sell",
+        "type": "motors",
+        "count": 2,
+        "number": 2,
+        "ids": [
+          "cargo-1-0",
+          "cargo-1-1"
+        ],
+        "price": 1780,
+        "cost": 1300,
+        "loaded": 1,
+        "spawned": true
+      },
+      "worker": "idle"
+    },
+    {
+      "id": "cargo-1-1",
+      "x": 13.2,
+      "z": -1.55,
+      "cash": 700,
+      "trade": {
+        "kind": "sell",
+        "type": "motors",
+        "count": 2,
+        "number": 2,
+        "ids": [
+          "cargo-1-0",
+          "cargo-1-1"
+        ],
+        "price": 1780,
+        "cost": 1300,
+        "loaded": 2,
+        "spawned": true
+      },
+      "worker": "idle"
+    },
+    {
+      "id": "cargo-3-0",
+      "x": 1,
+      "z": 1.1,
+      "cash": 1840,
+      "trade": {
+        "kind": "buy",
+        "type": "crates",
+        "count": 2,
+        "number": 3,
+        "spawned": true,
+        "ids": [
+          "cargo-3-0",
+          "cargo-3-1"
+        ],
+        "price": 640,
+        "loaded": 2
+      },
+      "worker": "idle"
+    },
+    {
+      "id": "cargo-3-1",
+      "x": 6,
+      "z": 1.1,
+      "cash": 1840,
+      "trade": null,
+      "worker": "idle"
+    },
+    {
+      "id": "cargo-4-0",
+      "x": 1,
+      "z": -2.5,
+      "cash": 1200,
+      "trade": {
+        "kind": "buy",
+        "type": "crates",
+        "count": 2,
+        "number": 4,
+        "spawned": true,
+        "ids": [
+          "cargo-4-0",
+          "cargo-4-1"
+        ],
+        "price": 640,
+        "loaded": 2
+      },
+      "worker": "idle"
+    },
+    {
+      "id": "cargo-4-1",
+      "x": 6,
+      "z": -2.5,
+      "cash": 1200,
+      "trade": null,
+      "worker": "idle"
+    }
+  ]
+}

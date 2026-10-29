@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-29T17:38:02.108Z",
+  "renderer": "Chromium SwiftShader software GPU, 1360x800 DPR1 sharp; not a claim about user hardware.",
+  "results": [
+    {
+      "version": "0.46",
+      "frames": 2,
+      "medianIntervalMs": 2483.2000000000007,
+      "p95IntervalMs": 2483.2000000000007,
+      "stats": {
+        "fps": 0.4027061855670102,
+        "physicsMs": 0.4000000059604645,
+        "frameMs": 4.699999988079071,
+        "shadowUpdates": 4,
+        "renderFrames": 7,
+        "workerPose": {
+          "time": 0.15,
+          "walk": 0,
+          "rig": 0,
+          "turnPhase": 0,
+          "hipShiftX": 0,
+          "hipY": 0.8708001943100665,
+          "torsoPitch": 0,
+          "torsoRoll": 0,
+          "twist": 0,
+          "headPitch": 0,
+          "legs": [
+            {
+              "hip": -0.15827904992482136,
+              "knee": 0.3165580998496427,
+              "ankle": -0.15827904992482136,
+              "targetZ": 0,
+              "targetY": 0.08,
+              "stance": true
+            },
+            {
+              "hip": -0.15827904992482136,
+              "knee": 0.3165580998496427,
+              "ankle": -0.15827904992482136,
+              "targetZ": 0,
+              "targetY": 0.08,
+              "stance": true
+            }
+          ],
+          "arms": [
+            {
+              "shoulder": 0,
+              "elbow": -0.18,
+              "wrist": 0
+            },
+            {
+              "shoulder": 0,
+              "elbow": -0.18,
+              "wrist": 0
+            }
+          ]
+        },
+        "drawCalls": 274,
+        "triangles": 354600,
+        "geometries": 103
+      },
+      "method": "Actual RAF and alternating normal crane targets, empty warehouse, four seconds."
+    },
+    {
+      "version": "0.47",
+      "frames": 21,
+      "medianIntervalMs": 183.4000000000001,
+      "p95IntervalMs": 200,
+      "stats": {
+        "fps": 5.217391304347826,
+        "physicsMs": 0.20000001788139343,
+        "frameMs": 1.7000000178813934,
+        "shadowUpdates": 0,
+        "renderFrames": 25,
+        "workerPose": {
+          "time": 0.8166666666666675,
+          "walk": 0,
+          "rig": 0,
+          "turnPhase": 0,
+          "hipShiftX": 0,
+          "hipY": 0.8729847730493328,
+          "torsoPitch": 0,
+          "torsoRoll": 0,
+          "twist": 0,
+          "headPitch": 0,
+          "legs": [
+            {
+              "hip": -0.15827904992482136,
+              "knee": 0.3165580998496427,
+              "ankle": -0.15827904992482136,
+              "targetZ": 0,
+              "targetY": 0.08,
+              "stance": true
+            },
+            {
+              "hip": -0.15827904992482136,
+              "knee": 0.3165580998496427,
+              "ankle": -0.15827904992482136,
+              "targetZ": 0,
+              "targetY": 0.08,
+              "stance": true
+            }
+          ],
+          "arms": [
+            {
+              "shoulder": 0,
+              "elbow": -0.18,
+              "wrist": 0
+            },
+            {
+              "shoulder": 0,
+              "elbow": -0.18,
+              "wrist": 0
+            }
+          ]
+        },
+        "drawCalls": 77,
+        "triangles": 56242,
+        "renderPixels": 1088000,
+        "shadowMaps": 0,
+        "postPasses": 0,
+        "workerBatches": 9,
+        "skippedFrames": 2,
+        "geometries": 83
+      },
+      "method": "Actual RAF and alternating normal crane targets, empty warehouse, four seconds."
+    }
+  ]
+}

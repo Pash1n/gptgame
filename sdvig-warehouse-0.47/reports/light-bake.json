@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-29T17:28:51.835Z",
+  "method": "Offline BVH ray tracing of static architecture, 3 rays per texel, ambient corner falloff; no shadow calculation in runtime.",
+  "width": 1024,
+  "height": 512,
+  "triangles": 33360,
+  "litFraction": 0.34844525655111663
+}
