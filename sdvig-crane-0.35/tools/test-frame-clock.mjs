@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';import{FrameClock}from'../src/frame-clock.js';
+const count=(rate,seconds=10)=>{const c=new FrameClock();let frames=0;for(let i=1;i<=rate*seconds;i++)if(c.sample(i*1000/rate)!==null)frames++;return frames;};
+test('60, 120 and 144 Hz callbacks retain a 60 Hz render cadence',()=>{for(const rate of[60,120,144])assert(Math.abs(count(rate)-600)<=1,rate);});
+test('jittered 60 Hz does not repeatedly discard the early callback',()=>{const c=new FrameClock();let t=0,frames=0,old=0,last=0;for(let i=0;i<600;i++){t+=i%2?17.5:15.8333333333333;if(t-last>=1000/60-.6){old++;last=t;}if(c.sample(t)!==null)frames++;}assert(frames>=590,frames);assert(old<400,old);console.log({jitterFramesNew:frames,jitterFrames032:old});});
+test('long stalls have bounded physics dt and no catch-up render storm',()=>{const c=new FrameClock();const dt=c.sample(600000);assert.equal(dt,.04);assert.equal(c.rawDelta,600);assert.equal(c.sample(600001),null);c.reset(600010);assert.equal(c.sample(600026.667)>.016,true);});
+test('reset after suspension discards all wall time',()=>{const c=new FrameClock();c.sample(17);c.reset(300000);assert.equal(c.sample(300005),null);assert(Math.abs(c.sample(300016.667)-.016667)<1e-6);});

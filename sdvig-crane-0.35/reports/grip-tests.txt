@@ -1,0 +1,13 @@
+✔ quiet suspended three-part load survives twenty seconds (719.533715ms)
+✔ gentle continuous travel carries the same three-part load without a break (773.047568ms)
+✔ repeated hard crane reversals physically break a weak link and warn first (557.289923ms)
+✔ breaking a middle link releases descendants only, preserving exact velocities (152.238181ms)
+✔ magnet grip is stronger than secondary grip, load below a link counts (148.068358ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2360.012445

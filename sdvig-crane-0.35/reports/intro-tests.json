@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "Fresh normal game explains the rescue/repair goal in the workshop",
+    "Start rescue returns to the crane with no pause overlay",
+    "Only chapter one is initially unlocked",
+    "Intro is not forced again on reload"
+  ],
+  "errors": []
+}

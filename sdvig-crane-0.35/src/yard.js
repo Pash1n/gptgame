@@ -1,0 +1,34 @@
+import * as THREE from 'three';
+import {makeShadowProxy} from './performance.js';
+import {WORKSHOP_FLOOR_Y} from './physics.js';
+export const GROUND_Y=WORKSHOP_FLOOR_Y;
+function ownDispose(root){root.traverse(o=>{if(o.isMesh)o.geometry.dispose();});}
+export function makeYard(m,models){
+ const root=new THREE.Group(),stationary=new THREE.Group(),supports=new models.Builder(),floorMap=m.floor.map.clone();floorMap.repeat.set(7,8);floorMap.needsUpdate=true;
+ const floor=new THREE.Mesh(new THREE.PlaneGeometry(48,52),new THREE.MeshStandardMaterial({color:'#e5ddc7',map:floorMap,roughness:.98,metalness:.025,transparent:true}));floor.material.onBeforeCompile=shader=>{shader.vertexShader=shader.vertexShader.replace('#include <common>','#include <common>\nvarying vec2 vFloorWorld;').replace('#include <begin_vertex>','#include <begin_vertex>\nvFloorWorld=(modelMatrix*vec4(position,1.0)).xz;');shader.fragmentShader=shader.fragmentShader.replace('#include <common>','#include <common>\nvarying vec2 vFloorWorld;').replace('#include <alphatest_fragment>','diffuseColor.a*=(1.0-smoothstep(17.0,24.0,abs(vFloorWorld.x)))*(1.0-smoothstep(17.0,26.0,abs(vFloorWorld.y)));\n#include <alphatest_fragment>');};floor.material.customProgramCacheKey=()=> 'yard-floor';floor.rotation.x=-Math.PI/2;floor.position.y=GROUND_Y;floor.receiveShadow=true;floor.userData.noShadowProxy=true;root.add(stationary);stationary.add(floor);
+ for(const x of[-5.8,0,5.8])for(const z of[-4.15,4.15]){supports.box(.64,.12,.64,m.rust,[x,-1.44,z]);supports.box(.27,.66,.29,m.iron,[x,-1.05,z]);for(const X of[-.22,.22])for(const Z of[-.22,.22])supports.cyl(.035,.035,.05,m.brass,[x+X,-1.355,z+Z],undefined,6);}
+ for(const z of[-4.15,4.15]){supports.box(12.0,.18,.22,m.rust,[0,-.72,z]);supports.box(10.8,.11,.10,m.iron,[0,-1.05,z]);}for(const x of[-5.8,5.8])supports.box(.22,.18,8.4,m.rust,[x,-.72,0]);
+ stationary.add(supports.build());
+ const pad=new models.Builder();pad.box(7.4,.10,10.4,m.rust,[0,GROUND_Y+.05,-10.5],undefined,.03);pad.box(7.05,.06,10.05,m.floor,[0,GROUND_Y+.13,-10.5],undefined,.02);for(const x of[-3.6,3.6])pad.box(.14,.025,10.4,m.hazard,[x,GROUND_Y+.12,-10.5]);stationary.add(pad.build());
+ const carrier=new THREE.Group();carrier.position.set(0,GROUND_Y+.16,-8.8);root.add(carrier);let body=null,carrierShadow=null,legs=[],eyes=[],stage=0,ids=[],launchAt=null;
+ const workers=[0,1,2,0].map((v,i)=>{const actor=models.item('robot',v);actor.position.set(-3.0+i*1.9,.71,-6.3);actor.rotation.y=Math.PI+(i-1)*.2;root.add(actor);actor.traverse(o=>{if(o.isMesh){o.castShadow=false;o.receiveShadow=false;}});return actor;});
+ function rebuild(state){stage=state.count;ids=state.ids;launchAt=null;if(carrierShadow){carrier.remove(carrierShadow);carrierShadow.geometry.dispose();}if(body){carrier.remove(body);ownDispose(body);}body=new THREE.Group();carrier.add(body);legs=[];eyes=[];
+  const b=new models.Builder();b.box(4.2,.32,2.3,m.iron,[0,1.24,0],undefined,.12);for(const x of[-1.65,1.65])b.box(.25,.42,2.5,m.rust,[x,1.25,0]);for(const z of[-.88,.88])b.box(3.7,.16,.16,m.brass,[0,1.48,z]);
+  if(stage<6)for(const x of[-1.4,1.4]){b.box(.6,.16,1.6,m.rust,[x,.09,0]);b.box(.24,.95,.3,m.iron,[x,.56,0]);}
+  if(stage>=2){b.cyl(.38,.38,1.3,m.iron,[-.8,1.63,0],[0,0,Math.PI/2]);b.box(.66,.64,.85,m.teal,[-.7,1.65,0],undefined,.10);for(let i=0;i<4;i++)b.box(.48,.035,.04,m.brass,[-.7,1.5+i*.1,.45]);}
+  if(stage>=3){for(const x of[-1.4,1.4])b.cyl(.21,.21,1.5,m.brass,[x,1.25,0],[Math.PI/2,0,0]);}
+  if(stage>=5){b.box(.8,.52,.72,m.ivory,[.6,1.62,0],undefined,.07);for(let i=0;i<3;i++)b.box(.07,.15,.03,m.cyan,[.4+i*.15,1.68,.38]);}
+  if(stage>=8){b.box(3.4,.12,.45,m.iron,[0,1.95,-.82]);for(const x of[-1.3,1.3])b.cyl(.055,.055,.34,m.brass,[x,1.75,-.82]);b.box(3.8,.14,2.1,m.teal,[0,1.56,0],undefined,.05);for(const x of[-1.75,1.75])b.box(.09,.4,1.8,m.brass,[x,1.8,0]);}
+  if(stage>=9){b.box(2.1,1.05,1.4,m.ivory,[0,2.15,.38],undefined,.24);b.box(2.26,.13,1.58,m.teal,[0,2.72,.38],undefined,.07);for(const x of[-.46,.46]){b.cyl(.29,.32,.11,m.brass,[x,2.27,1.12],[Math.PI/2,0,0]);b.ball(.25,m.lens,[x,2.27,1.2],[1,1,.52]);b.ball(.13,m.pupil,[x,2.27,1.34],[1,1,.4]);b.ball(.045,m.glint,[x-.055,2.33,1.40]);}b.box(.55,.05,.05,m.black,[0,1.98,1.12],undefined,.015);}
+  body.add(b.build());
+  for(let i=0;i<4;i++){if(stage<(i<2?4:6))continue;const leg=new THREE.Group(),q=new models.Builder();leg.position.set(i%2?1.55:-1.55,1.23,i<2?.72:-.72);q.ball(.20,m.brass,[0,0,0]);q.cyl(.12,.12,.68,m.steel,[0,-.38,0]);q.cyl(.19,.19,.37,m.teal,[0,-.22,0]);q.ball(.16,m.iron,[0,-.72,0]);q.cyl(.10,.10,.28,m.steel,[0,-.93,0]);q.box(.68,.22,.72,m.rust,[0,-1.12,.11],undefined,.08);leg.add(q.build());body.add(leg);legs.push(leg);}
+  body.traverse(o=>{if(o.isMesh){o.castShadow=false;o.receiveShadow=false;}});carrierShadow=makeShadowProxy(body,false);carrier.add(carrierShadow);
+ }
+ function update(time,state,inspect,launch=false){if(state.count!==stage||state.ids.join('|')!==ids.join('|'))rebuild(state);if(launch&&launchAt===null)launchAt=time;const elapsed=launchAt===null?0:Math.max(0,time-launchAt),walking=state.finished&&elapsed>1.4&&elapsed<11;
+  carrier.position.set(walking?Math.sin(elapsed*.35)*.3:0,GROUND_Y+.16+(walking?Math.sin(elapsed*6)*.025:0),-8.8-(launchAt!==null?Math.min(3.6,Math.max(0,elapsed-1.4)*.38):0));for(let i=0;i<legs.length;i++){legs[i].rotation.x=walking?Math.sin(elapsed*5+(i%2)*Math.PI+(i>1?Math.PI:0))*.24:stage>=6?Math.sin(time*1.4+i)*.015:0;}
+  let n=0;for(let i=0;i<workers.length;i++){const visible=i<state.crew.length;const actor=workers[i];actor.visible=visible&&inspect;if(!visible)continue;if(launchAt!==null&&elapsed>1){actor.position.set(-1.35+n*.9,carrier.position.y+2.465,carrier.position.z-.82);actor.rotation.y=0;actor.rotation.z=Math.sin(time*3+i)*.025;actor.scale.setScalar(.65);}else{actor.scale.setScalar(1);actor.rotation.y=Math.PI+(i-1)*.2;actor.position.set(-3.0+n*1.9,GROUND_Y+.71,-6.3);actor.rotation.z=Math.sin(time*2.5+i)*.04;if(actor.userData.antenna)actor.userData.antenna.rotation.z=Math.sin(time*9+i)*.14;}if(actor.userData.eyes)for(const eye of actor.userData.eyes)eye.scale.y=(time+i*.6)%5.5>5.3?.15:1;n++;}
+  return{stage,crew:state.crew.length,walking,launchElapsed:elapsed,position:carrier.position.toArray()};
+ }
+ rebuild({count:0,ids:[],crew:[]});return{root,stationary,carrier,floor,update,rebuild,resetLaunch:()=>{launchAt=null;},groundY:GROUND_Y,supportBottom:GROUND_Y,platformUnderside:-.705};
+}
+export function makeObstacles(items,m,models){const b=new models.Builder();for(const p of items){b.box(p.w,p.h,p.d,m.iron,[p.x,p.y,p.z],undefined,.06);b.box(p.w+.02,.10,p.d,m.hazard,[p.x,p.y+p.h/2+.05,p.z]);if(p.kind==='gate'){for(const z of[p.z-p.d/2+.12,p.z+p.d/2-.12])b.box(.44,p.h,.18,m.rust,[p.x,p.y,z]);for(let y=.3;y<5;y+=.8)b.box(.04,.045,p.d-.4,m.steel,[p.x+.20,y,p.z]);}else b.box(p.w+.18,.10,p.d+.18,m.rust,[p.x,.0,p.z]);}return b.build();}

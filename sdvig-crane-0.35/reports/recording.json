@@ -1,0 +1,18 @@
+{
+  "frames": 44,
+  "visualSeconds": 11,
+  "playbackSeconds": 6.16,
+  "speed": 1.7857142857142856,
+  "method": "Actual workshop scene animation, loading completed progress from the physically verified ten-chapter browser playthrough. Carrier is an animated story object, not a rigid-body vehicle. No manipulated cargo or forced chapter completion in this capture.",
+  "end": {
+    "stage": 10,
+    "crew": 4,
+    "walking": false,
+    "launchElapsed": 11.000000000000016,
+    "position": [
+      0,
+      -1.34,
+      -12.4
+    ]
+  }
+}

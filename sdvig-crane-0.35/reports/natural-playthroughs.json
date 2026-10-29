@@ -1,0 +1,1139 @@
+{
+  "date": "2026-10-29T04:07:03.104Z",
+  "method": "Only crane targets, height, magnet switch and physics time; no cargo teleportation or forced grip",
+  "jobs": [
+    {
+      "job": 1,
+      "won": true,
+      "delivered": {
+        "robot": 2,
+        "gear": 1
+      },
+      "simulatedSeconds": 80.00000000000973,
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.1520875403286537,
+            0.24331099110070967,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -2.148282966252725,
+            0.24408035130116532,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.148282966252725,
+            0.24408035130116532,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.0095064353747834,
+            -1.0825627234020354,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -2.0095064353747834,
+            -1.0825627234020354,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.0095064353747834,
+            -1.0825627234020354,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        }
+      ],
+      "trace": [
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 1,
+          "time": 9.9
+        },
+        {
+          "kind": "attach",
+          "id": "item-2",
+          "type": "pipe",
+          "depth": 2,
+          "time": 10.6
+        },
+        {
+          "kind": "attach",
+          "id": "item-9",
+          "type": "robot",
+          "depth": 2,
+          "time": 11.8
+        },
+        {
+          "kind": "strain",
+          "id": "item-2",
+          "point": [
+            -1.6971005407666255,
+            0.46336762308150514,
+            -0.6172965936852403
+          ],
+          "time": 12.9
+        },
+        {
+          "kind": "break",
+          "id": "item-2",
+          "count": 1,
+          "point": [
+            -1.8383759550482561,
+            0.787817220404156,
+            -0.6953510151068665
+          ],
+          "tension": 140.51154732440435,
+          "strength": 49.400000000000006,
+          "time": 13.1
+        },
+        {
+          "kind": "strain",
+          "id": "item-9",
+          "point": [
+            -1.7735934009615768,
+            1.108706962285634,
+            -1.143488488450833
+          ],
+          "time": 13.5
+        },
+        {
+          "kind": "break",
+          "id": "item-9",
+          "count": 1,
+          "point": [
+            -1.812016071118058,
+            1.1770840096896864,
+            -1.0510223282309261
+          ],
+          "tension": 282.016540571945,
+          "strength": 45.2,
+          "time": 13.5
+        },
+        {
+          "kind": "deliver",
+          "id": "item-0",
+          "type": "robot",
+          "bin": "repair",
+          "time": 35.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-9",
+          "type": "robot",
+          "depth": 1,
+          "time": 49.5
+        },
+        {
+          "kind": "attach",
+          "id": "item-7",
+          "type": "gear",
+          "depth": 1,
+          "time": 49.5
+        },
+        {
+          "kind": "deliver",
+          "id": "item-7",
+          "type": "gear",
+          "bin": "repair",
+          "time": 74.1
+        },
+        {
+          "kind": "deliver",
+          "id": "item-9",
+          "type": "robot",
+          "bin": "repair",
+          "time": 74.1
+        }
+      ]
+    },
+    {
+      "job": 2,
+      "won": true,
+      "delivered": {
+        "gear": 3,
+        "robot": 1
+      },
+      "simulatedSeconds": 119.00000000004077,
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            0.5411015966293518,
+            -0.3911426042289818,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            0.5411015966293518,
+            -0.3911426042289818,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            0.5411015966293518,
+            -0.3911426042289818,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            2.39535166401195,
+            -2.034196860489179,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            2.39535166401195,
+            -2.034196860489179,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            2.39535166401195,
+            -2.034196860489179,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.376795859439203,
+            1.481640051770205,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -2.376795859439203,
+            1.481640051770205,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.376795859439203,
+            1.481640051770205,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        }
+      ],
+      "trace": [
+        {
+          "kind": "attach",
+          "id": "item-1",
+          "type": "gear",
+          "depth": 1,
+          "time": 10.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-9",
+          "type": "bolt",
+          "depth": 1,
+          "time": 10.8
+        },
+        {
+          "kind": "attach",
+          "id": "item-6",
+          "type": "pipe",
+          "depth": 2,
+          "time": 11
+        },
+        {
+          "kind": "attach",
+          "id": "item-3",
+          "type": "robot",
+          "depth": 1,
+          "time": 12.3
+        },
+        {
+          "kind": "strain",
+          "id": "item-1",
+          "point": [
+            0.5274307355451054,
+            0.5738078791177151,
+            -0.47346970521480486
+          ],
+          "time": 12.6
+        },
+        {
+          "kind": "break",
+          "id": "item-1",
+          "count": 1,
+          "point": [
+            0.14877226173817387,
+            1.0917508516365433,
+            -0.27380185430847015
+          ],
+          "tension": 932.0108192282137,
+          "strength": 481.5,
+          "time": 12.9
+        },
+        {
+          "kind": "strain",
+          "id": "item-6",
+          "point": [
+            0.21224031728858417,
+            0.7955530720017783,
+            -1.2304006682504953
+          ],
+          "time": 12.9
+        },
+        {
+          "kind": "break",
+          "id": "item-6",
+          "count": 1,
+          "point": [
+            0.062088053718358294,
+            0.9945915387420614,
+            -1.1001968968881752
+          ],
+          "tension": 169.14682551492731,
+          "strength": 49.400000000000006,
+          "time": 13
+        },
+        {
+          "kind": "attach",
+          "id": "item-1",
+          "type": "gear",
+          "depth": 1,
+          "time": 13.8
+        },
+        {
+          "kind": "strain",
+          "id": "item-3",
+          "point": [
+            0.5990689080776215,
+            3.2465337145893542,
+            0.3138197927674754
+          ],
+          "time": 14.1
+        },
+        {
+          "kind": "strain",
+          "id": "item-3",
+          "point": [
+            1.3289816525361682,
+            4.001720638271597,
+            -0.6083416453470181
+          ],
+          "time": 15.6
+        },
+        {
+          "kind": "break",
+          "id": "item-3",
+          "count": 1,
+          "point": [
+            0.8071529988835886,
+            4.002267636716324,
+            -0.0002627983730468797
+          ],
+          "tension": 580.4191460709488,
+          "strength": 513,
+          "time": 16.5
+        },
+        {
+          "kind": "deliver",
+          "id": "item-1",
+          "type": "gear",
+          "bin": "repair",
+          "time": 35
+        },
+        {
+          "kind": "reject",
+          "id": "item-9",
+          "type": "bolt",
+          "bin": "repair",
+          "reason": "Это болт: нужен приёмник «Склад деталей».",
+          "time": 35.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-5",
+          "type": "gear",
+          "depth": 1,
+          "time": 49.5
+        },
+        {
+          "kind": "attach",
+          "id": "item-9",
+          "type": "bolt",
+          "depth": 2,
+          "time": 71.9
+        },
+        {
+          "kind": "strain",
+          "id": "item-9",
+          "point": [
+            4.473494842672899,
+            0.9513023918641232,
+            3.21854310651402
+          ],
+          "time": 72.6
+        },
+        {
+          "kind": "break",
+          "id": "item-9",
+          "count": 1,
+          "point": [
+            4.316253835400013,
+            0.9430971395395971,
+            3.0957931871265387
+          ],
+          "tension": 81.47890254167498,
+          "strength": 28.4,
+          "time": 72.8
+        },
+        {
+          "kind": "deliver",
+          "id": "item-5",
+          "type": "gear",
+          "bin": "repair",
+          "time": 74.1
+        },
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 1,
+          "time": 88.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-2",
+          "type": "gear",
+          "depth": 1,
+          "time": 88.8
+        },
+        {
+          "kind": "attach",
+          "id": "item-4",
+          "type": "bolt",
+          "depth": 2,
+          "time": 89.7
+        },
+        {
+          "kind": "strain",
+          "id": "item-4",
+          "point": [
+            -1.8348896751324595,
+            1.0397249555287504,
+            1.4020614419840518
+          ],
+          "time": 91.2
+        },
+        {
+          "kind": "break",
+          "id": "item-4",
+          "count": 1,
+          "point": [
+            -1.8567216993052593,
+            1.1406546701069216,
+            1.4966138362502288
+          ],
+          "tension": 171.15111390530316,
+          "strength": 28.4,
+          "time": 91.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-9",
+          "type": "bolt",
+          "depth": 2,
+          "time": 109.4
+        },
+        {
+          "kind": "deliver",
+          "id": "item-2",
+          "type": "gear",
+          "bin": "repair",
+          "time": 113.1
+        },
+        {
+          "kind": "deliver",
+          "id": "item-0",
+          "type": "robot",
+          "bin": "repair",
+          "time": 113.2
+        }
+      ]
+    },
+    {
+      "job": 3,
+      "won": true,
+      "delivered": {
+        "engine": 1,
+        "bolt": 2,
+        "robot": 1
+      },
+      "simulatedSeconds": 158.00000000002063,
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            2.330585708953183,
+            -2.2105089151423734,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            2.330585708953183,
+            -2.2105089151423734,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            2.330585708953183,
+            -2.2105089151423734,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -0.6348459689742837,
+            0.9846369738488979,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -0.6348459689742837,
+            0.9846369738488979,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -0.6348459689742837,
+            0.9846369738488979,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.4947600526625213,
+            -2.252064592065927,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -2.4947600526625213,
+            -2.252064592065927,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.4947600526625213,
+            -2.252064592065927,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -0.29998109320816285,
+            1.4056446468495651,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -0.29998109320816285,
+            1.4056446468495651,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -0.29998109320816285,
+            1.4056446468495651,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        }
+      ],
+      "trace": [
+        {
+          "kind": "attach",
+          "id": "item-5",
+          "type": "engine",
+          "depth": 1,
+          "time": 10.1
+        },
+        {
+          "kind": "deliver",
+          "id": "item-5",
+          "type": "engine",
+          "bin": "scrap",
+          "time": 34.6
+        },
+        {
+          "kind": "attach",
+          "id": "item-4",
+          "type": "bolt",
+          "depth": 1,
+          "time": 49.4
+        },
+        {
+          "kind": "attach",
+          "id": "item-8",
+          "type": "pipe",
+          "depth": 1,
+          "time": 49.7
+        },
+        {
+          "kind": "attach",
+          "id": "item-1",
+          "type": "gear",
+          "depth": 1,
+          "time": 50.1
+        },
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 2,
+          "time": 51.4
+        },
+        {
+          "kind": "strain",
+          "id": "item-8",
+          "point": [
+            -0.038893373478111504,
+            1.2644566101739776,
+            1.610231620010456
+          ],
+          "time": 51.8
+        },
+        {
+          "kind": "break",
+          "id": "item-8",
+          "count": 1,
+          "point": [
+            0.01762268592357008,
+            1.575780082350432,
+            1.422416398962298
+          ],
+          "tension": 1190.6482156976983,
+          "strength": 523.5,
+          "time": 52
+        },
+        {
+          "kind": "strain",
+          "id": "item-0",
+          "point": [
+            -1.0791510888977927,
+            1.2947995565535062,
+            0.7683011600188292
+          ],
+          "time": 52.1
+        },
+        {
+          "kind": "break",
+          "id": "item-0",
+          "count": 1,
+          "point": [
+            -0.8673616215582681,
+            1.615669215667289,
+            0.8108782985423879
+          ],
+          "tension": 75.45068437286955,
+          "strength": 45.2,
+          "time": 52.4
+        },
+        {
+          "kind": "reject",
+          "id": "item-1",
+          "type": "gear",
+          "bin": "scrap",
+          "reason": "Это шестерня: нужен приёмник «Ремонт».",
+          "time": 74
+        },
+        {
+          "kind": "deliver",
+          "id": "item-4",
+          "type": "bolt",
+          "bin": "scrap",
+          "time": 74.7
+        },
+        {
+          "kind": "attach",
+          "id": "item-7",
+          "type": "bolt",
+          "depth": 1,
+          "time": 88.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-1",
+          "type": "gear",
+          "depth": 1,
+          "time": 109.1
+        },
+        {
+          "kind": "reject",
+          "id": "item-1",
+          "type": "gear",
+          "bin": "scrap",
+          "reason": "Это шестерня: нужен приёмник «Ремонт».",
+          "time": 113
+        },
+        {
+          "kind": "deliver",
+          "id": "item-7",
+          "type": "bolt",
+          "bin": "scrap",
+          "time": 113.3
+        },
+        {
+          "kind": "attach",
+          "id": "item-0",
+          "type": "robot",
+          "depth": 1,
+          "time": 127.2
+        },
+        {
+          "kind": "attach",
+          "id": "item-8",
+          "type": "pipe",
+          "depth": 2,
+          "time": 127.2
+        },
+        {
+          "kind": "strain",
+          "id": "item-8",
+          "point": [
+            -0.37408050028723383,
+            1.24899002471282,
+            1.2948369658717003
+          ],
+          "time": 130.3
+        },
+        {
+          "kind": "break",
+          "id": "item-8",
+          "count": 1,
+          "point": [
+            -0.4090706310645585,
+            1.4012239082372542,
+            1.3992023523502344
+          ],
+          "tension": 126.49684775742078,
+          "strength": 49.400000000000006,
+          "time": 130.4
+        },
+        {
+          "kind": "strain",
+          "id": "item-0",
+          "point": [
+            4.8732280476455605,
+            1.3933635590098903,
+            2.994390836331569
+          ],
+          "time": 147
+        },
+        {
+          "kind": "deliver",
+          "id": "item-0",
+          "type": "robot",
+          "bin": "repair",
+          "time": 152.3
+        }
+      ]
+    }
+  ]
+}

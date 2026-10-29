@@ -1,0 +1,11 @@
+1 true { robot: 1 } false []
+2 true { engine: 1, bolt: 1 } false []
+3 true { gear: 2 } false []
+4 true { engine: 1, robot: 1 } false []
+5 true { battery: 1 } false [ 0.11609790488746152 ]
+6 true { pipe: 2, gear: 1 } false []
+7 true { robot: 1 } false []
+8 true { battery: 2 } false [ 0.10732195525101462, 0 ]
+9 true { engine: 1, gear: 2, bolt: 2 } false []
+10 true { robot: 1, battery: 1, pipe: 1, bolt: 1 } false [ 0 ]
+Ten chapters solved; rewards idempotent, old progress untouched

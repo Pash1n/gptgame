@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-29T03:55:56.651Z",
+  "checks": [
+    "Eight blur/focus/Continue cycles: paused time and render count stay fixed; exactly one RAF remains after each resume; focus returns to canvas",
+    "Resume does not reallocate canvas, textures, geometry or shader programs",
+    "Suspend while menu is open closes the modal; Continue works directly and Space controls magnet",
+    "DOM freeze/resume handlers cancel the loop and require Continue; events dispatched explicitly because this headless Chromium does not emit them for CDP freeze",
+    "Five hidden/visible cycles require Continue, discard timers, preserve resolution and never stack RAF loops",
+    "Repeated unchanged viewport fits do not resize GPU canvas",
+    "WEBGL_lose_context/restore recovers lighting and merged shadow layer, stays paused until Continue, then renders without duplicate loop"
+  ],
+  "baseline": {
+    "fps": 0,
+    "frameCost": 0,
+    "physicsMs": 0,
+    "renderMs": 0,
+    "renderCount": 2,
+    "resizeCount": 1,
+    "contextLost": false,
+    "rafActive": true,
+    "memory": {
+      "geometries": 142,
+      "textures": 12
+    },
+    "programs": 18,
+    "resolutionScale": 1,
+    "adaptiveScale": 1,
+    "shadowInterval": 0.03333333333333333,
+    "graphicsMode": "auto",
+    "drawCalls": 104,
+    "triangles": 132340
+  },
+  "after": {
+    "fps": 0,
+    "frameCost": 2.2000000029802322,
+    "physicsMs": 0.29999999701976776,
+    "renderMs": 1.9000000059604645,
+    "renderCount": 8,
+    "resizeCount": 1,
+    "contextLost": false,
+    "rafActive": true,
+    "memory": {
+      "geometries": 142,
+      "textures": 12
+    },
+    "programs": 18,
+    "resolutionScale": 1,
+    "adaptiveScale": 1,
+    "shadowInterval": 0.03333333333333333,
+    "graphicsMode": "auto",
+    "drawCalls": 98,
+    "triangles": 82156
+  },
+  "background": {
+    "hidden": false,
+    "focused": true,
+    "paused": false
+  },
+  "errors": []
+}

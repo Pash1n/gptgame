@@ -1,0 +1,2441 @@
+{
+  "date": "2026-10-29T03:52:19.874Z",
+  "checks": [
+    "Ten sequential chapters, legacy jobs and free mode; normal chapter locks; introductory workshop view",
+    "Explicit impact fixture breaks battery, shows retry and awards nothing; retry resets damage",
+    "All ten chapters completed in Chromium with crane control/time only; battery impact test is separate from physical solutions",
+    "Final launch animates all four legs and moves carrier with four rescued robots; animation reaches a stopped state",
+    "Floor and support-foot bottoms share the same height; platform frame is physically above them",
+    "Campaign completion, crew and construction persist across reload"
+  ],
+  "solved": [
+    {
+      "chapter": 1,
+      "id": "pip",
+      "completed": true,
+      "failed": false,
+      "delivered": {
+        "robot": 1
+      },
+      "story": {
+        "ids": [
+          "pip"
+        ],
+        "count": 1,
+        "crew": [
+          "pip"
+        ],
+        "finished": false
+      },
+      "stats": {
+        "fps": 0,
+        "frameCost": 0,
+        "physicsMs": 0,
+        "renderMs": 0,
+        "renderCount": 5,
+        "resizeCount": 1,
+        "contextLost": false,
+        "rafActive": false,
+        "memory": {
+          "geometries": 142,
+          "textures": 12
+        },
+        "programs": 18,
+        "resolutionScale": 1,
+        "adaptiveScale": 1,
+        "shadowInterval": 0.03333333333333333,
+        "graphicsMode": "auto",
+        "drawCalls": 88,
+        "triangles": 117764
+      },
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.324367420206829,
+            0.12802118256706052,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -2.3197563948436253,
+            0.10338666043949248,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.3197563948436253,
+            0.10338666043949248,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "id": "power",
+      "completed": true,
+      "failed": false,
+      "delivered": {
+        "engine": 1,
+        "bolt": 1
+      },
+      "story": {
+        "ids": [
+          "pip",
+          "power"
+        ],
+        "count": 2,
+        "crew": [
+          "pip"
+        ],
+        "finished": false
+      },
+      "stats": {
+        "fps": 0,
+        "frameCost": 0,
+        "physicsMs": 0,
+        "renderMs": 0,
+        "renderCount": 7,
+        "resizeCount": 1,
+        "contextLost": false,
+        "rafActive": false,
+        "memory": {
+          "geometries": 144,
+          "textures": 12
+        },
+        "programs": 18,
+        "resolutionScale": 1,
+        "adaptiveScale": 1,
+        "shadowInterval": 0.03333333333333333,
+        "graphicsMode": "auto",
+        "drawCalls": 85,
+        "triangles": 118448
+      },
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -0.1588419548466809,
+            -1.0271344150911712,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -0.1588419548466809,
+            -1.0271344150911712,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -0.1588419548466809,
+            -1.0271344150911712,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.2636039466727134,
+            0.6543772624615191,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -2.2636039466727134,
+            0.6543772624615191,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.2636039466727134,
+            0.6543772624615191,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "id": "drive",
+      "completed": true,
+      "failed": false,
+      "delivered": {
+        "gear": 2
+      },
+      "story": {
+        "ids": [
+          "pip",
+          "power",
+          "drive"
+        ],
+        "count": 3,
+        "crew": [
+          "pip"
+        ],
+        "finished": false
+      },
+      "stats": {
+        "fps": 0,
+        "frameCost": 0,
+        "physicsMs": 0,
+        "renderMs": 0,
+        "renderCount": 9,
+        "resizeCount": 1,
+        "contextLost": false,
+        "rafActive": false,
+        "memory": {
+          "geometries": 145,
+          "textures": 12
+        },
+        "programs": 18,
+        "resolutionScale": 1,
+        "adaptiveScale": 1,
+        "shadowInterval": 0.03333333333333333,
+        "graphicsMode": "auto",
+        "drawCalls": 90,
+        "triangles": 118952
+      },
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.1855477475099816,
+            -0.6108580155902109,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -2.1855477475099816,
+            -0.6108580155902109,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.1855477475099816,
+            -0.6108580155902109,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            1.5144522524900192,
+            0.28914198440978905,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            1.5144522524900192,
+            0.28914198440978905,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            1.5144522524900192,
+            0.28914198440978905,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            0.9539569230221409,
+            0.39587418370369265,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            0.9539569230221409,
+            0.39587418370369265,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            0.9539569230221409,
+            0.39587418370369265,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            3.384750107841251,
+            4.6212480825204825,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            3.384750107841251,
+            4.6212480825204825,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            3.384750107841251,
+            3.6,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "id": "rivet",
+      "completed": true,
+      "failed": false,
+      "delivered": {
+        "engine": 1,
+        "robot": 1
+      },
+      "story": {
+        "ids": [
+          "pip",
+          "power",
+          "drive",
+          "rivet"
+        ],
+        "count": 4,
+        "crew": [
+          "pip",
+          "rivet"
+        ],
+        "finished": false
+      },
+      "stats": {
+        "fps": 0,
+        "frameCost": 0,
+        "physicsMs": 0,
+        "renderMs": 0,
+        "renderCount": 11,
+        "resizeCount": 1,
+        "contextLost": false,
+        "rafActive": false,
+        "memory": {
+          "geometries": 155,
+          "textures": 12
+        },
+        "programs": 18,
+        "resolutionScale": 1,
+        "adaptiveScale": 1,
+        "shadowInterval": 0.03333333333333333,
+        "graphicsMode": "auto",
+        "drawCalls": 100,
+        "triangles": 121184
+      },
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -4.161541725044187,
+            -0.9516663450862882,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -4.161238025821767,
+            -0.9519791287937728,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -4.161238025821767,
+            -0.9519791287937728,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -3.830854678919364,
+            -1.2281709858798133,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -3.830854678919364,
+            -1.2281709858798133,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -3.830854678919364,
+            -1.2281709858798133,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -4.426820189426019,
+            -1.0476737841386943,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -4.426820189426019,
+            -1.0476737841386943,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -4.426820189426019,
+            -1.0476737841386943,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "id": "heart",
+      "completed": true,
+      "failed": false,
+      "delivered": {
+        "battery": 1
+      },
+      "story": {
+        "ids": [
+          "pip",
+          "power",
+          "drive",
+          "rivet",
+          "heart"
+        ],
+        "count": 5,
+        "crew": [
+          "pip",
+          "rivet"
+        ],
+        "finished": false
+      },
+      "stats": {
+        "fps": 0,
+        "frameCost": 0,
+        "physicsMs": 0,
+        "renderMs": 0,
+        "renderCount": 16,
+        "resizeCount": 1,
+        "contextLost": false,
+        "rafActive": false,
+        "memory": {
+          "geometries": 158,
+          "textures": 12
+        },
+        "programs": 18,
+        "resolutionScale": 1,
+        "adaptiveScale": 1,
+        "shadowInterval": 0.03333333333333333,
+        "graphicsMode": "auto",
+        "drawCalls": 101,
+        "triangles": 122504
+      },
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -1.7710810587458357,
+            0.47778374747421115,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -1.7710810587458357,
+            0.47778374747421115,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -1.7710810587458357,
+            0.47778374747421115,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.15
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "id": "legs",
+      "completed": true,
+      "failed": false,
+      "delivered": {
+        "pipe": 2,
+        "gear": 1
+      },
+      "story": {
+        "ids": [
+          "pip",
+          "power",
+          "drive",
+          "rivet",
+          "heart",
+          "legs"
+        ],
+        "count": 6,
+        "crew": [
+          "pip",
+          "rivet"
+        ],
+        "finished": false
+      },
+      "stats": {
+        "fps": 0,
+        "frameCost": 0,
+        "physicsMs": 0,
+        "renderMs": 0,
+        "renderCount": 19,
+        "resizeCount": 1,
+        "contextLost": false,
+        "rafActive": false,
+        "memory": {
+          "geometries": 168,
+          "textures": 12
+        },
+        "programs": 18,
+        "resolutionScale": 1,
+        "adaptiveScale": 1,
+        "shadowInterval": 0.03333333333333333,
+        "graphicsMode": "auto",
+        "drawCalls": 106,
+        "triangles": 120032
+      },
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.0508116012611755,
+            -1.5206343081979978,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -2.0508116012611755,
+            -1.5206343081979978,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.0508116012611755,
+            -1.5206343081979978,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            1.5491883987388242,
+            -1.9206343081979982,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            1.5491883987388242,
+            -1.9206343081979982,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            1.5491883987388242,
+            -1.9206343081979982,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -1.6064054300614667,
+            -0.9064963843443862,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -1.6064054300614667,
+            -0.9064963843443862,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -1.6064054300614667,
+            -0.9064963843443862,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -0.18554774750998057,
+            1.1891419844097904,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -0.18554774750998057,
+            1.1891419844097904,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -0.18554774750998057,
+            1.1891419844097904,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -0.25105945028039256,
+            1.8862935077874117,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -0.25105945028039256,
+            1.8862935077874117,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -0.25105945028039256,
+            1.8862935077874117,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            4.955774392992075,
+            0.8338474580371167,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.955774392992075,
+            0.8338474580371167,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            4.955774392992075,
+            0.8338474580371167,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "id": "scout",
+      "completed": true,
+      "failed": false,
+      "delivered": {
+        "robot": 1
+      },
+      "story": {
+        "ids": [
+          "pip",
+          "power",
+          "drive",
+          "rivet",
+          "heart",
+          "legs",
+          "scout"
+        ],
+        "count": 7,
+        "crew": [
+          "pip",
+          "rivet",
+          "scout"
+        ],
+        "finished": false
+      },
+      "stats": {
+        "fps": 0,
+        "frameCost": 0,
+        "physicsMs": 0,
+        "renderMs": 0,
+        "renderCount": 21,
+        "resizeCount": 1,
+        "contextLost": false,
+        "rafActive": false,
+        "memory": {
+          "geometries": 173,
+          "textures": 12
+        },
+        "programs": 18,
+        "resolutionScale": 1,
+        "adaptiveScale": 1,
+        "shadowInterval": 0.03333333333333333,
+        "graphicsMode": "auto",
+        "drawCalls": 116,
+        "triangles": 135704
+      },
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -3.9243674202129966,
+            -0.07197881738416444,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -3.919756395339687,
+            -0.09661333983543398,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -3.919756395339687,
+            -0.09661333983543398,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -1.6,
+            0,
+            2.6
+          ]
+        },
+        {
+          "advance": 7
+        },
+        {
+          "target": [
+            3,
+            0,
+            2.6
+          ]
+        },
+        {
+          "advance": 9
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "id": "reserve",
+      "completed": true,
+      "failed": false,
+      "delivered": {
+        "battery": 2
+      },
+      "story": {
+        "ids": [
+          "pip",
+          "power",
+          "drive",
+          "rivet",
+          "heart",
+          "legs",
+          "scout",
+          "reserve"
+        ],
+        "count": 8,
+        "crew": [
+          "pip",
+          "rivet",
+          "scout"
+        ],
+        "finished": false
+      },
+      "stats": {
+        "fps": 0,
+        "frameCost": 0,
+        "physicsMs": 0,
+        "renderMs": 0,
+        "renderCount": 23,
+        "resizeCount": 1,
+        "contextLost": false,
+        "rafActive": false,
+        "memory": {
+          "geometries": 168,
+          "textures": 12
+        },
+        "programs": 18,
+        "resolutionScale": 1,
+        "adaptiveScale": 1,
+        "shadowInterval": 0.03333333333333333,
+        "graphicsMode": "auto",
+        "drawCalls": 112,
+        "triangles": 124944
+      },
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.1710810587458353,
+            -0.42221625252578937,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -2.1710810587458353,
+            -0.42221625252578937,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.1710810587458353,
+            -0.42221625252578937,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.15
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            1.7289189412541646,
+            -1.522216252525791,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            1.7289189412541646,
+            -1.522216252525791,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            1.7289189412541646,
+            -1.522216252525791,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.15
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "id": "transmission",
+      "completed": true,
+      "failed": false,
+      "delivered": {
+        "engine": 1,
+        "gear": 2,
+        "bolt": 2
+      },
+      "story": {
+        "ids": [
+          "pip",
+          "power",
+          "drive",
+          "rivet",
+          "heart",
+          "legs",
+          "scout",
+          "reserve",
+          "transmission"
+        ],
+        "count": 9,
+        "crew": [
+          "pip",
+          "rivet",
+          "scout"
+        ],
+        "finished": false
+      },
+      "stats": {
+        "fps": 0,
+        "frameCost": 0,
+        "physicsMs": 0,
+        "renderMs": 0,
+        "renderCount": 25,
+        "resizeCount": 1,
+        "contextLost": false,
+        "rafActive": false,
+        "memory": {
+          "geometries": 172,
+          "textures": 12
+        },
+        "programs": 18,
+        "resolutionScale": 1,
+        "adaptiveScale": 1,
+        "shadowInterval": 0.03333333333333333,
+        "graphicsMode": "auto",
+        "drawCalls": 106,
+        "triangles": 123284
+      },
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            0.44115804515331913,
+            -1.4271344150911707,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            0.44115804515331913,
+            -1.4271344150911707,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            0.44115804515331913,
+            -1.4271344150911707,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            0.43771468734142066,
+            0.13357878040986726,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            0.43771468734142066,
+            0.13357878040986726,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            0.43771468734142066,
+            0.13357878040986726,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -1.985547747509981,
+            0.289141984409789,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -1.985547747509981,
+            0.289141984409789,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -1.985547747509981,
+            0.289141984409789,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.265883321372455,
+            3.2913022459681818,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -2.265883321372455,
+            3.2913022459681818,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.265883321372455,
+            3.2913022459681818,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.276460460770663,
+            -0.05783320461814042,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -2.276460460770663,
+            -0.05783320461814042,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.276460460770663,
+            -0.05783320461814042,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.4921623277351994,
+            -2.0320193630777323,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -2.4921623277351994,
+            -2.0320193630777323,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.4921623277351994,
+            -2.0320193630777323,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            3.8409563349592077,
+            3.635119700551206,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            3.8409563349592077,
+            3.635119700551206,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 0.6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            3.5075597466942057,
+            3.808937409811458,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            3.770153116046756,
+            3.712231710625456,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            3.770153116046756,
+            3.6,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "id": "departure",
+      "completed": true,
+      "failed": false,
+      "delivered": {
+        "robot": 1,
+        "battery": 1,
+        "bolt": 1,
+        "pipe": 1
+      },
+      "story": {
+        "ids": [
+          "pip",
+          "power",
+          "drive",
+          "rivet",
+          "heart",
+          "legs",
+          "scout",
+          "reserve",
+          "transmission",
+          "departure"
+        ],
+        "count": 10,
+        "crew": [
+          "pip",
+          "rivet",
+          "scout",
+          "departure"
+        ],
+        "finished": true
+      },
+      "stats": {
+        "fps": 0,
+        "frameCost": 0,
+        "physicsMs": 0,
+        "renderMs": 0,
+        "renderCount": 27,
+        "resizeCount": 1,
+        "contextLost": false,
+        "rafActive": false,
+        "memory": {
+          "geometries": 176,
+          "textures": 12
+        },
+        "programs": 18,
+        "resolutionScale": 1,
+        "adaptiveScale": 1,
+        "shadowInterval": 0.03333333333333333,
+        "graphicsMode": "auto",
+        "drawCalls": 110,
+        "triangles": 126884
+      },
+      "commands": [
+        {
+          "advance": 2
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -2.724367420206474,
+            -1.771978817428617,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -2.7197563948847514,
+            -1.7966133395833035,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -2.7197563948847514,
+            -1.7966133395833035,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            1.0289189412541644,
+            -1.8222162525257903,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            1.0289189412541644,
+            -1.8222162525257903,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            1.0289189412541644,
+            -1.8222162525257903,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            4.65,
+            2.9,
+            1.15
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        },
+        {
+          "magnet": false
+        },
+        {
+          "target": [
+            -0.7636039466727779,
+            0.4543772624614928,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -0.7636039466727779,
+            0.4543772624614928,
+            0.58
+          ]
+        },
+        {
+          "magnet": true
+        },
+        {
+          "advance": 4
+        },
+        {
+          "target": [
+            -0.7636039466727779,
+            0.4543772624614928,
+            4.4
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            4.4
+          ]
+        },
+        {
+          "advance": 10
+        },
+        {
+          "target": [
+            -4.65,
+            2.9,
+            1.8
+          ]
+        },
+        {
+          "advance": 6
+        },
+        {
+          "magnet": false
+        },
+        {
+          "advance": 7
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
