@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-29T05:39:09.434Z",
+  "checks": [
+    "Workshop blur pauses, cancels input and RAF; Continue restores the same workbench and one loop.",
+    "Test workbench gives temporary parts; placing a part does not mutate old contracts, story, inventory or real assembly.",
+    "Five repeated enter/exit cycles do not grow Three geometry/texture counts.",
+    "All eight top lenses visibly use red emissive material when powered and dark material when off.",
+    "320×568, 844×390 and 768×1024: return control and assembly target fit viewport."
+  ],
+  "sizes": [
+    {
+      "width": 320,
+      "height": 568,
+      "calls": 40,
+      "triangles": 118584
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "calls": 43,
+      "triangles": 118976
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "calls": 41,
+      "triangles": 118884
+    }
+  ],
+  "baseline": {
+    "geometries": 207,
+    "textures": 14
+  },
+  "errors": []
+}

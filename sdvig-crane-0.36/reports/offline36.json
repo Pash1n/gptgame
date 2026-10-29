@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-29T05:41:35.528Z",
+  "checks": [
+    "Single HTML request; network disabled thereafter; no runtime external assets",
+    "All fifteen layouts initialize offline, new level has 30 physical items",
+    "Keyboard magnet works offline",
+    "Temporary test workbench opens offline and real mouse drag installs the housing"
+  ],
+  "counts": [
+    10,
+    10,
+    9,
+    4,
+    4,
+    5,
+    5,
+    4,
+    5,
+    4,
+    5,
+    6,
+    5,
+    12,
+    30
+  ],
+  "requests": [
+    "http://127.0.0.1:8137/Sdvig_CRANE_0.36.html?test=1"
+  ],
+  "errors": [],
+  "fileProtocol": "Managed Chromium file:// not tested; offline HTTP run is the actual automated evidence."
+}

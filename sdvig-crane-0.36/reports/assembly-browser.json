@@ -1,0 +1,590 @@
+{
+  "date": "2026-10-29T05:41:23.997Z",
+  "checks": [
+    "Desktop: six real mouse drag/drop installations, four bolts held and tightened, live gear rotation and lid opening.",
+    "Finished assembly and collected parts persist across reload.",
+    "390×844 phone: six real CDP single-finger drags and four real touch holds tighten bolts. Inventory profile is the physically earned Chromium result.",
+    "Eight top magnet lamps controlled by magnet state."
+  ],
+  "earned": {
+    "completed": {},
+    "stationParts": {
+      "housing": 1,
+      "shaft": 2,
+      "cover": 1,
+      "cog": 2
+    }
+  },
+  "browserSolution": {
+    "commands": [
+      {
+        "advance": 2
+      },
+      {
+        "magnet": false
+      },
+      {
+        "target": [
+          -1.7999999977844419,
+          -1.6500000000577444,
+          4.4
+        ]
+      },
+      {
+        "advance": 6
+      },
+      {
+        "target": [
+          -1.7999999977844419,
+          -1.6500000000577444,
+          0.55
+        ]
+      },
+      {
+        "magnet": true
+      },
+      {
+        "advance": 5
+      },
+      {
+        "target": [
+          -1.7999999977844419,
+          -1.6500000000577444,
+          4.4
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          4.4
+        ]
+      },
+      {
+        "advance": 10
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          1.8
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "magnet": false
+      },
+      {
+        "advance": 8
+      },
+      {
+        "magnet": false
+      },
+      {
+        "target": [
+          0.445649855781802,
+          -0.9911525251290062,
+          4.4
+        ]
+      },
+      {
+        "advance": 6
+      },
+      {
+        "target": [
+          0.445649855781802,
+          -0.9911525251290062,
+          0.55
+        ]
+      },
+      {
+        "magnet": true
+      },
+      {
+        "advance": 5
+      },
+      {
+        "target": [
+          0.445649855781802,
+          -0.9911525251290062,
+          4.4
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          4.4
+        ]
+      },
+      {
+        "advance": 10
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          1.8
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "magnet": false
+      },
+      {
+        "advance": 8
+      },
+      {
+        "magnet": false
+      },
+      {
+        "target": [
+          0.19892169626473752,
+          -1.152542947339186,
+          4.4
+        ]
+      },
+      {
+        "advance": 6
+      },
+      {
+        "target": [
+          0.19892169626473752,
+          -1.152542947339186,
+          0.55
+        ]
+      },
+      {
+        "magnet": true
+      },
+      {
+        "advance": 5
+      },
+      {
+        "target": [
+          0.19892169626473752,
+          -1.152542947339186,
+          4.4
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          4.4
+        ]
+      },
+      {
+        "advance": 10
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          1.8
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "magnet": false
+      },
+      {
+        "advance": 8
+      },
+      {
+        "magnet": false
+      },
+      {
+        "target": [
+          0.8382282310999554,
+          1.509147584274364,
+          4.4
+        ]
+      },
+      {
+        "advance": 6
+      },
+      {
+        "target": [
+          0.8382282310999554,
+          1.509147584274364,
+          0.55
+        ]
+      },
+      {
+        "magnet": true
+      },
+      {
+        "advance": 5
+      },
+      {
+        "target": [
+          0.8382282310999554,
+          1.509147584274364,
+          4.4
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          4.4
+        ]
+      },
+      {
+        "advance": 10
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          1.8
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "magnet": false
+      },
+      {
+        "advance": 8
+      },
+      {
+        "magnet": false
+      },
+      {
+        "target": [
+          -0.7893407593168846,
+          -1.584699647554989,
+          4.4
+        ]
+      },
+      {
+        "advance": 6
+      },
+      {
+        "target": [
+          -0.7893407593168846,
+          -1.584699647554989,
+          0.55
+        ]
+      },
+      {
+        "magnet": true
+      },
+      {
+        "advance": 5
+      },
+      {
+        "target": [
+          -0.7893407593168846,
+          -1.584699647554989,
+          4.4
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          4.4
+        ]
+      },
+      {
+        "advance": 10
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          1.8
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "magnet": false
+      },
+      {
+        "advance": 8
+      },
+      {
+        "magnet": false
+      },
+      {
+        "target": [
+          0.6934660737265911,
+          1.455193129375772,
+          4.4
+        ]
+      },
+      {
+        "advance": 6
+      },
+      {
+        "target": [
+          0.6934660737265911,
+          1.455193129375772,
+          0.55
+        ]
+      },
+      {
+        "magnet": true
+      },
+      {
+        "advance": 5
+      },
+      {
+        "target": [
+          0.6934660737265911,
+          1.455193129375772,
+          4.4
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          4.4
+        ]
+      },
+      {
+        "advance": 10
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          1.8
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "magnet": false
+      },
+      {
+        "advance": 8
+      },
+      {
+        "magnet": false
+      },
+      {
+        "target": [
+          2.4664838476571282,
+          1.0166898618099,
+          4.4
+        ]
+      },
+      {
+        "advance": 6
+      },
+      {
+        "target": [
+          2.4664838476571282,
+          1.0166898618099,
+          0.55
+        ]
+      },
+      {
+        "magnet": true
+      },
+      {
+        "advance": 5
+      },
+      {
+        "target": [
+          2.4664838476571282,
+          1.0166898618099,
+          4.4
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          4.4
+        ]
+      },
+      {
+        "advance": 10
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          1.8
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "magnet": false
+      },
+      {
+        "advance": 8
+      },
+      {
+        "magnet": false
+      },
+      {
+        "target": [
+          -0.09071960664094483,
+          -1.4612842232803867,
+          4.4
+        ]
+      },
+      {
+        "advance": 6
+      },
+      {
+        "target": [
+          -0.09071960664094483,
+          -1.4612842232803867,
+          0.55
+        ]
+      },
+      {
+        "magnet": true
+      },
+      {
+        "advance": 5
+      },
+      {
+        "target": [
+          -0.09071960664094483,
+          -1.4612842232803867,
+          4.4
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          4.4
+        ]
+      },
+      {
+        "advance": 10
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          1.8
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "magnet": false
+      },
+      {
+        "advance": 8
+      },
+      {
+        "magnet": false
+      },
+      {
+        "target": [
+          2.3820452181726925,
+          1.1506794579985942,
+          4.4
+        ]
+      },
+      {
+        "advance": 6
+      },
+      {
+        "target": [
+          2.3820452181726925,
+          1.1506794579985942,
+          0.55
+        ]
+      },
+      {
+        "magnet": true
+      },
+      {
+        "advance": 5
+      },
+      {
+        "target": [
+          2.3820452181726925,
+          1.1506794579985942,
+          4.4
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          4.4
+        ]
+      },
+      {
+        "advance": 10
+      },
+      {
+        "target": [
+          4.65,
+          2.9,
+          1.8
+        ]
+      },
+      {
+        "advance": 7
+      },
+      {
+        "magnet": false
+      },
+      {
+        "advance": 8
+      }
+    ],
+    "attempts": {
+      "housing": 2,
+      "shaft": 3,
+      "cog": 4,
+      "cover": 0
+    }
+  },
+  "errors": []
+}
