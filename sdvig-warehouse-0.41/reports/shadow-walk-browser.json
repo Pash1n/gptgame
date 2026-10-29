@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-29T11:35:02.529Z",
+  "checks": [
+    "Eight successive rendered simulation frames at 60Hz intervals each request a fresh real shadow-map pass (old 100ms throttle would skip them)",
+    "Real rendered worker joint angles change during walk; close-up screenshot from actual WebGL scene"
+  ],
+  "frames": [
+    {
+      "time": 1.3166666666666667,
+      "shadows": 3,
+      "renders": 3,
+      "drawCalls": 222,
+      "knees": [
+        0.30508001772888016,
+        0.621664830575508
+      ]
+    },
+    {
+      "time": 1.3333333333333333,
+      "shadows": 4,
+      "renders": 4,
+      "drawCalls": 222,
+      "knees": [
+        0.39114080271607216,
+        0.6342790681464253
+      ]
+    },
+    {
+      "time": 1.3499999999999999,
+      "shadows": 5,
+      "renders": 5,
+      "drawCalls": 222,
+      "knees": [
+        0.47942236325629767,
+        0.6410973435710334
+      ]
+    },
+    {
+      "time": 1.3666666666666665,
+      "shadows": 6,
+      "renders": 6,
+      "drawCalls": 222,
+      "knees": [
+        0.5644974469700008,
+        0.6413169323911968
+      ]
+    },
+    {
+      "time": 1.383333333333333,
+      "shadows": 7,
+      "renders": 7,
+      "drawCalls": 222,
+      "knees": [
+        0.6435476353849471,
+        0.6854702924831942
+      ]
+    },
+    {
+      "time": 1.3999999999999997,
+      "shadows": 8,
+      "renders": 8,
+      "drawCalls": 222,
+      "knees": [
+        0.7148092810918371,
+        0.8316096859364621
+      ]
+    },
+    {
+      "time": 1.4166666666666663,
+      "shadows": 9,
+      "renders": 9,
+      "drawCalls": 222,
+      "knees": [
+        0.777019798218981,
+        0.9823033473103471
+      ]
+    },
+    {
+      "time": 1.433333333333333,
+      "shadows": 10,
+      "renders": 10,
+      "drawCalls": 222,
+      "knees": [
+        0.8292192889292433,
+        1.1270873755454718
+      ]
+    }
+  ],
+  "errors": [],
+  "renderer": "Chromium SwiftShader; counters prove scheduling, not hardware 60 FPS."
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-29T11:30:52.371Z",
+  "checks": [
+    {
+      "name": "Rigger finishes real job along collision-free route with bounded yaw and brisk walking speed",
+      "maxTurnRadiansPerSec": 3.600000000000003,
+      "maxSpeedMetresPerSec": 1.65,
+      "maxAccel": 6.604038347994559,
+      "walkingFrames": 254
+    },
+    {
+      "name": "Two-bone gait has real knee flexion and stance feet remain near floor",
+      "stanceErrorMetres": 0.012795753070635366,
+      "minSoleHeightMetres": 0.002000008560836722,
+      "maxKneeRadians": 1.5134885441104038
+    },
+    {
+      "name": "Heel-contact and toe-off height/pitch are continuous"
+    }
+  ]
+}

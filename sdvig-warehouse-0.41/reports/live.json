@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-29T11:34:45.563Z",
+  "renderer": "Software SwiftShader, diagnostic real RAF/keyboard/pause, not hardware FPS evidence",
+  "checks": [
+    "Actual RAF advances physics with real WASD",
+    "Blur suspends clock and simulation",
+    "Continue resumes from pause"
+  ],
+  "startTime": 0.09999999999999999,
+  "endTime": 0.13333333333333333,
+  "stats": {
+    "fps": 1.7648356496801239,
+    "physicsMs": 0.800000011920929,
+    "frameMs": 6.5,
+    "shadowUpdates": 3,
+    "renderFrames": 7,
+    "workerPose": {
+      "time": 0.13333333333333333,
+      "walk": 0,
+      "rig": 0,
+      "turnPhase": 0,
+      "hipShiftX": 0,
+      "hipY": 0.8707131078792814,
+      "torsoPitch": 0,
+      "torsoRoll": 0,
+      "twist": 0,
+      "headPitch": 0,
+      "legs": [
+        {
+          "hip": -0.15827904992482136,
+          "knee": 0.3165580998496427,
+          "ankle": -0.15827904992482136,
+          "targetZ": 0,
+          "targetY": 0.08,
+          "stance": true
+        },
+        {
+          "hip": -0.15827904992482136,
+          "knee": 0.3165580998496427,
+          "ankle": -0.15827904992482136,
+          "targetZ": 0,
+          "targetY": 0.08,
+          "stance": true
+        }
+      ],
+      "arms": [
+        {
+          "shoulder": 0,
+          "elbow": -0.18,
+          "wrist": 0
+        },
+        {
+          "shoulder": 0,
+          "elbow": -0.18,
+          "wrist": 0
+        }
+      ]
+    },
+    "drawCalls": 226,
+    "triangles": 215560,
+    "geometries": 194
+  },
+  "errors": []
+}

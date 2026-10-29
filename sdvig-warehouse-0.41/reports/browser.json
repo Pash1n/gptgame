@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-29T11:31:39.894Z",
+  "renderer": "Chromium SwiftShader software GPU, frozen RAF and native target-driven gameplay; no hardware FPS claim",
+  "checks": [
+    "Real mouse ray pick requests worker, worker reaches pallet and rigs it",
+    "Native Jolt pickup and travel, suspended release blocked, real detach button, worker unrig and forklift loading",
+    "Physical WASD key events move target; mouse selection does not drive crane",
+    "Resume clears focused menu button; space cannot reopen it",
+    "Controls fit 320x568",
+    "Controls fit 390x844",
+    "Controls fit 844x390",
+    "Real CDP two-finger gesture moves crane and adjusts hoist independently"
+  ],
+  "stats": {
+    "fps": 0,
+    "physicsMs": 0,
+    "frameMs": 0,
+    "shadowUpdates": 5,
+    "renderFrames": 7,
+    "workerPose": {
+      "time": 63.99999999999757,
+      "walk": 0,
+      "rig": 0,
+      "turnPhase": 0,
+      "hipShiftX": 0,
+      "hipY": 0.8725855834692616,
+      "torsoPitch": 0,
+      "torsoRoll": 0,
+      "twist": 0,
+      "headPitch": 0,
+      "legs": [
+        {
+          "hip": -0.15827904992482136,
+          "knee": 0.3165580998496427,
+          "ankle": -0.15827904992482136,
+          "targetZ": 0,
+          "targetY": 0.08,
+          "stance": true
+        },
+        {
+          "hip": -0.15827904992482136,
+          "knee": 0.3165580998496427,
+          "ankle": -0.15827904992482136,
+          "targetZ": 0,
+          "targetY": 0.08,
+          "stance": false
+        }
+      ],
+      "arms": [
+        {
+          "shoulder": 0,
+          "elbow": -0.18,
+          "wrist": 0
+        },
+        {
+          "shoulder": 0,
+          "elbow": -0.18,
+          "wrist": 0
+        }
+      ]
+    },
+    "drawCalls": 175,
+    "triangles": 141180,
+    "geometries": 202
+  },
+  "errors": []
+}
