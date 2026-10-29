@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-29T14:15:27.012Z",
+  "renderer": "SwiftShader software GPU. Real RAF and DOM events; no hardware FPS claim.",
+  "checks": [
+    "Actual RAF and physical WASD key events advance native crane",
+    "Terminal freezes real RAF; confirmed purchase starts advancing after return to crane",
+    "Blur saves current purchase and freezes clock; Continue resumes",
+    "Denied browser storage shows a message and does not retry every render frame"
+  ],
+  "errors": [],
+  "deniedSaveAttempts": 1
+}

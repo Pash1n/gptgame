@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-29T14:17:58.212Z",
+  "checks": [
+    "Rejects invalid quantities without financial mutation",
+    "Incoming stock cannot be sold and active delivery cannot be bypassed",
+    "Invalid save disposes the temporary native world without leaks",
+    "Restore adds exactly one native body per unsold pallet",
+    "Insufficient balance fails atomically (isolated fixture)",
+    "Unreserved cargo in buyer trailer blocks loading/settlement (isolated placement fixture)"
+  ]
+}

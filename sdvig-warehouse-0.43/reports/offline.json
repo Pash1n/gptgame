@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-29T14:20:12.202Z",
+  "checks": [
+    "Only initial HTML requested; all 12 textures, runtime and WASM embedded",
+    "Terminal and confirmed two-pallet purchase work without network",
+    "Stock screen displays incoming capacity as occupied",
+    "Actual native pickup from supplier trailer while offline",
+    "Browser local save includes cash, pending order and held cargo"
+  ],
+  "requests": [
+    "http://127.0.0.1:8137/Sdvig_WAREHOUSE_0.43.html?test=1"
+  ],
+  "errors": [],
+  "method": "HTTP initial HTML, then browser offline. Automated file:// not claimed."
+}
