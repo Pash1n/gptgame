@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-29T07:33:25.705Z",
+  "method": "Explicit position fixtures used only for intake regression, not reported as level solutions.",
+  "checks": [
+    "Explicit scene fixture: correct cog + wrong bolt are both retained; UI names bolt and shows blocked receiver.",
+    "Removing wrong bolt unblocks intake; correct cog is credited to persistent module inventory.",
+    "Needed shaft mixed with scrap blocks left receiver too.",
+    "Receiver HUD hides in workshop; blur/Continue restores same assembly.",
+    "Broken board shows correct part name; retry preserves accepted console and earlier module inventory."
+  ],
+  "errors": []
+}
