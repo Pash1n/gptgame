@@ -1,0 +1,424 @@
+{
+  "version": 6,
+  "expanded": false,
+  "transportUnlocked": false,
+  "marketRound": 0,
+  "contractProgress": 0,
+  "contractCompleted": 0,
+  "cash": 57450,
+  "profit": 0,
+  "sales": 0,
+  "serial": 8,
+  "trade": null,
+  "truck": {
+    "offset": 24,
+    "state": "absent",
+    "timer": 6.016666666666651
+  },
+  "suspension": {
+    "y": -6.42339645033392e-68,
+    "roll": -8.524028410277314e-85,
+    "pitch": -6.9247489789288e-75,
+    "vy": 8.756091046188846e-67,
+    "vroll": -7.165347369590377e-82,
+    "vpitch": 9.701466634307881e-74,
+    "load": 0,
+    "targetY": 0
+  },
+  "history": [
+    {
+      "kind": "buy",
+      "type": "hardware",
+      "lines": {
+        "hardware": 2
+      },
+      "count": 2,
+      "price": 43900,
+      "profit": 0,
+      "number": 7
+    },
+    {
+      "kind": "buy",
+      "type": "hardware",
+      "lines": {
+        "hardware": 1
+      },
+      "count": 1,
+      "price": 18450,
+      "profit": 0,
+      "number": 5
+    }
+  ],
+  "loaded": 2,
+  "totalLoaded": 0,
+  "shipments": [],
+  "target": {
+    "x": 1,
+    "z": 1.1,
+    "height": 5.8
+  },
+  "anchor": [
+    0.9999995827674866,
+    8.149999618530273,
+    1.1000008583068848
+  ],
+  "hook": [
+    0.9999982714653015,
+    5.799999237060547,
+    1.1000031232833862
+  ],
+  "cableLength": 2.0000000000000004,
+  "active": null,
+  "items": [
+    {
+      "id": "metiz-5-0",
+      "type": "hardware",
+      "bay": "01",
+      "cost": 18450,
+      "incoming": false,
+      "reserved": false,
+      "shipped": false,
+      "rigged": false,
+      "position": [
+        1.1667044162750244,
+        0.7989290356636047,
+        -2.438333034515381
+      ],
+      "quaternion": [
+        -2.1265549321469734e-7,
+        0.000025359991923323832,
+        0.0005461512482725084,
+        0.9999998807907104
+      ],
+      "contents": {
+        "bolts-3": {
+          "qty": 4,
+          "cost": 7832
+        },
+        "nuts-2": {
+          "qty": 4,
+          "cost": 5032
+        },
+        "washers-2": {
+          "qty": 4,
+          "cost": 3429
+        },
+        "wire-1": {
+          "qty": 1,
+          "cost": 2157
+        }
+      },
+      "role": "raw",
+      "autoStrip": true
+    },
+    {
+      "id": "case-6",
+      "type": "hardware",
+      "bay": "PACK",
+      "cost": 200,
+      "incoming": false,
+      "reserved": false,
+      "shipped": false,
+      "rigged": false,
+      "position": [
+        9.149999618530273,
+        0.800000011920929,
+        1.100000023841858
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "contents": {},
+      "role": "dispatch",
+      "autoStrip": false,
+      "orderId": "order-3",
+      "caseNumber": 1,
+      "caseState": "open",
+      "packCost": 200
+    },
+    {
+      "id": "metiz-7-0",
+      "type": "hardware",
+      "bay": "02",
+      "cost": 38062,
+      "incoming": false,
+      "reserved": false,
+      "shipped": false,
+      "rigged": false,
+      "position": [
+        5.846015930175781,
+        0.7989200353622437,
+        -2.460447311401367
+      ],
+      "quaternion": [
+        -5.730150860472349e-7,
+        -0.00016679681721143425,
+        -0.0005505805020220578,
+        0.9999998807907104
+      ],
+      "contents": {
+        "bolts-3": {
+          "qty": 12,
+          "cost": 23220
+        },
+        "nuts-2": {
+          "qty": 10,
+          "cost": 12340
+        },
+        "washers-2": {
+          "qty": 3,
+          "cost": 2502
+        }
+      },
+      "role": "raw",
+      "autoStrip": true
+    },
+    {
+      "id": "metiz-7-1",
+      "type": "hardware",
+      "bay": "03",
+      "cost": 5838,
+      "incoming": false,
+      "reserved": false,
+      "shipped": false,
+      "rigged": false,
+      "position": [
+        1.2082833051681519,
+        0.7997905015945435,
+        1.0595312118530273
+      ],
+      "quaternion": [
+        0.000040232480387203395,
+        0.000049271464376943186,
+        0.00007814353739377111,
+        1
+      ],
+      "contents": {
+        "washers-2": {
+          "qty": 7,
+          "cost": 5838
+        }
+      },
+      "role": "raw",
+      "autoStrip": true
+    }
+  ],
+  "mode": "metiz-assembly",
+  "packingJob": {
+    "id": "order-3",
+    "number": 2,
+    "state": "packing",
+    "offer": {
+      "id": "assembly-0-medium",
+      "buyer": "Сервисная компания «Опора»",
+      "title": "Сборная заявка · 32 коробки",
+      "lines": {
+        "bolts-3": 12,
+        "nuts-2": 10,
+        "washers-2": 10
+      },
+      "price": 66920,
+      "handlingBonus": 1800
+    },
+    "openId": "case-6",
+    "nextCase": 2,
+    "acceptedRound": 0,
+    "acceptedTransport": false,
+    "acceptedContractCompleted": 0,
+    "acceptedContractProgress": 0
+  },
+  "workerPositions": [
+    {
+      "x": 4.4,
+      "z": 4.35,
+      "angle": 3.141592653589793
+    },
+    {
+      "x": 5.4,
+      "z": 4.35,
+      "angle": 3.141592653589793
+    }
+  ],
+  "currency": 10,
+  "payroll": {
+    "shift": 1,
+    "orders": 0,
+    "accrued": 0,
+    "due": 0,
+    "paid": 0,
+    "lastBill": 0,
+    "lastPaid": 0
+  },
+  "migration": null,
+  "riggerRest": [
+    {
+      "rest": {
+        "phase": "seated",
+        "seat": 0,
+        "t": 0.65
+      },
+      "state": "resting",
+      "path": [],
+      "step": 174.17186721027124,
+      "sit": 1
+    },
+    {
+      "rest": {
+        "phase": "seated",
+        "seat": 1,
+        "t": 0.65
+      },
+      "state": "resting",
+      "path": [],
+      "step": 304.6889583340568,
+      "sit": 1
+    }
+  ],
+  "pickQueue": [],
+  "picker": {
+    "x": 0.4,
+    "z": 4.35,
+    "y": 0,
+    "angle": 3.141592653589793,
+    "state": "resting",
+    "path": [],
+    "job": null,
+    "carry": null,
+    "timer": 0,
+    "step": 41.6752503222923,
+    "speed": 0,
+    "travelSpeed": 0,
+    "turnRate": 0,
+    "retryAt": 0,
+    "idleFor": 3.016666666666661,
+    "rest": {
+      "phase": "seated",
+      "seat": 2,
+      "t": 0.65
+    },
+    "sit": 1
+  },
+  "pickers": [
+    {
+      "x": 0.4,
+      "z": 4.35,
+      "y": 0,
+      "angle": 3.141592653589793,
+      "state": "resting",
+      "path": [],
+      "job": null,
+      "carry": null,
+      "timer": 0,
+      "step": 41.6752503222923,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0,
+      "retryAt": 0,
+      "idleFor": 3.016666666666661,
+      "rest": {
+        "phase": "seated",
+        "seat": 2,
+        "t": 0.65
+      },
+      "sit": 1
+    },
+    {
+      "x": 1.4,
+      "z": 4.35,
+      "y": 0,
+      "angle": 3.141592653589793,
+      "state": "resting",
+      "path": [],
+      "job": null,
+      "carry": null,
+      "timer": 0,
+      "step": 32.81028050029791,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0,
+      "retryAt": 0,
+      "idleFor": 3.016666666666661,
+      "rest": {
+        "phase": "seated",
+        "seat": 3,
+        "t": 0.65
+      },
+      "sit": 1
+    }
+  ],
+  "focusSku": "bolts-3",
+  "orders": [
+    {
+      "id": "order-1",
+      "number": 1,
+      "state": "packing",
+      "offer": {
+        "id": "metiz-0-1",
+        "buyer": "Столярный цех",
+        "lines": {
+          "bolts-3": 4,
+          "nuts-2": 4,
+          "washers-2": 4
+        },
+        "price": 24980,
+        "title": "Заявка 1-2",
+        "handlingBonus": 1000
+      },
+      "openId": null,
+      "nextCase": 2,
+      "acceptedRound": 0,
+      "acceptedTransport": false,
+      "acceptedContractCompleted": 0,
+      "acceptedContractProgress": 0
+    },
+    {
+      "id": "order-3",
+      "number": 2,
+      "state": "packing",
+      "offer": {
+        "id": "assembly-0-medium",
+        "buyer": "Сервисная компания «Опора»",
+        "title": "Сборная заявка · 32 коробки",
+        "lines": {
+          "bolts-3": 12,
+          "nuts-2": 10,
+          "washers-2": 10
+        },
+        "price": 66920,
+        "handlingBonus": 1800
+      },
+      "openId": "case-6",
+      "nextCase": 2,
+      "acceptedRound": 0,
+      "acceptedTransport": false,
+      "acceptedContractCompleted": 0,
+      "acceptedContractProgress": 0
+    },
+    {
+      "id": "order-4",
+      "number": 3,
+      "state": "packing",
+      "offer": {
+        "id": "metiz-0-0",
+        "buyer": "Мастерская «Ротор»",
+        "lines": {
+          "wire-1": 1
+        },
+        "price": 4010,
+        "title": "Заявка 1-1"
+      },
+      "openId": null,
+      "nextCase": 1,
+      "acceptedRound": 0,
+      "acceptedTransport": false,
+      "acceptedContractCompleted": 0,
+      "acceptedContractProgress": 0
+    }
+  ],
+  "selectedOrderId": "order-3",
+  "orderHistory": [],
+  "orderSerial": 4
+}

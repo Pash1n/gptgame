@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-30T09:32:04.855Z",
+  "checks": [
+    "New game: 120000, 2 free pickers, 4 seated workers face pallets, yellow rigger and blue picker roles",
+    "Real computer hires third and fourth, cost45000, wage forecast5200, six unique seated workers, fifth hire disabled",
+    "Earned expanded warehouse: locker/ladder/fire equipment group moves -10 metres to new wall, bench stays, paid wages4880 retained",
+    "Actual old localStorage fallback migrates v4 to new v5 key, refunds old second hire and preserves old key"
+  ],
+  "errors": [],
+  "limitation": "Software GPU and emulated phone sizes, not physical phone performance measurement"
+}

@@ -1,0 +1,8 @@
+export const UPGRADES={expansion:{price:12000,sales:2,title:'Соседний пролёт · 8 мест'},transport:{price:6500,sales:3,title:'Поставки до 4 поддонов'}};
+export const CONTRACT_BONUS=2500;
+export const CATALOG={motors:{buy:6500,sell:8900,buyer:'Мастерская «Ротор»',description:'Электродвигатели. Высокая цена, хороший доход в комплектных заказах.'},crates:{buy:3200,sell:4500,buyer:'Сервис «Механика»',description:'Запчасти. Небольшая закупка оставляет деньги на следующий товар.'}};
+export const deliveryFee=count=>count>2?700:400;
+export const countLines=lines=>Object.values(lines).reduce((s,n)=>s+n,0);
+export const lineText=lines=>Object.entries(lines).map(([type,n])=>(type==='motors'?'Двигатели':'Запчасти')+' × '+n).join(' + ');
+export function offers(g){const round=g.marketRound,lot=round%2?'crates':'motors',quick=round%2?'motors':'crates';const quote=(id,buyer,lines,mult,extra={})=>({id:id+'-'+round,buyer,lines,price:Math.round(Object.entries(lines).reduce((s,[type,n])=>s+CATALOG[type].sell*n,0)*mult),...extra});const list=[quote('quick','Местный сервис',{[quick]:1},1+(round%3)*.025),quote('lot','Оптовый покупатель',{[lot]:2},1.08+(round%3)*.025),quote('mix','Сборочный участок',{motors:1,crates:1},1.15+(round%3)*.02)];if(g.transportUnlocked)list.push(quote('bulk','Региональная база',{[lot]:4},1.12+(round%3)*.02),quote('bulk-mix','Комплектовщик',{motors:2,crates:2},1.20));return list;}
+export function contractOffer(g){return{id:'contract-'+g.contractCompleted+'-'+g.contractProgress,buyer:'Постоянный клиент «Сборка»',lines:{motors:1,crates:1},price:15000,contract:true,title:'Комплектные поставки · '+(g.contractProgress+1)+' / 2'};}

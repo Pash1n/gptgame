@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-30T09:36:59.965Z",
+  "checks": [
+    "Invalid payroll, seat ownership, nonfinite rest paths, rest progress, fifth picker, unbalanced cash and currency mismatch rejected; worlds released",
+    "Queue wakes seated workers, rising animation save/reload completes 2 pickups exactly once, both return to their seats",
+    "Controlled payroll debt: pays only available cash, no negative balance or repeat debit; debt persists, idle adds no penalty and hiring blocked until repaid"
+  ]
+}

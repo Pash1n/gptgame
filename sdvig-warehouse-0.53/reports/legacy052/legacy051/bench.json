@@ -1,0 +1,172 @@
+{
+  "version": 5,
+  "expanded": false,
+  "transportUnlocked": false,
+  "marketRound": 0,
+  "contractProgress": 0,
+  "contractCompleted": 0,
+  "cash": 120000,
+  "profit": 0,
+  "sales": 0,
+  "serial": 1,
+  "trade": null,
+  "truck": {
+    "offset": 24,
+    "state": "absent",
+    "timer": 0
+  },
+  "suspension": {
+    "y": 0,
+    "roll": 0,
+    "pitch": 0,
+    "vy": 0,
+    "vroll": 0,
+    "vpitch": 0,
+    "load": 0,
+    "targetY": 0
+  },
+  "history": [],
+  "loaded": 0,
+  "totalLoaded": 0,
+  "shipments": [],
+  "target": {
+    "x": 5,
+    "z": 1.1,
+    "height": 4.7
+  },
+  "anchor": [
+    5,
+    8.149999618530273,
+    1.100000023841858
+  ],
+  "hook": [
+    5,
+    4.69999885559082,
+    1.100000023841858
+  ],
+  "cableLength": 3.1,
+  "active": null,
+  "items": [],
+  "mode": "metiz-assembly",
+  "packingJob": null,
+  "workerPositions": [
+    {
+      "x": 4.4,
+      "z": 4.35,
+      "angle": 3.141592653589793
+    },
+    {
+      "x": 5.4,
+      "z": 4.35,
+      "angle": 3.141592653589793
+    }
+  ],
+  "currency": 10,
+  "payroll": {
+    "shift": 1,
+    "orders": 0,
+    "accrued": 0,
+    "due": 0,
+    "paid": 0,
+    "lastBill": 0,
+    "lastPaid": 0
+  },
+  "migration": null,
+  "riggerRest": [
+    {
+      "rest": {
+        "phase": "seated",
+        "seat": 0,
+        "t": 0.65
+      },
+      "state": "resting",
+      "path": [],
+      "step": 19.71622624972989,
+      "sit": 1
+    },
+    {
+      "rest": {
+        "phase": "seated",
+        "seat": 1,
+        "t": 0.65
+      },
+      "state": "resting",
+      "path": [],
+      "step": 71.84137149788147,
+      "sit": 1
+    }
+  ],
+  "pickQueue": [],
+  "picker": {
+    "x": 0.4,
+    "z": 4.35,
+    "y": 0,
+    "angle": 3.141592653589793,
+    "state": "resting",
+    "path": [],
+    "job": null,
+    "carry": null,
+    "timer": 0,
+    "step": 41.6752503222923,
+    "speed": 0,
+    "travelSpeed": 0,
+    "turnRate": 0,
+    "retryAt": 0,
+    "idleFor": 3.016666666666661,
+    "rest": {
+      "phase": "seated",
+      "seat": 2,
+      "t": 0.65
+    },
+    "sit": 1
+  },
+  "pickers": [
+    {
+      "x": 0.4,
+      "z": 4.35,
+      "y": 0,
+      "angle": 3.141592653589793,
+      "state": "resting",
+      "path": [],
+      "job": null,
+      "carry": null,
+      "timer": 0,
+      "step": 41.6752503222923,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0,
+      "retryAt": 0,
+      "idleFor": 3.016666666666661,
+      "rest": {
+        "phase": "seated",
+        "seat": 2,
+        "t": 0.65
+      },
+      "sit": 1
+    },
+    {
+      "x": 1.4,
+      "z": 4.35,
+      "y": 0,
+      "angle": 3.141592653589793,
+      "state": "resting",
+      "path": [],
+      "job": null,
+      "carry": null,
+      "timer": 0,
+      "step": 32.81028050029791,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0,
+      "retryAt": 0,
+      "idleFor": 3.016666666666661,
+      "rest": {
+        "phase": "seated",
+        "seat": 3,
+        "t": 0.65
+      },
+      "sit": 1
+    }
+  ],
+  "focusSku": null
+}

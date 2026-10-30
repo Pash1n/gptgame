@@ -1,0 +1,367 @@
+{
+  "date": "2026-10-30T10:24:19.195Z",
+  "method": "Actual supplier trades and physical crane/rigger/picker moves, no grants or cargo teleports",
+  "checks": [
+    "Accept 3 before purchase, unique sequential numbers, fourth/duplicate rejected, all restored",
+    "Shared SKU stock allocated in acceptance order; another order cannot consume reserved boxes; missing cart buys its own shortage while all 3 remain active",
+    "Order B 25+7 shipped while A pickers carry boxes; reload parked, leaving and after payment; B alone removed, A queue/cargo survives, old accepted price unchanged after market refresh",
+    "All 3 accepted orders completed independently with one truck, 3 payments and 3 payroll accruals exactly once; global cost/cash ledger conserved",
+    "Pause A at 2/25, crane-store it, build separate C, return A without forcing a new empty case, reopen and finish12; both orders and their contents remain separate across reload",
+    "5 current 0.51 saves migrate without rescaling/refund a second time; selected order, payroll, seated crew and carried cartons retained"
+  ],
+  "trace": [
+    {
+      "id": "metiz-5-0",
+      "x": 1,
+      "z": -2.5,
+      "role": "raw",
+      "boxes": 13,
+      "cash": 101350
+    },
+    {
+      "id": "metiz-7-0",
+      "x": 6,
+      "z": -2.5,
+      "role": "raw",
+      "boxes": 25,
+      "cash": 57450
+    },
+    {
+      "id": "metiz-7-1",
+      "x": 1,
+      "z": 1.1,
+      "role": "raw",
+      "boxes": 7,
+      "cash": 57450
+    },
+    {
+      "id": "case-6",
+      "x": 12.8,
+      "z": 2.8,
+      "role": "dispatch",
+      "boxes": 25,
+      "cash": 57450
+    },
+    {
+      "id": "case-6",
+      "x": 13.2,
+      "z": -1.55,
+      "role": "dispatch",
+      "boxes": 25,
+      "cash": 57250
+    },
+    {
+      "id": "case-8",
+      "x": 15.6,
+      "z": -1.55,
+      "role": "dispatch",
+      "boxes": 7,
+      "cash": 57250
+    },
+    {
+      "id": "case-10",
+      "x": 13.2,
+      "z": -1.55,
+      "role": "dispatch",
+      "boxes": 12,
+      "cash": 123970
+    },
+    {
+      "id": "case-12",
+      "x": 13.2,
+      "z": -1.55,
+      "role": "dispatch",
+      "boxes": 1,
+      "cash": 148750
+    },
+    {
+      "id": "metiz-1-0",
+      "x": 1,
+      "z": -2.5,
+      "role": "raw",
+      "boxes": 13,
+      "cash": 101550
+    },
+    {
+      "id": "case-3",
+      "x": 12.8,
+      "z": 2.8,
+      "role": "dispatch",
+      "boxes": 2,
+      "cash": 101350
+    },
+    {
+      "id": "case-5",
+      "x": 15.5,
+      "z": 2.8,
+      "role": "dispatch",
+      "boxes": 1,
+      "cash": 101150
+    },
+    {
+      "id": "case-3",
+      "x": 9.15,
+      "z": 1.1,
+      "role": "dispatch",
+      "boxes": 2,
+      "cash": 101150
+    }
+  ],
+  "final": {
+    "version": 6,
+    "expanded": false,
+    "transportUnlocked": false,
+    "marketRound": 3,
+    "contractProgress": 0,
+    "contractCompleted": 0,
+    "cash": 152760,
+    "profit": 32760,
+    "sales": 3,
+    "serial": 14,
+    "trade": null,
+    "truck": {
+      "offset": 24,
+      "state": "absent",
+      "timer": 6.016666666666651
+    },
+    "suspension": {
+      "y": -0.019999999999999997,
+      "roll": -0.0004948513793945312,
+      "pitch": 0.001719421630859374,
+      "vy": -2.00160401074247e-17,
+      "vroll": 1.3733227518149724e-18,
+      "vpitch": 1.239088197126291e-18,
+      "load": 320,
+      "targetY": -0.02
+    },
+    "history": [
+      {
+        "kind": "sell",
+        "type": "hardware",
+        "lines": {
+          "hardware": 1
+        },
+        "buyer": "Мастерская «Ротор»",
+        "count": 1,
+        "price": 4010,
+        "profit": 1653,
+        "number": 13
+      },
+      {
+        "kind": "sell",
+        "type": "hardware",
+        "lines": {
+          "hardware": 1
+        },
+        "buyer": "Столярный цех",
+        "count": 1,
+        "price": 24980,
+        "profit": 8487,
+        "number": 11
+      },
+      {
+        "kind": "sell",
+        "type": "hardware",
+        "lines": {
+          "hardware": 2
+        },
+        "buyer": "Сервисная компания «Опора»",
+        "count": 2,
+        "price": 66920,
+        "profit": 22620,
+        "number": 9
+      },
+      {
+        "kind": "buy",
+        "type": "hardware",
+        "lines": {
+          "hardware": 2
+        },
+        "count": 2,
+        "price": 43900,
+        "profit": 0,
+        "number": 7
+      },
+      {
+        "kind": "buy",
+        "type": "hardware",
+        "lines": {
+          "hardware": 1
+        },
+        "count": 1,
+        "price": 18450,
+        "profit": 0,
+        "number": 5
+      }
+    ],
+    "loaded": 1,
+    "totalLoaded": 4,
+    "shipments": [],
+    "target": {
+      "x": 13.2,
+      "z": -1.55,
+      "height": 5.8
+    },
+    "anchor": [
+      13.200006484985352,
+      8.149999618530273,
+      -1.550000786781311
+    ],
+    "hook": [
+      13.199997901916504,
+      5.799999237060547,
+      -1.549999475479126
+    ],
+    "cableLength": 2.0000000000000004,
+    "active": null,
+    "items": [],
+    "mode": "metiz-assembly",
+    "packingJob": null,
+    "workerPositions": [
+      {
+        "x": 4.4,
+        "z": 4.35,
+        "angle": 3.141592653589793
+      },
+      {
+        "x": 5.4,
+        "z": 4.35,
+        "angle": 3.141592653589793
+      }
+    ],
+    "currency": 10,
+    "payroll": {
+      "shift": 1,
+      "orders": 3,
+      "accrued": 2160,
+      "due": 0,
+      "paid": 0,
+      "lastBill": 0,
+      "lastPaid": 0
+    },
+    "migration": null,
+    "riggerRest": [
+      {
+        "rest": {
+          "phase": "seated",
+          "seat": 0,
+          "t": 0.65
+        },
+        "state": "resting",
+        "path": [],
+        "step": 388.30431572130004,
+        "sit": 1
+      },
+      {
+        "rest": {
+          "phase": "seated",
+          "seat": 1,
+          "t": 0.65
+        },
+        "state": "resting",
+        "path": [],
+        "step": 705.2312200333859,
+        "sit": 1
+      }
+    ],
+    "pickQueue": [],
+    "picker": {
+      "x": 0.4,
+      "z": 4.35,
+      "y": 0,
+      "angle": 3.141592653589793,
+      "state": "resting",
+      "path": [],
+      "job": null,
+      "carry": null,
+      "timer": 0,
+      "step": 1898.0072086930547,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0,
+      "retryAt": 0,
+      "idleFor": 3.016666666666661,
+      "rest": {
+        "phase": "seated",
+        "seat": 2,
+        "t": 0.65
+      },
+      "sit": 1
+    },
+    "pickers": [
+      {
+        "x": 0.4,
+        "z": 4.35,
+        "y": 0,
+        "angle": 3.141592653589793,
+        "state": "resting",
+        "path": [],
+        "job": null,
+        "carry": null,
+        "timer": 0,
+        "step": 1898.0072086930547,
+        "speed": 0,
+        "travelSpeed": 0,
+        "turnRate": 0,
+        "retryAt": 0,
+        "idleFor": 3.016666666666661,
+        "rest": {
+          "phase": "seated",
+          "seat": 2,
+          "t": 0.65
+        },
+        "sit": 1
+      },
+      {
+        "x": 1.4,
+        "z": 4.35,
+        "y": 0,
+        "angle": 3.141592653589793,
+        "state": "resting",
+        "path": [],
+        "job": null,
+        "carry": null,
+        "timer": 0,
+        "step": 1647.4887261134627,
+        "speed": 0,
+        "travelSpeed": 0,
+        "turnRate": 0,
+        "retryAt": 0,
+        "idleFor": 3.016666666666661,
+        "rest": {
+          "phase": "seated",
+          "seat": 3,
+          "t": 0.65
+        },
+        "sit": 1
+      }
+    ],
+    "focusSku": null,
+    "orders": [],
+    "selectedOrderId": null,
+    "orderHistory": [
+      {
+        "number": 3,
+        "buyer": "Мастерская «Ротор»",
+        "price": 4010,
+        "boxes": 1,
+        "id": "order-4"
+      },
+      {
+        "number": 1,
+        "buyer": "Столярный цех",
+        "price": 24980,
+        "boxes": 12,
+        "id": "order-1"
+      },
+      {
+        "number": 2,
+        "buyer": "Сервисная компания «Опора»",
+        "price": 66920,
+        "boxes": 32,
+        "id": "order-3"
+      }
+    ],
+    "orderSerial": 4
+  }
+}

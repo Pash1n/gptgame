@@ -1,0 +1,194 @@
+{
+  "version": 3,
+  "expanded": false,
+  "transportUnlocked": false,
+  "marketRound": 0,
+  "contractProgress": 0,
+  "contractCompleted": 0,
+  "cash": 7570,
+  "profit": 0,
+  "sales": 0,
+  "serial": 2,
+  "trade": null,
+  "truck": {
+    "offset": 24,
+    "state": "absent",
+    "timer": 6.016666666666651
+  },
+  "suspension": {
+    "y": 3.1393374730067354e-65,
+    "roll": 3.4838256585506026e-79,
+    "pitch": 7.612079616413162e-72,
+    "vy": 1.914556689422422e-65,
+    "vroll": -2.4614362883522757e-78,
+    "vpitch": -2.7430094443648963e-71,
+    "load": 0,
+    "targetY": 0
+  },
+  "history": [
+    {
+      "kind": "buy",
+      "type": "hardware",
+      "lines": {
+        "hardware": 2
+      },
+      "count": 2,
+      "price": 4430,
+      "profit": 0,
+      "number": 1
+    }
+  ],
+  "loaded": 2,
+  "totalLoaded": 0,
+  "shipments": [],
+  "target": {
+    "x": 6,
+    "z": -2.5,
+    "height": 5.8
+  },
+  "anchor": [
+    5.999996662139893,
+    8.149999618530273,
+    -2.5000016689300537
+  ],
+  "hook": [
+    5.999989032745361,
+    5.799998760223389,
+    -2.500004291534424
+  ],
+  "cableLength": 2.0000000000000004,
+  "active": null,
+  "items": [
+    {
+      "id": "metiz-1-0",
+      "type": "hardware",
+      "bay": "02",
+      "cost": 1972,
+      "incoming": false,
+      "reserved": false,
+      "shipped": false,
+      "rigged": false,
+      "position": [
+        6.10026741027832,
+        0.7996616959571838,
+        -2.437061071395874
+      ],
+      "quaternion": [
+        -8.27432984351617e-7,
+        -0.0007609542808495462,
+        0.00017250253586098552,
+        0.9999997019767761
+      ],
+      "contents": {
+        "self-1": {
+          "qty": 6,
+          "cost": 744
+        },
+        "nails-2": {
+          "qty": 4,
+          "cost": 516
+        },
+        "wire-1": {
+          "qty": 2,
+          "cost": 428
+        },
+        "wire-2": {
+          "qty": 1,
+          "cost": 284
+        }
+      },
+      "role": "raw",
+      "autoStrip": true
+    },
+    {
+      "id": "metiz-1-1",
+      "type": "hardware",
+      "bay": "01",
+      "cost": 850,
+      "incoming": false,
+      "reserved": false,
+      "shipped": false,
+      "rigged": false,
+      "position": [
+        1.0625624656677246,
+        0.7995034456253052,
+        -2.4692001342773438
+      ],
+      "quaternion": [
+        0.0003395160601940006,
+        -0.00018977468425873667,
+        0.000010903955626417883,
+        1
+      ],
+      "contents": {
+        "wire-2": {
+          "qty": 3,
+          "cost": 850
+        }
+      },
+      "role": "raw",
+      "autoStrip": true
+    }
+  ],
+  "mode": "metiz",
+  "packingJob": {
+    "state": "packing",
+    "offer": {
+      "id": "metiz-0-1",
+      "buyer": "Столярный цех",
+      "lines": {
+        "bolts-3": 4,
+        "nuts-2": 4,
+        "washers-2": 4
+      },
+      "price": 2398,
+      "title": "Заявка 1-2"
+    },
+    "draft": {
+      "bolts-3": {
+        "qty": 4,
+        "cost": 776
+      },
+      "nuts-2": {
+        "qty": 4,
+        "cost": 496
+      },
+      "washers-2": {
+        "qty": 4,
+        "cost": 336
+      }
+    },
+    "origins": [
+      {
+        "itemId": "metiz-1-0",
+        "id": "bolts-3",
+        "qty": 4,
+        "cost": 776
+      },
+      {
+        "itemId": "metiz-1-0",
+        "id": "nuts-2",
+        "qty": 4,
+        "cost": 496
+      },
+      {
+        "itemId": "metiz-1-0",
+        "id": "washers-2",
+        "qty": 4,
+        "cost": 336
+      }
+    ]
+  },
+  "workerPositions": [
+    {
+      "x": 6.10026741027832,
+      "z": -1.087061071395874,
+      "angle": -3.1415926535897936
+    },
+    {
+      "x": 15.60186965365881,
+      "z": 0.400171219886348,
+      "angle": -3.141873341845214
+    }
+  ]
+}

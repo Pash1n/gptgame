@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-30T10:40:48.393Z",
+  "archiveSha256": "82cee70c53c7d161f85195788a7d8754ed79810b3ece88fe140822c8bd37ea46",
+  "checks": [
+    "Extracted ZIP root index loads inside sandboxed local iframe, WebGL2/Jolt ready, keyboard crane and pause/resume work",
+    "Computer accepts order in iframe; live assembly panel fits portrait390×844"
+  ],
+  "errors": [],
+  "bad": [],
+  "network": "All game resources loaded from extracted archive, 16 local images, no external CDN",
+  "limitation": "Local sandboxed iframe and emulated phone size only. Not uploaded or tested on actual Pikabu."
+}

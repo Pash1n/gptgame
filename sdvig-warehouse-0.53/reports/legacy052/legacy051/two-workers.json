@@ -1,0 +1,383 @@
+{
+  "version": 5,
+  "expanded": false,
+  "transportUnlocked": false,
+  "marketRound": 1,
+  "contractProgress": 0,
+  "contractCompleted": 0,
+  "cash": 71030,
+  "profit": 8230,
+  "sales": 1,
+  "serial": 9,
+  "trade": null,
+  "truck": {
+    "offset": 24,
+    "state": "absent",
+    "timer": 6.016666666666651
+  },
+  "suspension": {
+    "y": 2.7687593876207196e-65,
+    "roll": 1.5481254029287048e-79,
+    "pitch": -9.368190116164212e-72,
+    "vy": -9.682226585421642e-65,
+    "vroll": -1.5664666081063244e-78,
+    "vpitch": 5.817606853456324e-71,
+    "load": 0,
+    "targetY": 0
+  },
+  "history": [
+    {
+      "kind": "buy",
+      "type": "hardware",
+      "lines": {
+        "hardware": 1
+      },
+      "count": 1,
+      "price": 12000,
+      "profit": 0,
+      "number": 6
+    },
+    {
+      "kind": "sell",
+      "type": "hardware",
+      "lines": {
+        "hardware": 2
+      },
+      "buyer": "Столярный цех",
+      "count": 2,
+      "price": 24980,
+      "profit": 8230,
+      "number": 5
+    },
+    {
+      "kind": "buy",
+      "type": "hardware",
+      "lines": {
+        "hardware": 1
+      },
+      "count": 1,
+      "price": 16350,
+      "profit": 0,
+      "number": 1
+    }
+  ],
+  "loaded": 1,
+  "totalLoaded": 2,
+  "shipments": [],
+  "target": {
+    "x": 1,
+    "z": -2.5,
+    "height": 5.8
+  },
+  "anchor": [
+    0.9999995827674866,
+    8.149999618530273,
+    -2.4999983310699463
+  ],
+  "hook": [
+    0.9999986886978149,
+    5.799999237060547,
+    -2.500000476837158
+  ],
+  "cableLength": 2.0000000000000004,
+  "active": null,
+  "items": [
+    {
+      "id": "metiz-6-0",
+      "type": "hardware",
+      "bay": "01",
+      "cost": 9650,
+      "incoming": false,
+      "reserved": false,
+      "shipped": false,
+      "rigged": false,
+      "position": [
+        1.1717339754104614,
+        0.7994157075881958,
+        -2.4683899879455566
+      ],
+      "quaternion": [
+        -6.19530510448385e-7,
+        -0.000008997320946946274,
+        0.0002976245596073568,
+        1
+      ],
+      "contents": {
+        "washers-1": {
+          "qty": 3,
+          "cost": 2175
+        },
+        "screws-1": {
+          "qty": 1,
+          "cost": 1175
+        },
+        "screws-3": {
+          "qty": 4,
+          "cost": 6300
+        }
+      },
+      "role": "raw",
+      "autoStrip": true
+    },
+    {
+      "id": "case-8",
+      "type": "hardware",
+      "bay": "PACK",
+      "cost": 200,
+      "incoming": false,
+      "reserved": false,
+      "shipped": false,
+      "rigged": false,
+      "position": [
+        9.149999618530273,
+        0.800000011920929,
+        1.100000023841858
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "contents": {},
+      "role": "dispatch",
+      "autoStrip": false,
+      "orderId": "order-7",
+      "caseNumber": 1,
+      "caseState": "open",
+      "packCost": 200
+    }
+  ],
+  "mode": "metiz-assembly",
+  "packingJob": {
+    "id": "order-7",
+    "number": 7,
+    "state": "packing",
+    "offer": {
+      "id": "metiz-1-0",
+      "buyer": "Мастерская «Ротор»",
+      "lines": {
+        "screws-1": 3,
+        "screws-3": 4,
+        "washers-1": 3
+      },
+      "price": 18550,
+      "title": "Заявка 2-1",
+      "handlingBonus": 1000
+    },
+    "openId": "case-8",
+    "nextCase": 2
+  },
+  "workerPositions": [
+    {
+      "x": 4.4,
+      "z": 4.35,
+      "angle": 3.141592653589793
+    },
+    {
+      "x": 5.4,
+      "z": 4.35,
+      "angle": 3.141592653589793
+    }
+  ],
+  "currency": 10,
+  "payroll": {
+    "shift": 1,
+    "orders": 1,
+    "accrued": 720,
+    "due": 0,
+    "paid": 0,
+    "lastBill": 0,
+    "lastPaid": 0
+  },
+  "migration": null,
+  "riggerRest": [
+    {
+      "rest": {
+        "phase": "seated",
+        "seat": 0,
+        "t": 0.65
+      },
+      "state": "resting",
+      "path": [],
+      "step": 361.7476751094368,
+      "sit": 1
+    },
+    {
+      "rest": {
+        "phase": "seated",
+        "seat": 1,
+        "t": 0.65
+      },
+      "state": "resting",
+      "path": [],
+      "step": 394.4976053963396,
+      "sit": 1
+    }
+  ],
+  "pickQueue": [
+    {
+      "sourceId": "metiz-6-0",
+      "sku": "screws-3",
+      "n": 3
+    },
+    {
+      "sourceId": "metiz-6-0",
+      "sku": "washers-1",
+      "n": 3
+    }
+  ],
+  "picker": {
+    "x": 0.5717275241470711,
+    "z": -0.9682164960655683,
+    "y": 0,
+    "angle": 2.9244249634046233,
+    "state": "walking",
+    "path": [
+      {
+        "x": 8.549999618530274,
+        "z": 2.600000023841858
+      }
+    ],
+    "job": {
+      "sourceId": "metiz-6-0",
+      "sku": "screws-1",
+      "targetId": "case-8",
+      "phase": "to-case"
+    },
+    "carry": {
+      "sku": "screws-1",
+      "cost": 1175,
+      "sourceId": "metiz-6-0",
+      "targetId": "case-8"
+    },
+    "timer": 0,
+    "step": 710.406107066806,
+    "speed": 0,
+    "travelSpeed": 0,
+    "turnRate": -3.600000000000003,
+    "retryAt": 0,
+    "idleFor": 0,
+    "rest": null,
+    "sit": 0
+  },
+  "pickers": [
+    {
+      "x": 0.5717275241470711,
+      "z": -0.9682164960655683,
+      "y": 0,
+      "angle": 2.9244249634046233,
+      "state": "walking",
+      "path": [
+        {
+          "x": 8.549999618530274,
+          "z": 2.600000023841858
+        }
+      ],
+      "job": {
+        "sourceId": "metiz-6-0",
+        "sku": "screws-1",
+        "targetId": "case-8",
+        "phase": "to-case"
+      },
+      "carry": {
+        "sku": "screws-1",
+        "cost": 1175,
+        "sourceId": "metiz-6-0",
+        "targetId": "case-8"
+      },
+      "timer": 0,
+      "step": 710.406107066806,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": -3.600000000000003,
+      "retryAt": 0,
+      "idleFor": 0,
+      "rest": null,
+      "sit": 0
+    },
+    {
+      "x": 0.9717339754104615,
+      "z": -0.9683899879455566,
+      "y": 0,
+      "angle": 3.114058810121296,
+      "state": "walking",
+      "path": [
+        {
+          "x": 8.949999618530274,
+          "z": 2.600000023841858
+        }
+      ],
+      "job": {
+        "sourceId": "metiz-6-0",
+        "sku": "screws-1",
+        "targetId": "case-8",
+        "phase": "to-case"
+      },
+      "carry": {
+        "sku": "screws-1",
+        "cost": 1175,
+        "sourceId": "metiz-6-0",
+        "targetId": "case-8"
+      },
+      "timer": 0,
+      "step": 692.173785902952,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": -3.600000000000003,
+      "retryAt": 0,
+      "idleFor": 0,
+      "rest": null,
+      "sit": 0
+    },
+    {
+      "x": 1.3717705715760025,
+      "z": -0.9682256186476408,
+      "y": 0,
+      "angle": 3.3606653917594356,
+      "state": "rigging",
+      "path": [],
+      "job": {
+        "sourceId": "metiz-6-0",
+        "sku": "screws-1",
+        "targetId": "case-8",
+        "phase": "pickup"
+      },
+      "carry": null,
+      "timer": 0.6333333333333336,
+      "step": 53.20110071753406,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0,
+      "retryAt": 0,
+      "idleFor": 0,
+      "rest": null,
+      "sit": 0
+    },
+    {
+      "x": 1.7717988424246793,
+      "z": -0.9682060000931495,
+      "y": 0,
+      "angle": 3.4805475159289605,
+      "state": "rigging",
+      "path": [],
+      "job": {
+        "sourceId": "metiz-6-0",
+        "sku": "screws-3",
+        "targetId": "case-8",
+        "phase": "pickup"
+      },
+      "carry": null,
+      "timer": 0.5333333333333333,
+      "step": 48.651670254700996,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0,
+      "retryAt": 0,
+      "idleFor": 0,
+      "rest": null,
+      "sit": 0
+    }
+  ],
+  "focusSku": "washers-1"
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-30T07:13:02.812Z",
+  "checks": [
+    "Invalid carts, absent stock and premature actions leave initial economy unchanged",
+    "1/7/24/25/26/49/50/75/100 box partitions and integer delivery/tare allocation conserve quantities and value",
+    "Corrupt manifests, cost mismatches, changed quote and orphan draft rejected; native worlds released",
+    "Wrong/excess transfers atomic; draft source cannot be discarded; reload/undo/cancel restore counts",
+    "Actually empty draft source cannot be discarded before cancellation; the single carton returns intact",
+    "Manual rig/strip intent during automatic service is queued and last intent wins"
+  ]
+}

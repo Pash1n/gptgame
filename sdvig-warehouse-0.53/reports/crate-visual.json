@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-30T10:38:32.934Z",
+  "checks": [
+    "Freshly spawned client case after scene startup uses zero PBR/lights/shadow maps, opens lid, remains textured beside original wooden supplier cases",
+    "New carton in picker hands and newly placed contents also use unlit textured materials, pickup/delivery still count once",
+    "Manual partial close/reopen preserves contents and the new appearance"
+  ],
+  "materials": {
+    "lights": 0,
+    "pbr": 0,
+    "basic": 239,
+    "skinSamples": [
+      [
+        0,
+        0.6384210611674631,
+        0.004797119803528815
+      ],
+      [
+        0,
+        0.6711318362488351,
+        0.1273391002541917
+      ],
+      [
+        0.007499999832361937,
+        1.0086227923886415,
+        0.17930992274528545
+      ],
+      [
+        0,
+        1.138614609299363,
+        0.09996197193147704
+      ],
+      [
+        0,
+        1.425744625431086,
+        0.05301725915647637
+      ],
+      [
+        0.0949999988079071,
+        1.2248727940420927,
+        0.1574106622400251
+      ],
+      [
+        -0.193381205201149,
+        0.6337047545928384,
+        0.3338158232889077
+      ],
+      [
+        0.027499999850988388,
+        0.6725650570518424,
+        0.14249999821186066
+      ],
+      [
+        -0.03279274329543114,
+        0.10116960932548857,
+        0.595496601593569
+      ]
+    ],
+    "shadows": false
+  },
+  "errors": [],
+  "limitation": "Chromium software GPU, actual screenshots; no physical phone measurement"
+}

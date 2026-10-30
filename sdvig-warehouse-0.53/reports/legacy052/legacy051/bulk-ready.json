@@ -1,0 +1,269 @@
+{
+  "version": 5,
+  "expanded": false,
+  "transportUnlocked": false,
+  "marketRound": 0,
+  "contractProgress": 0,
+  "contractCompleted": 0,
+  "cash": 75700,
+  "profit": 0,
+  "sales": 0,
+  "serial": 5,
+  "trade": null,
+  "truck": {
+    "offset": 24,
+    "state": "absent",
+    "timer": 6.016666666666651
+  },
+  "suspension": {
+    "y": 3.1393374730067354e-65,
+    "roll": 2.937927531478676e-79,
+    "pitch": 7.616394177448677e-72,
+    "vy": 1.914556689422422e-65,
+    "vroll": -2.2296159218447486e-78,
+    "vpitch": -2.7600187399570327e-71,
+    "load": 0,
+    "targetY": 0
+  },
+  "history": [
+    {
+      "kind": "buy",
+      "type": "hardware",
+      "lines": {
+        "hardware": 2
+      },
+      "count": 2,
+      "price": 43900,
+      "profit": 0,
+      "number": 1
+    }
+  ],
+  "loaded": 2,
+  "totalLoaded": 0,
+  "shipments": [],
+  "target": {
+    "x": 12.8,
+    "z": 2.8,
+    "height": 5.8
+  },
+  "anchor": [
+    12.800006866455078,
+    8.149999618530273,
+    2.800001621246338
+  ],
+  "hook": [
+    12.800020217895508,
+    5.799998760223389,
+    2.800006151199341
+  ],
+  "cableLength": 2.0000000000000004,
+  "active": null,
+  "items": [
+    {
+      "id": "case-3",
+      "type": "hardware",
+      "bay": "OUT-A",
+      "cost": 38262,
+      "incoming": false,
+      "reserved": false,
+      "shipped": false,
+      "rigged": true,
+      "position": [
+        12.688697814941406,
+        0.7993718385696411,
+        2.7333881855010986
+      ],
+      "quaternion": [
+        0.0004485574900172651,
+        0.0007616524235345423,
+        -3.370573153915757e-7,
+        0.9999996423721313
+      ],
+      "contents": {
+        "bolts-3": {
+          "qty": 12,
+          "cost": 23220
+        },
+        "nuts-2": {
+          "qty": 10,
+          "cost": 12340
+        },
+        "washers-2": {
+          "qty": 3,
+          "cost": 2502
+        }
+      },
+      "role": "dispatch",
+      "autoStrip": true,
+      "orderId": "order-2",
+      "caseNumber": 1,
+      "caseState": "closed",
+      "packCost": 200
+    },
+    {
+      "id": "case-4",
+      "type": "hardware",
+      "bay": "PACK",
+      "cost": 6038,
+      "incoming": false,
+      "reserved": false,
+      "shipped": false,
+      "rigged": false,
+      "position": [
+        9.149999618530273,
+        0.800000011920929,
+        1.100000023841858
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "contents": {
+        "washers-2": {
+          "qty": 7,
+          "cost": 5838
+        }
+      },
+      "role": "dispatch",
+      "autoStrip": false,
+      "orderId": "order-2",
+      "caseNumber": 2,
+      "caseState": "closed",
+      "packCost": 200
+    }
+  ],
+  "mode": "metiz-assembly",
+  "packingJob": {
+    "id": "order-2",
+    "number": 2,
+    "state": "packing",
+    "offer": {
+      "id": "assembly-0-medium",
+      "buyer": "Сервисная компания «Опора»",
+      "title": "Сборная заявка · 32 коробки",
+      "lines": {
+        "bolts-3": 12,
+        "nuts-2": 10,
+        "washers-2": 10
+      },
+      "price": 66920,
+      "handlingBonus": 1800
+    },
+    "openId": null,
+    "nextCase": 3
+  },
+  "workerPositions": [
+    {
+      "x": 4.4,
+      "z": 4.35,
+      "angle": 3.141592653589793
+    },
+    {
+      "x": 5.4,
+      "z": 4.35,
+      "angle": 3.141592653589793
+    }
+  ],
+  "currency": 10,
+  "payroll": {
+    "shift": 1,
+    "orders": 0,
+    "accrued": 0,
+    "due": 0,
+    "paid": 0,
+    "lastBill": 0,
+    "lastPaid": 0
+  },
+  "migration": null,
+  "riggerRest": [
+    {
+      "rest": {
+        "phase": "seated",
+        "seat": 0,
+        "t": 0.65
+      },
+      "state": "resting",
+      "path": [],
+      "step": 190.16101394392504,
+      "sit": 1
+    },
+    {
+      "rest": {
+        "phase": "seated",
+        "seat": 1,
+        "t": 0.65
+      },
+      "state": "resting",
+      "path": [],
+      "step": 209.86270464883887,
+      "sit": 1
+    }
+  ],
+  "pickQueue": [],
+  "picker": {
+    "x": 8.549999618530274,
+    "z": 2.600000023841858,
+    "y": 0,
+    "angle": 1.3769650173039358,
+    "state": "idle",
+    "path": [],
+    "job": null,
+    "carry": null,
+    "timer": 0,
+    "step": 1540.3512516394785,
+    "speed": 0,
+    "travelSpeed": 0,
+    "turnRate": 0,
+    "retryAt": 0,
+    "idleFor": 0.03333333333333333,
+    "rest": null,
+    "sit": 0
+  },
+  "pickers": [
+    {
+      "x": 8.549999618530274,
+      "z": 2.600000023841858,
+      "y": 0,
+      "angle": 1.3769650173039358,
+      "state": "idle",
+      "path": [],
+      "job": null,
+      "carry": null,
+      "timer": 0,
+      "step": 1540.3512516394785,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0,
+      "retryAt": 0,
+      "idleFor": 0.03333333333333333,
+      "rest": null,
+      "sit": 0
+    },
+    {
+      "x": 1.4,
+      "z": 3.721794871794872,
+      "y": 0,
+      "angle": 3.141592653589793,
+      "state": "resting",
+      "path": [],
+      "job": null,
+      "carry": null,
+      "timer": 0,
+      "step": 1421.9785960797276,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0,
+      "retryAt": 0,
+      "idleFor": 3.016666666666661,
+      "rest": {
+        "phase": "sitting",
+        "seat": 3,
+        "t": 0.06666666666666667
+      },
+      "sit": 0.10256410256410256
+    }
+  ],
+  "focusSku": "washers-2"
+}
