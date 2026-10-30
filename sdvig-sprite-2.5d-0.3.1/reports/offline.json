@@ -1,0 +1,276 @@
+{
+  "passed": true,
+  "sha256": "f9370ff71bb2531708a4e9e3f71b0861e3d14bc11825bb748d4ab27ebe7f401d",
+  "standaloneNetworkDisabled": true,
+  "fileSchemeTested": false,
+  "requests": [
+    "http://standalone.test/probe.html?test=1"
+  ],
+  "start": {
+    "time": 0.05833333333333333,
+    "target": {
+      "x": -2.5,
+      "z": -1.55,
+      "length": 2.5
+    },
+    "anchor": [
+      -2.5,
+      6.5,
+      -1.55
+    ],
+    "hook": {
+      "position": [
+        -2.5,
+        3.7796089326752464,
+        -1.55
+      ],
+      "velocity": [
+        0,
+        -0.003280602940129579,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "length": 2.5,
+    "velocity": {
+      "x": 0,
+      "z": 0,
+      "hoist": 0
+    },
+    "attached": 1,
+    "contacts": 2,
+    "loadContacts": 0,
+    "items": [
+      {
+        "id": 1,
+        "type": "cargo",
+        "mass": 420,
+        "size": [
+          1.65,
+          1,
+          1.15
+        ],
+        "position": [
+          -2.5,
+          1.99944684535657,
+          -1.55
+        ],
+        "velocity": [
+          0,
+          -0.004639444334829906,
+          0
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "type": "crate",
+        "mass": 680,
+        "size": [
+          1.6,
+          0.92,
+          1.2
+        ],
+        "position": [
+          0.1,
+          0.45992435879113414,
+          -1.55
+        ],
+        "velocity": [
+          0,
+          -0.0004712272815244334,
+          0
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "type": "crate",
+        "mass": 680,
+        "size": [
+          1.6,
+          0.92,
+          1.2
+        ],
+        "position": [
+          3.6,
+          0.45992435879113414,
+          1.25
+        ],
+        "velocity": [
+          0,
+          -0.0004712272815244334,
+          0
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "renderFrames": 5,
+    "physicsMs": 1.2000000178813934,
+    "renderMs": 0.29999998211860657,
+    "canvas": [
+      1920,
+      1080
+    ],
+    "paused": false,
+    "touches": {
+      "count": 0,
+      "primary": null,
+      "secondary": null
+    }
+  },
+  "move": {
+    "time": 0.8916666666666659,
+    "target": {
+      "x": -0.25999999999999446,
+      "z": 0.6900000000000012,
+      "length": 2.5
+    },
+    "anchor": [
+      -0.3139128278032928,
+      6.5,
+      0.6360871721967027
+    ],
+    "hook": {
+      "position": [
+        -1.3791628883963414,
+        4.2959802395239395,
+        -0.42916288839634253
+      ],
+      "velocity": [
+        2.6340728029644116,
+        -0.029584117138950435,
+        2.6340728029644
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "length": 2.5,
+    "velocity": {
+      "x": 1.7392064411173807,
+      "z": 1.7392064411173807,
+      "hoist": 0
+    },
+    "attached": 1,
+    "contacts": 2,
+    "loadContacts": 0,
+    "items": [
+      {
+        "id": 1,
+        "type": "cargo",
+        "mass": 420,
+        "size": [
+          1.65,
+          1,
+          1.15
+        ],
+        "position": [
+          -1.8597725319863454,
+          2.7716482816002586,
+          -0.9097725319863472
+        ],
+        "velocity": [
+          2.0063960922438584,
+          0.7482103935482015,
+          2.006396092243857
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "type": "crate",
+        "mass": 680,
+        "size": [
+          1.6,
+          0.92,
+          1.2
+        ],
+        "position": [
+          0.1,
+          0.4599130288206858,
+          -1.55
+        ],
+        "velocity": [
+          0,
+          0,
+          0
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "type": "crate",
+        "mass": 680,
+        "size": [
+          1.6,
+          0.92,
+          1.2
+        ],
+        "position": [
+          3.6,
+          0.4599130288206858,
+          1.25
+        ],
+        "velocity": [
+          0,
+          0,
+          0
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "renderFrames": 55,
+    "physicsMs": 0.20000001788139343,
+    "renderMs": 0.19999998807907104,
+    "canvas": [
+      1920,
+      1080
+    ],
+    "paused": false,
+    "touches": {
+      "count": 0,
+      "primary": null,
+      "secondary": null
+    }
+  },
+  "errors": []
+}
