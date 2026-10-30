@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-30T06:54:45.631Z",
+  "passed": true,
+  "htmlSha256": "b995d3b4c40bfa2e6446efc08dea41eab64889560f4d45c5895b448a58e25a0e",
+  "checks": [
+    "Standalone HTML embeds JS, WASM and 16 images including hardware atlas",
+    "One-box order copied into mixed purchase, one physical partial case arrives offline",
+    "Computer, packing dialog, pause and v3 save work without further network"
+  ],
+  "requests": [
+    "http://localhost:8137/Sdvig_WAREHOUSE_0.49.html?test=1"
+  ],
+  "errors": [],
+  "method": "Initial HTTP page then network disabled; file:// automation not claimed."
+}

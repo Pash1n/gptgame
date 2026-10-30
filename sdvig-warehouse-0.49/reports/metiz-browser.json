@@ -1,0 +1,989 @@
+{
+  "date": "2026-10-30T06:54:32.700Z",
+  "checks": [
+    "Actual UI: 30 searchable/filterable positions, mixed 12-box basket, one truck and one partial physical case",
+    "Real source at packing station; mouse drag, batch transfer, 25-cell case, partial count, undo and blocked premature seal",
+    "Packing view and game controls fit phone portrait/landscape; pause and resume retain draft",
+    "Real touchscreen pointer events drag one carton into a partially filled case on portrait phone"
+  ],
+  "initial": {
+    "time": 0.06666666666666667,
+    "engine": "Jolt WASM 1.1.1",
+    "target": {
+      "x": 5,
+      "z": 1.1,
+      "height": 4.7
+    },
+    "hook": {
+      "position": [
+        5,
+        4.69976806640625,
+        1.100000023841858
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "anchor": [
+      5,
+      8.149999618530273,
+      1.100000023841858
+    ],
+    "active": null,
+    "selected": null,
+    "order": {
+      "number": "—",
+      "type": "hardware",
+      "count": 0,
+      "loaded": 0
+    },
+    "totalLoaded": 0,
+    "finished": false,
+    "worker": {
+      "x": 8,
+      "z": 3.4,
+      "y": 0,
+      "angle": 0,
+      "state": "idle",
+      "path": [],
+      "job": null,
+      "timer": 0,
+      "step": 0,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0
+    },
+    "forklift": {
+      "x": 17,
+      "z": 3.5,
+      "angle": 0,
+      "state": "idle",
+      "timer": 0
+    },
+    "truck": {
+      "offset": 24,
+      "state": "absent",
+      "timer": 0
+    },
+    "queue": [],
+    "items": [],
+    "suspension": {
+      "y": 0,
+      "roll": 0,
+      "pitch": 0,
+      "vy": 0,
+      "vroll": 0,
+      "vpitch": 0,
+      "load": 0,
+      "targetY": 0
+    },
+    "deckPose": null,
+    "economy": {
+      "cash": 12000,
+      "profit": 0,
+      "sales": 0,
+      "used": 0,
+      "free": 4,
+      "capacity": 4,
+      "maxLoad": 2,
+      "expanded": false,
+      "transportUnlocked": false,
+      "marketRound": 0,
+      "offers": [
+        {
+          "id": "metiz-0-0",
+          "buyer": "Мастерская «Ротор»",
+          "lines": {
+            "wire-1": 1
+          },
+          "price": 401,
+          "title": "Заявка 1-1"
+        },
+        {
+          "id": "metiz-0-1",
+          "buyer": "Столярный цех",
+          "lines": {
+            "bolts-3": 4,
+            "nuts-2": 4,
+            "washers-2": 4
+          },
+          "price": 2398,
+          "title": "Заявка 1-2"
+        },
+        {
+          "id": "metiz-0-2",
+          "buyer": "Монтажная бригада",
+          "lines": {
+            "self-1": 6,
+            "nails-2": 4,
+            "wire-1": 2
+          },
+          "price": 2520,
+          "title": "Заявка 1-3"
+        }
+      ],
+      "contractProgress": 0,
+      "contractCompleted": 0,
+      "contractOffer": null,
+      "trade": null,
+      "history": [],
+      "task": "Метизы: изучи заявку, закупи нужные коробки и собери клиентский ящик. 25 — максимум, не обязательное заполнение."
+    },
+    "hardware": true,
+    "workers": [
+      {
+        "x": 8,
+        "z": 3.4,
+        "y": 0,
+        "angle": 0,
+        "state": "idle",
+        "path": [],
+        "job": null,
+        "timer": 0,
+        "step": 0,
+        "speed": 0,
+        "travelSpeed": 0,
+        "turnRate": 0
+      },
+      {
+        "x": 18,
+        "z": 3.4,
+        "y": 0,
+        "angle": 0,
+        "state": "idle",
+        "path": [],
+        "job": null,
+        "timer": 0,
+        "step": 0,
+        "speed": 0,
+        "travelSpeed": 0,
+        "turnRate": 0
+      }
+    ],
+    "hardwareStock": {},
+    "packingJob": null,
+    "sourceAtPad": null,
+    "quality": "sharp",
+    "craneInspection": false,
+    "wheelAngles": [
+      -46.601941747572816,
+      -46.601941747572816,
+      -46.601941747572816,
+      -46.601941747572816,
+      -46.601941747572816,
+      -46.601941747572816,
+      -46.601941747572816,
+      -46.601941747572816
+    ],
+    "annexVisible": false,
+    "drumRotation": 8.68,
+    "craneMeshBatches": 3,
+    "cameraX": 7,
+    "cameraPosition": [
+      7,
+      14.577402616910227,
+      15.252500023470118
+    ],
+    "officeProgress": null,
+    "stats": {
+      "fps": 0.5607581450120563,
+      "physicsMs": 3.9000000059604645,
+      "frameMs": 9.300000011920929,
+      "shadowUpdates": 0,
+      "renderFrames": 3,
+      "workerPose": {
+        "time": 0.06666666666666667,
+        "walk": 0,
+        "rig": 0,
+        "turnPhase": 0,
+        "hipShiftX": 0,
+        "hipY": 0.8703591366218667,
+        "torsoPitch": 0,
+        "torsoRoll": 0,
+        "twist": 0,
+        "headPitch": 0,
+        "legs": [
+          {
+            "hip": -0.15827904992482136,
+            "knee": 0.3165580998496427,
+            "ankle": -0.15827904992482136,
+            "targetZ": 0,
+            "targetY": 0.08,
+            "stance": true
+          },
+          {
+            "hip": -0.15827904992482136,
+            "knee": 0.3165580998496427,
+            "ankle": -0.15827904992482136,
+            "targetZ": 0,
+            "targetY": 0.08,
+            "stance": true
+          }
+        ],
+        "arms": [
+          {
+            "shoulder": 0,
+            "elbow": -0.18,
+            "wrist": 0
+          },
+          {
+            "shoulder": 0,
+            "elbow": -0.18,
+            "wrist": 0
+          }
+        ]
+      },
+      "drawCalls": 95,
+      "triangles": 62964,
+      "renderPixels": 1156000,
+      "shadowMaps": 0,
+      "postPasses": 0,
+      "workerBatches": 9,
+      "skippedFrames": 0,
+      "geometries": 99
+    }
+  },
+  "arrival": {
+    "time": 7.133333333333313,
+    "engine": "Jolt WASM 1.1.1",
+    "target": {
+      "x": 5,
+      "z": 1.1,
+      "height": 4.7
+    },
+    "hook": {
+      "position": [
+        5,
+        4.69999885559082,
+        1.100000023841858
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "anchor": [
+      5,
+      8.149999618530273,
+      1.100000023841858
+    ],
+    "active": null,
+    "selected": null,
+    "order": {
+      "number": "001",
+      "type": "hardware",
+      "count": 1,
+      "loaded": 0
+    },
+    "totalLoaded": 0,
+    "finished": false,
+    "worker": {
+      "x": 8,
+      "z": 3.4,
+      "y": 0,
+      "angle": 0,
+      "state": "idle",
+      "path": [],
+      "job": null,
+      "timer": 0,
+      "step": 0,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0
+    },
+    "forklift": {
+      "x": 17,
+      "z": 3.5,
+      "angle": 0,
+      "state": "idle",
+      "timer": 0
+    },
+    "truck": {
+      "offset": 0,
+      "state": "parked",
+      "timer": 0
+    },
+    "dockMessage": "Разгружено 0 / 1 · поставь груз в жёлтую разметку",
+    "queue": [],
+    "items": [
+      {
+        "id": "metiz-1-0",
+        "type": "hardware",
+        "bay": "01",
+        "position": [
+          13.196123123168945,
+          2.0171077251434326,
+          -1.5499989986419678
+        ],
+        "quaternion": [
+          2.088161998869964e-8,
+          1.436311052732675e-11,
+          0.0009631468565203249,
+          0.9999995827674866
+        ],
+        "height": 1.6,
+        "rigged": false,
+        "shipped": false,
+        "transit": false,
+        "supported": true,
+        "eye": [
+          13.193387787237699,
+          3.4371052229376895,
+          -1.5499989393381524
+        ],
+        "incoming": true,
+        "reserved": false,
+        "cost": 1635,
+        "contents": {
+          "bolts-3": {
+            "qty": 4,
+            "cost": 787
+          },
+          "nuts-2": {
+            "qty": 4,
+            "cost": 504
+          },
+          "washers-2": {
+            "qty": 4,
+            "cost": 344
+          }
+        },
+        "role": "raw",
+        "boxes": 12,
+        "address": "В кузове / разгружается"
+      }
+    ],
+    "suspension": {
+      "y": -0.020000229543682378,
+      "roll": 5.8664516765918055e-9,
+      "pitch": 0.0019255784826719528,
+      "vy": 0.00013268268584846636,
+      "vroll": 6.942111330114194e-9,
+      "vpitch": -0.000011911233128070459,
+      "load": 320,
+      "targetY": -0.02
+    },
+    "deckPose": {
+      "position": [
+        14.700000762939453,
+        -0.02000296115875244,
+        -1.5499999523162842
+      ],
+      "quaternion": [
+        2.7362827559329617e-9,
+        -2.6354363569930372e-12,
+        0.0009631443535909057,
+        0.9999995827674866
+      ]
+    },
+    "economy": {
+      "cash": 10365,
+      "profit": 0,
+      "sales": 0,
+      "used": 1,
+      "free": 3,
+      "capacity": 4,
+      "maxLoad": 2,
+      "expanded": false,
+      "transportUnlocked": false,
+      "marketRound": 0,
+      "offers": [
+        {
+          "id": "metiz-0-0",
+          "buyer": "Мастерская «Ротор»",
+          "lines": {
+            "wire-1": 1
+          },
+          "price": 401,
+          "title": "Заявка 1-1"
+        },
+        {
+          "id": "metiz-0-1",
+          "buyer": "Столярный цех",
+          "lines": {
+            "bolts-3": 4,
+            "nuts-2": 4,
+            "washers-2": 4
+          },
+          "price": 2398,
+          "title": "Заявка 1-2"
+        },
+        {
+          "id": "metiz-0-2",
+          "buyer": "Монтажная бригада",
+          "lines": {
+            "self-1": 6,
+            "nails-2": 4,
+            "wire-1": 2
+          },
+          "price": 2520,
+          "title": "Заявка 1-3"
+        }
+      ],
+      "contractProgress": 0,
+      "contractCompleted": 0,
+      "contractOffer": null,
+      "trade": {
+        "kind": "buy",
+        "type": "hardware",
+        "lines": {
+          "hardware": 1
+        },
+        "count": 1,
+        "boxes": 12,
+        "number": 1,
+        "spawned": true,
+        "ids": [
+          "metiz-1-0"
+        ],
+        "price": 1635,
+        "fee": 40,
+        "caseFee": 35,
+        "manifests": [
+          {
+            "bolts-3": {
+              "qty": 4,
+              "cost": 787
+            },
+            "nuts-2": {
+              "qty": 4,
+              "cost": 504
+            },
+            "washers-2": {
+              "qty": 4,
+              "cost": 344
+            }
+          }
+        ],
+        "loaded": 0
+      },
+      "history": [],
+      "task": "Разгружено 0 / 1 · поставь груз в жёлтую разметку"
+    },
+    "hardware": true,
+    "workers": [
+      {
+        "x": 8,
+        "z": 3.4,
+        "y": 0,
+        "angle": 0,
+        "state": "idle",
+        "path": [],
+        "job": null,
+        "timer": 0,
+        "step": 0,
+        "speed": 0,
+        "travelSpeed": 0,
+        "turnRate": 0
+      },
+      {
+        "x": 18,
+        "z": 3.4,
+        "y": 0,
+        "angle": 0,
+        "state": "idle",
+        "path": [],
+        "job": null,
+        "timer": 0,
+        "step": 0,
+        "speed": 0,
+        "travelSpeed": 0,
+        "turnRate": 0
+      }
+    ],
+    "hardwareStock": {},
+    "packingJob": null,
+    "sourceAtPad": null,
+    "quality": "sharp",
+    "craneInspection": false,
+    "wheelAngles": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "annexVisible": false,
+    "drumRotation": 8.68,
+    "craneMeshBatches": 3,
+    "cameraX": 7,
+    "cameraPosition": [
+      7,
+      14.577402616910227,
+      15.252500023470118
+    ],
+    "officePhase": "warehouse",
+    "officeProgress": null,
+    "stats": {
+      "fps": 0.5607581450120563,
+      "physicsMs": 0.10000002384185791,
+      "frameMs": 0.10000002384185791,
+      "shadowUpdates": 0,
+      "renderFrames": 18,
+      "workerPose": {
+        "time": 7.133333333333313,
+        "walk": 0,
+        "rig": 0,
+        "turnPhase": 0,
+        "hipShiftX": 0,
+        "hipY": 0.8708106827055354,
+        "torsoPitch": 0,
+        "torsoRoll": 0,
+        "twist": 0,
+        "headPitch": 0,
+        "legs": [
+          {
+            "hip": -0.15827904992482136,
+            "knee": 0.3165580998496427,
+            "ankle": -0.15827904992482136,
+            "targetZ": 0,
+            "targetY": 0.08,
+            "stance": true
+          },
+          {
+            "hip": -0.15827904992482136,
+            "knee": 0.3165580998496427,
+            "ankle": -0.15827904992482136,
+            "targetZ": 0,
+            "targetY": 0.08,
+            "stance": true
+          }
+        ],
+        "arms": [
+          {
+            "shoulder": 0,
+            "elbow": -0.18,
+            "wrist": 0
+          },
+          {
+            "shoulder": 0,
+            "elbow": -0.18,
+            "wrist": 0
+          }
+        ]
+      },
+      "drawCalls": 134,
+      "triangles": 112240,
+      "renderPixels": 1156000,
+      "shadowMaps": 0,
+      "postPasses": 0,
+      "workerBatches": 9,
+      "skippedFrames": 2,
+      "geometries": 130
+    }
+  },
+  "packing": {
+    "time": 0.06666666666666667,
+    "engine": "Jolt WASM 1.1.1",
+    "target": {
+      "x": 1,
+      "z": -2.5,
+      "height": 5.8
+    },
+    "hook": {
+      "position": [
+        1.000001072883606,
+        5.799998760223389,
+        -2.5000009536743164
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "anchor": [
+      0.9999995827674866,
+      8.149999618530273,
+      -2.4999983310699463
+    ],
+    "active": null,
+    "selected": null,
+    "order": {
+      "number": "—",
+      "type": "hardware",
+      "count": 0,
+      "loaded": 2
+    },
+    "totalLoaded": 0,
+    "finished": false,
+    "worker": {
+      "x": 1.0627674369862574,
+      "z": -1.1191997803551834,
+      "y": 0,
+      "angle": -3.141440823024444,
+      "state": "idle",
+      "path": [],
+      "job": null,
+      "timer": 0,
+      "step": 0,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0
+    },
+    "forklift": {
+      "x": 17,
+      "z": 3.5,
+      "angle": 0,
+      "state": "idle",
+      "timer": 0
+    },
+    "truck": {
+      "offset": 24,
+      "state": "absent",
+      "timer": 6.016666666666651
+    },
+    "queue": [],
+    "items": [
+      {
+        "id": "metiz-1-0",
+        "type": "hardware",
+        "bay": "02",
+        "position": [
+          9.362499237060547,
+          0.799702525138855,
+          1.0129448175430298
+        ],
+        "quaternion": [
+          0.00006496692367363721,
+          0.00013795205450151116,
+          0.00010548886348260567,
+          1
+        ],
+        "height": 1.6,
+        "rigged": false,
+        "shipped": false,
+        "transit": false,
+        "supported": true,
+        "eye": [
+          9.362199674141246,
+          2.2197025303675333,
+          1.0131293649350943
+        ],
+        "incoming": false,
+        "reserved": false,
+        "cost": 2140,
+        "contents": {
+          "washers-2": {
+            "qty": 2,
+            "cost": 168
+          },
+          "self-1": {
+            "qty": 6,
+            "cost": 744
+          },
+          "nails-2": {
+            "qty": 4,
+            "cost": 516
+          },
+          "wire-1": {
+            "qty": 2,
+            "cost": 428
+          },
+          "wire-2": {
+            "qty": 1,
+            "cost": 284
+          }
+        },
+        "role": "raw",
+        "boxes": 15,
+        "address": "У стола комплектации"
+      },
+      {
+        "id": "metiz-1-1",
+        "type": "hardware",
+        "bay": "01",
+        "position": [
+          1.0625624656677246,
+          0.7995034456253052,
+          -2.4692001342773438
+        ],
+        "quaternion": [
+          0.0003395160601940006,
+          -0.00018977468425873667,
+          0.000010903955626417883,
+          1
+        ],
+        "height": 1.6,
+        "rigged": false,
+        "shipped": false,
+        "transit": false,
+        "supported": true,
+        "eye": [
+          1.0625313154481346,
+          2.219503332911924,
+          -2.46823591454319
+        ],
+        "incoming": false,
+        "reserved": false,
+        "cost": 850,
+        "contents": {
+          "wire-2": {
+            "qty": 3,
+            "cost": 850
+          }
+        },
+        "role": "raw",
+        "boxes": 3,
+        "address": "Место 01"
+      }
+    ],
+    "suspension": {
+      "y": 3.1393374730067354e-65,
+      "roll": 3.4838256585506026e-79,
+      "pitch": 7.612079616413162e-72,
+      "vy": 1.914556689422422e-65,
+      "vroll": -2.4614362883522757e-78,
+      "vpitch": -2.7430094443648963e-71,
+      "load": 0,
+      "targetY": 0
+    },
+    "deckPose": null,
+    "economy": {
+      "cash": 7570,
+      "profit": 0,
+      "sales": 0,
+      "used": 3,
+      "free": 1,
+      "capacity": 4,
+      "maxLoad": 2,
+      "expanded": false,
+      "transportUnlocked": false,
+      "marketRound": 0,
+      "offers": [
+        {
+          "id": "metiz-0-0",
+          "buyer": "Мастерская «Ротор»",
+          "lines": {
+            "wire-1": 1
+          },
+          "price": 401,
+          "title": "Заявка 1-1"
+        },
+        {
+          "id": "metiz-0-1",
+          "buyer": "Столярный цех",
+          "lines": {
+            "bolts-3": 4,
+            "nuts-2": 4,
+            "washers-2": 4
+          },
+          "price": 2398,
+          "title": "Заявка 1-2"
+        },
+        {
+          "id": "metiz-0-2",
+          "buyer": "Монтажная бригада",
+          "lines": {
+            "self-1": 6,
+            "nails-2": 4,
+            "wire-1": 2
+          },
+          "price": 2520,
+          "title": "Заявка 1-3"
+        }
+      ],
+      "contractProgress": 0,
+      "contractCompleted": 0,
+      "contractOffer": null,
+      "trade": null,
+      "history": [
+        {
+          "kind": "buy",
+          "type": "hardware",
+          "lines": {
+            "hardware": 2
+          },
+          "count": 2,
+          "price": 4430,
+          "profit": 0,
+          "number": 1
+        }
+      ],
+      "task": "Комплектация: 10 / 12 коробок. Подвези источник к столу."
+    },
+    "hardware": true,
+    "workers": [
+      {
+        "x": 1.0627674369862574,
+        "z": -1.1191997803551834,
+        "y": 0,
+        "angle": -3.141440823024444,
+        "state": "idle",
+        "path": [],
+        "job": null,
+        "timer": 0,
+        "step": 0,
+        "speed": 0,
+        "travelSpeed": 0,
+        "turnRate": 0
+      },
+      {
+        "x": 15.60186965365881,
+        "z": 0.400171219886348,
+        "y": 0,
+        "angle": -3.141873341845214,
+        "state": "idle",
+        "path": [],
+        "job": null,
+        "timer": 0,
+        "step": 0,
+        "speed": 0,
+        "travelSpeed": 0,
+        "turnRate": 0
+      }
+    ],
+    "hardwareStock": {
+      "washers-2": 2,
+      "self-1": 6,
+      "nails-2": 4,
+      "wire-1": 2,
+      "wire-2": 4
+    },
+    "packingJob": {
+      "state": "packing",
+      "offer": {
+        "id": "metiz-0-1",
+        "buyer": "Столярный цех",
+        "lines": {
+          "bolts-3": 4,
+          "nuts-2": 4,
+          "washers-2": 4
+        },
+        "price": 2398,
+        "title": "Заявка 1-2"
+      },
+      "draft": {
+        "bolts-3": {
+          "qty": 4,
+          "cost": 776
+        },
+        "nuts-2": {
+          "qty": 4,
+          "cost": 496
+        },
+        "washers-2": {
+          "qty": 2,
+          "cost": 168
+        }
+      },
+      "origins": [
+        {
+          "itemId": "metiz-1-0",
+          "id": "bolts-3",
+          "qty": 1,
+          "cost": 194
+        },
+        {
+          "itemId": "metiz-1-0",
+          "id": "bolts-3",
+          "qty": 3,
+          "cost": 582
+        },
+        {
+          "itemId": "metiz-1-0",
+          "id": "nuts-2",
+          "qty": 4,
+          "cost": 496
+        },
+        {
+          "itemId": "metiz-1-0",
+          "id": "washers-2",
+          "qty": 2,
+          "cost": 168
+        }
+      ]
+    },
+    "sourceAtPad": "metiz-1-0",
+    "quality": "sharp",
+    "craneInspection": false,
+    "wheelAngles": [
+      -46.601941747572816,
+      -46.601941747572816,
+      -46.601941747572816,
+      -46.601941747572816,
+      -46.601941747572816,
+      -46.601941747572816,
+      -46.601941747572816,
+      -46.601941747572816
+    ],
+    "annexVisible": false,
+    "drumRotation": 5.6000000000000005,
+    "craneMeshBatches": 3,
+    "cameraX": 2.9999995827674866,
+    "cameraPosition": [
+      2.9999995827674866,
+      15.323132182610829,
+      16.149705907203654
+    ],
+    "officeProgress": null,
+    "stats": {
+      "fps": 0.6122573930080205,
+      "physicsMs": 1.800000011920929,
+      "frameMs": 2,
+      "shadowUpdates": 0,
+      "renderFrames": 6,
+      "workerPose": {
+        "time": 0.06666666666666667,
+        "walk": 0,
+        "rig": 0,
+        "turnPhase": 0,
+        "hipShiftX": 0,
+        "hipY": 0.8703591366218667,
+        "torsoPitch": 0,
+        "torsoRoll": 0,
+        "twist": 0,
+        "headPitch": 0,
+        "legs": [
+          {
+            "hip": -0.15827904992482136,
+            "knee": 0.3165580998496427,
+            "ankle": -0.15827904992482136,
+            "targetZ": 0,
+            "targetY": 0.08,
+            "stance": true
+          },
+          {
+            "hip": -0.15827904992482136,
+            "knee": 0.3165580998496427,
+            "ankle": -0.15827904992482136,
+            "targetZ": 0,
+            "targetY": 0.08,
+            "stance": true
+          }
+        ],
+        "arms": [
+          {
+            "shoulder": 0,
+            "elbow": -0.18,
+            "wrist": 0
+          },
+          {
+            "shoulder": 0,
+            "elbow": -0.18,
+            "wrist": 0
+          }
+        ]
+      },
+      "drawCalls": 111,
+      "triangles": 71256,
+      "renderPixels": 1224000,
+      "shadowMaps": 0,
+      "postPasses": 0,
+      "workerBatches": 9,
+      "skippedFrames": 1,
+      "geometries": 101
+    }
+  },
+  "errors": [],
+  "limitation": "Chromium software GPU and emulated viewports, not hardware performance measurement"
+}
