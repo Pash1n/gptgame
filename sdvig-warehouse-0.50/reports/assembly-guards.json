@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-30T08:13:35.862Z",
+  "checks": [
+    "Queue clear preserves two carried cartons and lets both finish; rejects early close/call/rig, invalid SKU/quantity and duplicate hire without state mutation",
+    "Corrupt cash, carried cost/SKU, missing destinations/sources, overfilled cases, third picker and nonfinite path rejected; native worlds released",
+    "0.49 sealed shipment migrates with same cargo and buyer payment, without spawning a second truck"
+  ]
+}

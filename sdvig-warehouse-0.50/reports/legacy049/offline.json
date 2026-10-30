@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-30T07:47:08.644Z",
+  "passed": true,
+  "htmlSha256": "9b25c8cdaee1d2d7ddcaf1a1c4a65ca981d5f05469e50f8d2287d502f5ea12c4",
+  "checks": [
+    "Standalone HTML embeds JS, WASM and 16 images including hardware atlas",
+    "One-box order copied into mixed purchase, one physical partial case arrives offline",
+    "Computer, packing dialog, pause and v3 save work without further network"
+  ],
+  "requests": [
+    "http://localhost:8137/Sdvig_WAREHOUSE_0.49.html?test=1"
+  ],
+  "errors": [],
+  "localFile": {
+    "passed": false,
+    "blockedByEnvironment": true,
+    "error": "ERR_BLOCKED_BY_ADMINISTRATOR: managed Chromium policy blocks file:// navigation"
+  },
+  "method": "Initial HTTP purchase then network disabled. Local file:// attempted separately; managed Chromium blocks navigation, so file:// startup not verified."
+}
