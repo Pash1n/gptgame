@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "expanded": false,
+  "transportUnlocked": false,
+  "marketRound": 0,
+  "contractProgress": 0,
+  "contractCompleted": 0,
+  "cash": 11715,
+  "profit": 0,
+  "sales": 0,
+  "serial": 2,
+  "trade": null,
+  "truck": {
+    "offset": 24,
+    "state": "absent",
+    "timer": 6.016666666666651
+  },
+  "suspension": {
+    "y": 2.65646409642993e-65,
+    "roll": 2.481052040117564e-79,
+    "pitch": -8.605896345768156e-72,
+    "vy": -1.0572367312388242e-64,
+    "vroll": -2.66669626176129e-78,
+    "vpitch": 5.647133190761153e-71,
+    "load": 0,
+    "targetY": 0
+  },
+  "history": [
+    {
+      "kind": "buy",
+      "type": "hardware",
+      "lines": {
+        "hardware": 1
+      },
+      "count": 1,
+      "price": 285,
+      "profit": 0,
+      "number": 1
+    }
+  ],
+  "loaded": 1,
+  "totalLoaded": 0,
+  "shipments": [],
+  "target": {
+    "x": 9.15,
+    "z": 1.1,
+    "height": 5.8
+  },
+  "anchor": [
+    9.150006294250488,
+    8.149999618530273,
+    1.1000008583068848
+  ],
+  "hook": [
+    9.149991989135742,
+    5.799999237060547,
+    1.1000027656555176
+  ],
+  "cableLength": 2.0000000000000004,
+  "active": null,
+  "items": [
+    {
+      "id": "metiz-1-0",
+      "type": "hardware",
+      "bay": "01",
+      "cost": 0,
+      "incoming": false,
+      "reserved": false,
+      "shipped": false,
+      "rigged": false,
+      "position": [
+        9.353484153747559,
+        0.7996993660926819,
+        1.0145636796951294
+      ],
+      "quaternion": [
+        0.000003756972091650823,
+        0.001154766301624477,
+        0.00015083482139743865,
+        0.9999993443489075
+      ],
+      "contents": {},
+      "role": "raw",
+      "autoStrip": true
+    }
+  ],
+  "mode": "metiz",
+  "packingJob": {
+    "state": "packing",
+    "offer": {
+      "id": "metiz-0-0",
+      "buyer": "Мастерская «Ротор»",
+      "lines": {
+        "wire-1": 1
+      },
+      "price": 401,
+      "title": "Заявка 1-1"
+    },
+    "draft": {
+      "wire-1": {
+        "qty": 1,
+        "cost": 285
+      }
+    },
+    "origins": [
+      {
+        "itemId": "metiz-1-0",
+        "id": "wire-1",
+        "qty": 1,
+        "cost": 285
+      }
+    ]
+  },
+  "workerPositions": [
+    {
+      "x": 9.353320850149043,
+      "z": 2.364619660570944,
+      "angle": -3.1417136142018225
+    },
+    {
+      "x": 13.196392103247804,
+      "z": 0.40016897817923774,
+      "angle": -3.141456193701152
+    }
+  ]
+}

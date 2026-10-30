@@ -1,0 +1,204 @@
+{
+  "version": 4,
+  "expanded": false,
+  "transportUnlocked": false,
+  "marketRound": 0,
+  "contractProgress": 0,
+  "contractCompleted": 0,
+  "cash": 7570,
+  "profit": 0,
+  "sales": 0,
+  "serial": 5,
+  "trade": null,
+  "truck": {
+    "offset": 24,
+    "state": "absent",
+    "timer": 6.016666666666651
+  },
+  "suspension": {
+    "y": 3.1393374730067354e-65,
+    "roll": 5.284639467638747e-79,
+    "pitch": 7.570123045974876e-72,
+    "vy": 1.914556689422422e-65,
+    "vroll": -3.068292194764719e-78,
+    "vpitch": -2.7365079102193303e-71,
+    "load": 0,
+    "targetY": 0
+  },
+  "history": [
+    {
+      "kind": "buy",
+      "type": "hardware",
+      "lines": {
+        "hardware": 2
+      },
+      "count": 2,
+      "price": 4390,
+      "profit": 0,
+      "number": 1
+    }
+  ],
+  "loaded": 2,
+  "totalLoaded": 0,
+  "shipments": [],
+  "target": {
+    "x": 12.8,
+    "z": 2.8,
+    "height": 5.8
+  },
+  "anchor": [
+    12.800006866455078,
+    8.149999618530273,
+    2.800001621246338
+  ],
+  "hook": [
+    12.800018310546875,
+    5.799998760223389,
+    2.8000054359436035
+  ],
+  "cableLength": 2.0000000000000004,
+  "active": null,
+  "items": [
+    {
+      "id": "case-3",
+      "type": "hardware",
+      "bay": "OUT-A",
+      "cost": 3829,
+      "incoming": false,
+      "reserved": false,
+      "shipped": false,
+      "rigged": true,
+      "position": [
+        12.676834106445312,
+        0.7995988130569458,
+        2.7401580810546875
+      ],
+      "quaternion": [
+        0.0002535484090913087,
+        0.0000523985581821762,
+        -0.000023626567781320773,
+        1
+      ],
+      "contents": {
+        "bolts-3": {
+          "qty": 12,
+          "cost": 2328
+        },
+        "nuts-2": {
+          "qty": 10,
+          "cost": 1232
+        },
+        "washers-2": {
+          "qty": 3,
+          "cost": 249
+        }
+      },
+      "role": "dispatch",
+      "autoStrip": true,
+      "orderId": "order-2",
+      "caseNumber": 1,
+      "caseState": "closed",
+      "packCost": 20
+    },
+    {
+      "id": "case-4",
+      "type": "hardware",
+      "bay": "PACK",
+      "cost": 601,
+      "incoming": false,
+      "reserved": false,
+      "shipped": false,
+      "rigged": false,
+      "position": [
+        9.149999618530273,
+        0.800000011920929,
+        1.100000023841858
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "contents": {
+        "washers-2": {
+          "qty": 7,
+          "cost": 581
+        }
+      },
+      "role": "dispatch",
+      "autoStrip": false,
+      "orderId": "order-2",
+      "caseNumber": 2,
+      "caseState": "closed",
+      "packCost": 20
+    }
+  ],
+  "mode": "metiz-assembly",
+  "packingJob": {
+    "id": "order-2",
+    "number": 2,
+    "state": "packing",
+    "offer": {
+      "id": "assembly-0-medium",
+      "buyer": "Сервисная компания «Опора»",
+      "title": "Сборная заявка · 32 коробки",
+      "lines": {
+        "bolts-3": 12,
+        "nuts-2": 10,
+        "washers-2": 10
+      },
+      "price": 6512
+    },
+    "openId": null,
+    "nextCase": 3
+  },
+  "workerPositions": [
+    {
+      "x": 9.14984454143157,
+      "z": 2.4500049561266364,
+      "angle": -3.1417075250945663
+    },
+    {
+      "x": 15.601858342083291,
+      "z": 0.6,
+      "angle": -3.141850738592586
+    }
+  ],
+  "pickQueue": [],
+  "picker": {
+    "x": 9.54933458573396,
+    "z": 2.5999507259211776,
+    "y": 0,
+    "angle": -4.786382202138391,
+    "state": "idle",
+    "path": [],
+    "job": null,
+    "carry": null,
+    "timer": 0,
+    "step": 2971.6017110841017,
+    "speed": 0,
+    "travelSpeed": 0,
+    "turnRate": 0,
+    "retryAt": 0
+  },
+  "pickers": [
+    {
+      "x": 9.54933458573396,
+      "z": 2.5999507259211776,
+      "y": 0,
+      "angle": -4.786382202138391,
+      "state": "idle",
+      "path": [],
+      "job": null,
+      "carry": null,
+      "timer": 0,
+      "step": 2971.6017110841017,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0,
+      "retryAt": 0
+    }
+  ],
+  "focusSku": "washers-2"
+}

@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-30T10:23:03.873Z",
+  "checks": [
+    "Real UI accepts 3 before buying, shows 3 cards/limit, prevents fourth, missing cart for accepted 32-box order",
+    "Live panel switches accepted orders; unused empty case refunded/replaced without leaving duplicate empty bodies",
+    "Earned three-order save: reservations visible, selector lists all jobs, panel fits 320×568 /390×844 /844×390",
+    "Call truck on correct ready card creates 2-place buyer for that order and leaves other 2 intact",
+    "Real old localStorage migrated once to v6 with active job and same cash, old key intact"
+  ],
+  "errors": [],
+  "limitation": "Chromium software GPU and emulated phone sizes; not physical-device performance testing"
+}

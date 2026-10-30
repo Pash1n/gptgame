@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-30T10:24:19.655Z",
+  "checks": [
+    "Cancel unfilled A releases reserve to B without crediting goods or cash; cancel empty B refunds one200 fee; reserved write-off blocked, unreserved write-off conserves ledger",
+    "Duplicate/reordered orders, changed accepted price, wrong selected job/vehicle/case owner, counter/cash mismatch and missing carry destination rejected; worlds released",
+    "Cannot switch/cancel while carrying or call unfinished order; clearing queue finishes held boxes without crediting another order, restore stays valid"
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "date": "2026-10-30T09:36:59.555Z",
+  "checks": [
+    "12-box order closed early into 2+4, first case physically returned/reopened and filled to 8+4; in-flight reload, no duplicate debit, manual truck call and dispatch, one payment",
+    "Third/fourth hired for 45000, multiple claimed jobs and multiple physical carried cartons concurrently, reload retains both and exact stock/cost balances",
+    "Natural 32-carton multi-source purchase, automatic full-case closure at 25, crane staging, second partial 7, saved/reloaded complete multi-place order",
+    "0.49 active drafts migrate back to original source contents without money/quantity loss; older save left intact"
+  ],
+  "trace": [
+    {
+      "id": "metiz-1-0",
+      "x": 1,
+      "z": -2.5,
+      "role": "raw",
+      "boxes": 12,
+      "cash": 103650
+    },
+    {
+      "id": "case-3",
+      "x": 12.8,
+      "z": 2.8,
+      "role": "dispatch",
+      "boxes": 2,
+      "cash": 103450
+    },
+    {
+      "id": "case-4",
+      "x": 15.5,
+      "z": 2.8,
+      "role": "dispatch",
+      "boxes": 4,
+      "cash": 103250
+    },
+    {
+      "id": "case-3",
+      "x": 9.15,
+      "z": 1.1,
+      "role": "dispatch",
+      "boxes": 2,
+      "cash": 103250
+    },
+    {
+      "id": "case-3",
+      "x": 13.2,
+      "z": -1.55,
+      "role": "dispatch",
+      "boxes": 8,
+      "cash": 103250
+    },
+    {
+      "id": "case-4",
+      "x": 15.6,
+      "z": -1.55,
+      "role": "dispatch",
+      "boxes": 4,
+      "cash": 103250
+    },
+    {
+      "id": "metiz-6-0",
+      "x": 1,
+      "z": -2.5,
+      "role": "raw",
+      "boxes": 10,
+      "cash": 71230
+    },
+    {
+      "id": "metiz-1-0",
+      "x": 1,
+      "z": -2.5,
+      "role": "raw",
+      "boxes": 25,
+      "cash": 76100
+    },
+    {
+      "id": "metiz-1-1",
+      "x": 6,
+      "z": -2.5,
+      "role": "raw",
+      "boxes": 7,
+      "cash": 76100
+    },
+    {
+      "id": "case-3",
+      "x": 12.8,
+      "z": 2.8,
+      "role": "dispatch",
+      "boxes": 25,
+      "cash": 75900
+    }
+  ],
+  "final": {
+    "version": 5,
+    "expanded": false,
+    "transportUnlocked": false,
+    "marketRound": 1,
+    "contractProgress": 0,
+    "contractCompleted": 0,
+    "cash": 71030,
+    "profit": 8230,
+    "sales": 1,
+    "serial": 9,
+    "trade": null,
+    "truck": {
+      "offset": 24,
+      "state": "absent",
+      "timer": 6.016666666666651
+    },
+    "suspension": {
+      "y": 2.7687593876207196e-65,
+      "roll": 1.5481254029287048e-79,
+      "pitch": -9.368190116164212e-72,
+      "vy": -9.682226585421642e-65,
+      "vroll": -1.5664666081063244e-78,
+      "vpitch": 5.817606853456324e-71,
+      "load": 0,
+      "targetY": 0
+    },
+    "history": [
+      {
+        "kind": "buy",
+        "type": "hardware",
+        "lines": {
+          "hardware": 1
+        },
+        "count": 1,
+        "price": 12000,
+        "profit": 0,
+        "number": 6
+      },
+      {
+        "kind": "sell",
+        "type": "hardware",
+        "lines": {
+          "hardware": 2
+        },
+        "buyer": "Столярный цех",
+        "count": 2,
+        "price": 24980,
+        "profit": 8230,
+        "number": 5
+      },
+      {
+        "kind": "buy",
+        "type": "hardware",
+        "lines": {
+          "hardware": 1
+        },
+        "count": 1,
+        "price": 16350,
+        "profit": 0,
+        "number": 1
+      }
+    ],
+    "loaded": 1,
+    "totalLoaded": 2,
+    "shipments": [],
+    "target": {
+      "x": 1,
+      "z": -2.5,
+      "height": 5.8
+    },
+    "anchor": [
+      0.9999995827674866,
+      8.149999618530273,
+      -2.4999983310699463
+    ],
+    "hook": [
+      0.9999986886978149,
+      5.799999237060547,
+      -2.500000476837158
+    ],
+    "cableLength": 2.0000000000000004,
+    "active": null,
+    "items": [
+      {
+        "id": "case-8",
+        "type": "hardware",
+        "bay": "PACK",
+        "cost": 12200,
+        "incoming": false,
+        "reserved": false,
+        "shipped": false,
+        "rigged": false,
+        "position": [
+          9.149999618530273,
+          0.800000011920929,
+          1.100000023841858
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "contents": {
+          "screws-1": {
+            "qty": 3,
+            "cost": 3525
+          },
+          "screws-3": {
+            "qty": 4,
+            "cost": 6300
+          },
+          "washers-1": {
+            "qty": 3,
+            "cost": 2175
+          }
+        },
+        "role": "dispatch",
+        "autoStrip": false,
+        "orderId": "order-7",
+        "caseNumber": 1,
+        "caseState": "closed",
+        "packCost": 200
+      }
+    ],
+    "mode": "metiz-assembly",
+    "packingJob": {
+      "id": "order-7",
+      "number": 7,
+      "state": "packing",
+      "offer": {
+        "id": "metiz-1-0",
+        "buyer": "Мастерская «Ротор»",
+        "lines": {
+          "screws-1": 3,
+          "screws-3": 4,
+          "washers-1": 3
+        },
+        "price": 18550,
+        "title": "Заявка 2-1",
+        "handlingBonus": 1000
+      },
+      "openId": null,
+      "nextCase": 2
+    },
+    "workerPositions": [
+      {
+        "x": 4.4,
+        "z": 4.35,
+        "angle": 3.141592653589793
+      },
+      {
+        "x": 5.4,
+        "z": 4.35,
+        "angle": 3.141592653589793
+      }
+    ],
+    "currency": 10,
+    "payroll": {
+      "shift": 1,
+      "orders": 1,
+      "accrued": 720,
+      "due": 0,
+      "paid": 0,
+      "lastBill": 0,
+      "lastPaid": 0
+    },
+    "migration": null,
+    "riggerRest": [
+      {
+        "rest": {
+          "phase": "seated",
+          "seat": 0,
+          "t": 0.65
+        },
+        "state": "resting",
+        "path": [],
+        "step": 361.7476751094368,
+        "sit": 1
+      },
+      {
+        "rest": {
+          "phase": "seated",
+          "seat": 1,
+          "t": 0.65
+        },
+        "state": "resting",
+        "path": [],
+        "step": 394.4976053963396,
+        "sit": 1
+      }
+    ],
+    "pickQueue": [],
+    "picker": {
+      "x": 8.549999618530274,
+      "z": 2.600000023841858,
+      "y": 0,
+      "angle": 1.1502200922461425,
+      "state": "idle",
+      "path": [],
+      "job": null,
+      "carry": null,
+      "timer": 0,
+      "step": 949.161878433541,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0,
+      "retryAt": 0,
+      "idleFor": 0.13333333333333333,
+      "rest": null,
+      "sit": 0
+    },
+    "pickers": [
+      {
+        "x": 8.549999618530274,
+        "z": 2.600000023841858,
+        "y": 0,
+        "angle": 1.1502200922461425,
+        "state": "idle",
+        "path": [],
+        "job": null,
+        "carry": null,
+        "timer": 0,
+        "step": 949.161878433541,
+        "speed": 0,
+        "travelSpeed": 0,
+        "turnRate": 0,
+        "retryAt": 0,
+        "idleFor": 0.13333333333333333,
+        "rest": null,
+        "sit": 0
+      },
+      {
+        "x": 8.949999618530274,
+        "z": 2.600000023841858,
+        "y": 0,
+        "angle": 1.1502200922463777,
+        "state": "idle",
+        "path": [],
+        "job": null,
+        "carry": null,
+        "timer": 0,
+        "step": 930.927339280749,
+        "speed": 0,
+        "travelSpeed": 0,
+        "turnRate": 0,
+        "retryAt": 0,
+        "idleFor": 0.08333333333333333,
+        "rest": null,
+        "sit": 0
+      },
+      {
+        "x": 2.4,
+        "z": 4.35,
+        "y": 0,
+        "angle": 3.141592653589793,
+        "state": "resting",
+        "path": [],
+        "job": null,
+        "carry": null,
+        "timer": 0,
+        "step": 238.0417237909654,
+        "speed": 0,
+        "travelSpeed": 0,
+        "turnRate": 0,
+        "retryAt": 0,
+        "idleFor": 3.016666666666661,
+        "rest": {
+          "phase": "seated",
+          "seat": 4,
+          "t": 0.65
+        },
+        "sit": 1
+      },
+      {
+        "x": 3.4,
+        "z": 4.35,
+        "y": 0,
+        "angle": 3.141592653589793,
+        "state": "resting",
+        "path": [],
+        "job": null,
+        "carry": null,
+        "timer": 0,
+        "step": 232.10037285754825,
+        "speed": 0,
+        "travelSpeed": 0,
+        "turnRate": 0,
+        "retryAt": 0,
+        "idleFor": 3.016666666666661,
+        "rest": {
+          "phase": "seated",
+          "seat": 5,
+          "t": 0.65
+        },
+        "sit": 1
+      }
+    ],
+    "focusSku": "washers-1"
+  }
+}
