@@ -1,0 +1,308 @@
+{
+  "passed": true,
+  "sha256": "ab909db7ed86ae8b83444f020d360e48eb4217aa9a81cfcdf1ac153d32bd4049",
+  "standaloneNetworkDisabled": true,
+  "fileSchemeTested": false,
+  "requests": [
+    "http://standalone.test/probe.html?test=1"
+  ],
+  "start": {
+    "hall": {
+      "minX": -16.8,
+      "maxX": 6.8,
+      "minZ": -3.5,
+      "maxZ": 3.5
+    },
+    "limits": {
+      "minX": -15.700000000000001,
+      "maxX": 5.699999999999999,
+      "minZ": -2.5,
+      "maxZ": 2.5,
+      "minLength": 0.65,
+      "maxLength": 5.95
+    },
+    "time": 0.08333333333333333,
+    "target": {
+      "x": -2.5,
+      "z": -1.55,
+      "length": 2.5
+    },
+    "anchor": [
+      -2.5,
+      6.5,
+      -1.55
+    ],
+    "hook": {
+      "position": [
+        -2.5,
+        3.7795571845204456,
+        -1.55
+      ],
+      "velocity": [
+        0,
+        -0.0015976269832158607,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "length": 2.5,
+    "velocity": {
+      "x": 0,
+      "z": 0,
+      "hoist": 0
+    },
+    "attached": 1,
+    "contacts": 2,
+    "loadContacts": 0,
+    "items": [
+      {
+        "id": 1,
+        "type": "cargo",
+        "mass": 420,
+        "size": [
+          1.65,
+          1,
+          1.15
+        ],
+        "position": [
+          -2.5,
+          1.999373729019136,
+          -1.55
+        ],
+        "velocity": [
+          0,
+          -0.0022560206856584997,
+          0
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "type": "crate",
+        "mass": 680,
+        "size": [
+          1.6,
+          0.92,
+          1.2
+        ],
+        "position": [
+          0.1,
+          0.45991766882828083,
+          -1.55
+        ],
+        "velocity": [
+          0,
+          -0.00019298390908316365,
+          0
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "type": "crate",
+        "mass": 680,
+        "size": [
+          1.6,
+          0.92,
+          1.2
+        ],
+        "position": [
+          3.6,
+          0.45991766882828083,
+          1.25
+        ],
+        "velocity": [
+          0,
+          -0.00019298390908316365,
+          0
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "cameraX": 0,
+    "cameraTarget": 0,
+    "renderFrames": 6,
+    "physicsMs": 0.5,
+    "renderMs": 0.5999999940395355,
+    "canvas": [
+      1920,
+      1080
+    ],
+    "paused": false,
+    "touches": {
+      "count": 0,
+      "primary": null,
+      "secondary": null
+    }
+  },
+  "move": {
+    "hall": {
+      "minX": -16.8,
+      "maxX": 6.8,
+      "minZ": -3.5,
+      "maxZ": 3.5
+    },
+    "limits": {
+      "minX": -15.700000000000001,
+      "maxX": 5.699999999999999,
+      "minZ": -2.5,
+      "maxZ": 2.5,
+      "minLength": 0.65,
+      "maxLength": 5.95
+    },
+    "time": 0.9166666666666659,
+    "target": {
+      "x": -0.1899999999999945,
+      "z": 0.7600000000000011,
+      "length": 2.5
+    },
+    "anchor": [
+      -0.27679585946306284,
+      6.5,
+      0.6732041405369328
+    ],
+    "hook": {
+      "position": [
+        -1.3566064836856557,
+        4.299504863115334,
+        -0.40660648368565877
+      ],
+      "velocity": [
+        2.660307184986188,
+        0.15346905856389245,
+        2.660307184986183
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "length": 2.5,
+    "velocity": {
+      "x": 2.7999999998377363,
+      "z": 2.7999999998377376,
+      "hoist": 0
+    },
+    "attached": 1,
+    "contacts": 2,
+    "loadContacts": 0,
+    "items": [
+      {
+        "id": 1,
+        "type": "cargo",
+        "mass": 420,
+        "size": [
+          1.65,
+          1,
+          1.15
+        ],
+        "position": [
+          -1.8412845228500283,
+          2.7802023356436956,
+          -0.8912845228500292
+        ],
+        "velocity": [
+          2.109925608385406,
+          0.8436846039552682,
+          2.109925608385401
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "type": "crate",
+        "mass": 680,
+        "size": [
+          1.6,
+          0.92,
+          1.2
+        ],
+        "position": [
+          0.1,
+          0.4599130288206858,
+          -1.55
+        ],
+        "velocity": [
+          0,
+          0,
+          0
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "type": "crate",
+        "mass": 680,
+        "size": [
+          1.6,
+          0.92,
+          1.2
+        ],
+        "position": [
+          3.6,
+          0.4599130288206858,
+          1.25
+        ],
+        "velocity": [
+          0,
+          0,
+          0
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "cameraX": 0,
+    "cameraTarget": 0,
+    "renderFrames": 56,
+    "physicsMs": 0.10000002384185791,
+    "renderMs": 0.29999998211860657,
+    "canvas": [
+      1920,
+      1080
+    ],
+    "paused": false,
+    "touches": {
+      "count": 0,
+      "primary": null,
+      "secondary": null
+    }
+  },
+  "errors": []
+}

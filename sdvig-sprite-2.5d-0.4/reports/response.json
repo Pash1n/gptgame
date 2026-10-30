@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "definition": "Simulated crane response to a 0.4 m target step, 120 Hz; not device input-to-display latency",
+  "current": {
+    "movedAt50ms": 0.21000000000000085,
+    "movedAt100ms": 0.3528681531508506,
+    "timeTo90percentMs": 108.33333333333334
+  },
+  "previous": {
+    "movedAt50ms": 0.0014583333333328952,
+    "movedAt100ms": 0.005416666666666181,
+    "timeTo90percentMs": 1008.3333333333333
+  },
+  "horizontalBridge": true,
+  "inverseTouchProjection": true,
+  "spaceForThreeRows": true
+}
