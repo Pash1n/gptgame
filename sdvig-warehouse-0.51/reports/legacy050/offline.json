@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-30T08:13:48.841Z",
+  "passed": true,
+  "htmlSha256": "3ce7ea502e2b50d21c2a710caf91a6b8aa1f681ecbd4704ae792bb5cec34a1ff",
+  "checks": [
+    "Standalone HTML embeds JS, WASM and 16 images",
+    "One-box purchase, physical partial case arrival, live assembly panel and version 4 save work without further network"
+  ],
+  "requests": [
+    "http://localhost:8137/Sdvig_WAREHOUSE_0.50.html?test=1"
+  ],
+  "errors": [],
+  "method": "Initial HTTP page then network disabled. file:// navigation blocked by managed Chromium policy; not verified."
+}

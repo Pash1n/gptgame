@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-30T08:09:49.544Z",
+  "checks": [
+    "Actual saved in-flight job, live non-modal assembly panel, 3 specification rows and 2 cases; worker continues simulation with panel visible",
+    "Real computer growth UI hires second worker for 1500 exactly once",
+    "Assembly panel fits 320×568, 390×844, 844×390 and leaves world visible",
+    "Computer displays complete 25+7 order and enabled Call truck; call creates 2-place buyer and Send stays disabled before loading",
+    "Actual panel: choose nuts, type 2, queue pickup, delivered count updates, close partial 2/25 and reopen with contents intact"
+  ],
+  "errors": [],
+  "limitation": "Software GPU and emulated phone viewports, not real mobile performance measurement"
+}

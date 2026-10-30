@@ -1,0 +1,303 @@
+{
+  "version": 4,
+  "expanded": false,
+  "transportUnlocked": false,
+  "marketRound": 1,
+  "contractProgress": 0,
+  "contractCompleted": 0,
+  "cash": 10003,
+  "profit": 723,
+  "sales": 1,
+  "serial": 9,
+  "trade": null,
+  "truck": {
+    "offset": 24,
+    "state": "absent",
+    "timer": 6.016666666666651
+  },
+  "suspension": {
+    "y": 2.7268261891714345e-65,
+    "roll": 1.1865114825215205e-80,
+    "pitch": -9.092918939446765e-72,
+    "vy": -9.93074305458144e-65,
+    "vroll": -1.3895588562852364e-79,
+    "vpitch": 5.730065490768898e-71,
+    "load": 0,
+    "targetY": 0
+  },
+  "history": [
+    {
+      "kind": "buy",
+      "type": "hardware",
+      "lines": {
+        "hardware": 1
+      },
+      "count": 1,
+      "price": 1200,
+      "profit": 0,
+      "number": 6
+    },
+    {
+      "kind": "sell",
+      "type": "hardware",
+      "lines": {
+        "hardware": 2
+      },
+      "buyer": "Столярный цех",
+      "count": 2,
+      "price": 2398,
+      "profit": 723,
+      "number": 5
+    },
+    {
+      "kind": "buy",
+      "type": "hardware",
+      "lines": {
+        "hardware": 1
+      },
+      "count": 1,
+      "price": 1635,
+      "profit": 0,
+      "number": 1
+    }
+  ],
+  "loaded": 1,
+  "totalLoaded": 2,
+  "shipments": [],
+  "target": {
+    "x": 1,
+    "z": -2.5,
+    "height": 5.8
+  },
+  "anchor": [
+    0.9999995827674866,
+    8.149999618530273,
+    -2.4999983310699463
+  ],
+  "hook": [
+    0.9999986886978149,
+    5.799998760223389,
+    -2.5000016689300537
+  ],
+  "cableLength": 2.0000000000000004,
+  "active": null,
+  "items": [
+    {
+      "id": "metiz-6-0",
+      "type": "hardware",
+      "bay": "01",
+      "cost": 965,
+      "incoming": false,
+      "reserved": false,
+      "shipped": false,
+      "rigged": false,
+      "position": [
+        1.1625951528549194,
+        0.7992592453956604,
+        -2.4356424808502197
+      ],
+      "quaternion": [
+        -1.5008595255494583e-8,
+        0.000028389918952598237,
+        0.0003780739498324692,
+        1
+      ],
+      "contents": {
+        "washers-1": {
+          "qty": 3,
+          "cost": 219
+        },
+        "screws-1": {
+          "qty": 1,
+          "cost": 118
+        },
+        "screws-3": {
+          "qty": 4,
+          "cost": 628
+        }
+      },
+      "role": "raw",
+      "autoStrip": true
+    },
+    {
+      "id": "case-8",
+      "type": "hardware",
+      "bay": "PACK",
+      "cost": 20,
+      "incoming": false,
+      "reserved": false,
+      "shipped": false,
+      "rigged": false,
+      "position": [
+        9.149999618530273,
+        0.800000011920929,
+        1.100000023841858
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "contents": {},
+      "role": "dispatch",
+      "autoStrip": false,
+      "orderId": "order-7",
+      "caseNumber": 1,
+      "caseState": "open",
+      "packCost": 20
+    }
+  ],
+  "mode": "metiz-assembly",
+  "packingJob": {
+    "id": "order-7",
+    "number": 7,
+    "state": "packing",
+    "offer": {
+      "id": "metiz-1-0",
+      "buyer": "Мастерская «Ротор»",
+      "lines": {
+        "screws-1": 3,
+        "screws-3": 4,
+        "washers-1": 3
+      },
+      "price": 1755,
+      "title": "Заявка 2-1"
+    },
+    "openId": "case-8",
+    "nextCase": 2
+  },
+  "workerPositions": [
+    {
+      "x": 1.162748184485451,
+      "z": -1.0855749006841382,
+      "angle": -3.1414793025012075
+    },
+    {
+      "x": 13.196586406467262,
+      "z": 0.6,
+      "angle": -3.1413785032653405
+    }
+  ],
+  "pickQueue": [
+    {
+      "sourceId": "metiz-6-0",
+      "sku": "screws-1",
+      "n": 1
+    },
+    {
+      "sourceId": "metiz-6-0",
+      "sku": "screws-3",
+      "n": 4
+    },
+    {
+      "sourceId": "metiz-6-0",
+      "sku": "washers-1",
+      "n": 3
+    }
+  ],
+  "picker": {
+    "x": 1.5625951528549193,
+    "z": -0.9356424808502197,
+    "y": 0,
+    "angle": -3.4694096265800165,
+    "state": "walking",
+    "path": [
+      {
+        "x": 8.5,
+        "z": 2.5
+      },
+      {
+        "x": 9.549999618530274,
+        "z": 2.600000023841858
+      }
+    ],
+    "job": {
+      "sourceId": "metiz-6-0",
+      "sku": "screws-1",
+      "targetId": "case-8",
+      "phase": "to-case"
+    },
+    "carry": {
+      "sku": "screws-1",
+      "cost": 118,
+      "sourceId": "metiz-6-0",
+      "targetId": "case-8"
+    },
+    "timer": 0,
+    "step": 1266.033799117129,
+    "speed": 0,
+    "travelSpeed": 0,
+    "turnRate": -3.600000000000003,
+    "retryAt": 0
+  },
+  "pickers": [
+    {
+      "x": 1.5625951528549193,
+      "z": -0.9356424808502197,
+      "y": 0,
+      "angle": -3.4694096265800165,
+      "state": "walking",
+      "path": [
+        {
+          "x": 8.5,
+          "z": 2.5
+        },
+        {
+          "x": 9.549999618530274,
+          "z": 2.600000023841858
+        }
+      ],
+      "job": {
+        "sourceId": "metiz-6-0",
+        "sku": "screws-1",
+        "targetId": "case-8",
+        "phase": "to-case"
+      },
+      "carry": {
+        "sku": "screws-1",
+        "cost": 118,
+        "sourceId": "metiz-6-0",
+        "targetId": "case-8"
+      },
+      "timer": 0,
+      "step": 1266.033799117129,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": -3.600000000000003,
+      "retryAt": 0
+    },
+    {
+      "x": 2.111669210740493,
+      "z": -0.3384718227803398,
+      "y": 0,
+      "angle": -5.129115734618939,
+      "state": "walking",
+      "path": [
+        {
+          "x": 8.749999618530273,
+          "z": 2.600000023841858
+        }
+      ],
+      "job": {
+        "sourceId": "metiz-6-0",
+        "sku": "screws-1",
+        "targetId": "case-8",
+        "phase": "to-case"
+      },
+      "carry": {
+        "sku": "screws-1",
+        "cost": 117,
+        "sourceId": "metiz-6-0",
+        "targetId": "case-8"
+      },
+      "timer": 0,
+      "step": 51.37634754880416,
+      "speed": 1.65,
+      "travelSpeed": 1.65,
+      "turnRate": 0,
+      "retryAt": 0
+    }
+  ],
+  "focusSku": "washers-1"
+}

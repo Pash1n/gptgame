@@ -1,0 +1,242 @@
+{
+  "version": 5,
+  "expanded": false,
+  "transportUnlocked": false,
+  "marketRound": 1,
+  "contractProgress": 0,
+  "contractCompleted": 0,
+  "cash": 75960,
+  "profit": 960,
+  "sales": 1,
+  "serial": 5,
+  "trade": null,
+  "truck": {
+    "offset": 24,
+    "state": "absent",
+    "timer": 6.016666666666651
+  },
+  "suspension": {
+    "y": -0.019999999999999997,
+    "roll": -0.0005677174377441401,
+    "pitch": 0.0017138674316406238,
+    "vy": -2.00160401074247e-17,
+    "vroll": -1.373322751814972e-18,
+    "vpitch": 1.239088197126291e-18,
+    "load": 320,
+    "targetY": -0.02
+  },
+  "history": [
+    {
+      "kind": "sell",
+      "type": "hardware",
+      "lines": {
+        "hardware": 1
+      },
+      "buyer": "Мастерская «Ротор»",
+      "count": 1,
+      "price": 4010,
+      "profit": 960,
+      "number": 4
+    },
+    {
+      "kind": "buy",
+      "type": "hardware",
+      "lines": {
+        "hardware": 1
+      },
+      "count": 1,
+      "price": 2850,
+      "profit": 0,
+      "number": 1
+    }
+  ],
+  "loaded": 1,
+  "totalLoaded": 1,
+  "shipments": [],
+  "target": {
+    "x": 13.2,
+    "z": -1.55,
+    "height": 5.8
+  },
+  "anchor": [
+    13.200006484985352,
+    8.149999618530273,
+    -1.550000786781311
+  ],
+  "hook": [
+    13.199995040893555,
+    5.799999237060547,
+    -1.549999475479126
+  ],
+  "cableLength": 2.0000000000000004,
+  "active": null,
+  "items": [],
+  "mode": "metiz-assembly",
+  "packingJob": null,
+  "workerPositions": [
+    {
+      "x": 4.4,
+      "z": 4.35,
+      "angle": 3.141592653589793
+    },
+    {
+      "x": 5.4,
+      "z": 4.35,
+      "angle": 3.141592653589793
+    }
+  ],
+  "currency": 10,
+  "payroll": {
+    "shift": 1,
+    "orders": 1,
+    "accrued": 720,
+    "due": 0,
+    "paid": 0,
+    "lastBill": 0,
+    "lastPaid": 0
+  },
+  "migration": null,
+  "riggerRest": [
+    {
+      "rest": {
+        "phase": "seated",
+        "seat": 0,
+        "t": 0.65
+      },
+      "state": "resting",
+      "path": [],
+      "step": 136.1010033189814,
+      "sit": 1
+    },
+    {
+      "rest": {
+        "phase": "seated",
+        "seat": 1,
+        "t": 0.65
+      },
+      "state": "resting",
+      "path": [],
+      "step": 256.4626298252312,
+      "sit": 1
+    }
+  ],
+  "pickQueue": [],
+  "picker": {
+    "x": 0.4,
+    "z": 4.35,
+    "y": 0,
+    "angle": 3.141592653589793,
+    "state": "idle",
+    "path": [],
+    "job": null,
+    "carry": null,
+    "timer": 0,
+    "step": 159.5135570567753,
+    "speed": 0,
+    "travelSpeed": 0,
+    "turnRate": 0,
+    "retryAt": 0,
+    "idleFor": 3.016666666666661,
+    "rest": {
+      "phase": "seated",
+      "seat": 2,
+      "t": 0.65
+    },
+    "sit": 1
+  },
+  "pickers": [
+    {
+      "x": 0.4,
+      "z": 4.35,
+      "y": 0,
+      "angle": 3.141592653589793,
+      "state": "idle",
+      "path": [],
+      "job": null,
+      "carry": null,
+      "timer": 0,
+      "step": 159.5135570567753,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0,
+      "retryAt": 0,
+      "idleFor": 3.016666666666661,
+      "rest": {
+        "phase": "seated",
+        "seat": 2,
+        "t": 0.65
+      },
+      "sit": 1
+    },
+    {
+      "x": 1.4,
+      "z": 4.35,
+      "y": 0,
+      "angle": 3.141592653589793,
+      "state": "idle",
+      "path": [],
+      "job": null,
+      "carry": null,
+      "timer": 0,
+      "step": 32.81028050029791,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0,
+      "retryAt": 0,
+      "idleFor": 3.016666666666661,
+      "rest": {
+        "phase": "seated",
+        "seat": 3,
+        "t": 0.65
+      },
+      "sit": 1
+    },
+    {
+      "x": 2.4,
+      "z": 4.35,
+      "y": 0,
+      "angle": 3.141592653589793,
+      "state": "resting",
+      "path": [],
+      "job": null,
+      "carry": null,
+      "timer": 0,
+      "step": 27.350946721930878,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0,
+      "retryAt": 0,
+      "idleFor": 3.016666666666661,
+      "rest": {
+        "phase": "seated",
+        "seat": 4,
+        "t": 0.65
+      },
+      "sit": 1
+    },
+    {
+      "x": 3.4,
+      "z": 4.35,
+      "y": 0,
+      "angle": 3.141592653589793,
+      "state": "resting",
+      "path": [],
+      "job": null,
+      "carry": null,
+      "timer": 0,
+      "step": 21.897200669938965,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0,
+      "retryAt": 0,
+      "idleFor": 3.016666666666661,
+      "rest": {
+        "phase": "seated",
+        "seat": 5,
+        "t": 0.65
+      },
+      "sit": 1
+    }
+  ],
+  "focusSku": "wire-1"
+}
