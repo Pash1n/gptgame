@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-30T04:59:55.207Z",
+  "checks": [
+    "Real 0.47 v1 arriving supplier save migrates without adding delivery fee, duplicating cargo or changing balance",
+    "Invalid quantities, unknown offers, missing stock and locked upgrades do not mutate economy",
+    "Active vehicle reserves capacity; invalid new-format saves dispose native worlds",
+    "Three-pallet delivery option spawns three bodies and allocates full delivery fee",
+    "Earned upgrades survive reload and cannot charge twice; stale offer ids are rejected"
+  ],
+  "liveWorlds": 0
+}

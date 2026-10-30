@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-30T05:11:00.321Z",
+  "checks": [
+    "Single initial HTML; 15 images including monitor casing and icon sprites, JS and WASM embedded",
+    "Camera approach, computer desktop and real purchase work offline",
+    "Stock reservation, return camera, resumed simulation, supplier arrival and save work without network"
+  ],
+  "requests": [
+    "http://127.0.0.1:8137/Sdvig_WAREHOUSE_0.48.html?test=1"
+  ],
+  "errors": [],
+  "method": "HTTP initial page then browser network disabled; not a file:// automation claim.",
+  "htmlSha256": "ae27f89d051a6e235980d43c8b611d4c94054357a89f991b915af5b0304e9647"
+}

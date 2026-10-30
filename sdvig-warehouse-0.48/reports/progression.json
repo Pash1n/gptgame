@@ -1,0 +1,337 @@
+{
+  "date": "2026-10-30T04:59:54.928Z",
+  "method": "Normal purchases, board/contract acceptance, rigging, crane targets, detach and serialized reloads. No cash grants or cargo teleports.",
+  "checks": [
+    "Paid supplier delivery, stable buyer board during procurement, native unloading/loading and one-time settlement after partial reload",
+    "Two real sales fund expansion; eight bays and annex physics survive save/restore",
+    "Rigger and crane reach annex, mixed reservation consumes exact types; first contract shipment unlocks four-pallet transport",
+    "Four physically separate truck pallets delivered, unloaded and loaded in reverse slot order; partial four-slot save restores without duplication",
+    "Second mixed shipment pays persistent contract bonus exactly once; new contract starts at zero"
+  ],
+  "final": {
+    "version": 2,
+    "expanded": true,
+    "transportUnlocked": true,
+    "marketRound": 5,
+    "contractProgress": 0,
+    "contractCompleted": 1,
+    "cash": 2863,
+    "profit": 2713,
+    "sales": 5,
+    "serial": 13,
+    "trade": null,
+    "truck": {
+      "offset": 24,
+      "state": "absent",
+      "timer": 6.016666666666651
+    },
+    "suspension": {
+      "y": -0.060624999999999984,
+      "roll": -0.00002386398547930239,
+      "pitch": 0.0037936678848266565,
+      "vy": -8.00641604296988e-17,
+      "vroll": -1.9055721448388932e-7,
+      "vpitch": 4.956352788505164e-18,
+      "load": 970,
+      "targetY": -0.060625
+    },
+    "history": [
+      {
+        "kind": "sell",
+        "type": "motors",
+        "lines": {
+          "motors": 1,
+          "crates": 1
+        },
+        "buyer": "Постоянный клиент «Сборка»",
+        "count": 2,
+        "price": 1500,
+        "profit": 450,
+        "number": 12
+      },
+      {
+        "kind": "buy",
+        "type": "crates",
+        "lines": {
+          "crates": 1
+        },
+        "count": 1,
+        "price": 360,
+        "profit": 0,
+        "number": 11
+      },
+      {
+        "kind": "buy",
+        "type": "motors",
+        "lines": {
+          "motors": 1
+        },
+        "count": 1,
+        "price": 690,
+        "profit": 0,
+        "number": 10
+      },
+      {
+        "kind": "sell",
+        "type": "crates",
+        "lines": {
+          "crates": 4
+        },
+        "buyer": "Региональная база",
+        "count": 4,
+        "price": 2016,
+        "profit": 666,
+        "number": 9
+      },
+      {
+        "kind": "buy",
+        "type": "crates",
+        "lines": {
+          "crates": 4
+        },
+        "count": 4,
+        "price": 1350,
+        "profit": 0,
+        "number": 8
+      },
+      {
+        "kind": "sell",
+        "type": "motors",
+        "lines": {
+          "motors": 1,
+          "crates": 1
+        },
+        "buyer": "Постоянный клиент «Сборка»",
+        "count": 2,
+        "price": 1500,
+        "profit": 450,
+        "number": 7
+      },
+      {
+        "kind": "buy",
+        "type": "crates",
+        "lines": {
+          "crates": 1
+        },
+        "count": 1,
+        "price": 360,
+        "profit": 0,
+        "number": 6
+      },
+      {
+        "kind": "buy",
+        "type": "motors",
+        "lines": {
+          "motors": 1
+        },
+        "count": 1,
+        "price": 690,
+        "profit": 0,
+        "number": 5
+      }
+    ],
+    "loaded": 2,
+    "totalLoaded": 12,
+    "shipments": [],
+    "target": {
+      "x": 15.6,
+      "z": -1.55,
+      "height": 5.8
+    },
+    "anchor": [
+      15.600007057189941,
+      8.149999618530273,
+      -1.550000786781311
+    ],
+    "hook": [
+      15.600027084350586,
+      5.799998760223389,
+      -1.5500025749206543
+    ],
+    "cableLength": 2.0000000000000004,
+    "active": null,
+    "items": []
+  },
+  "trace": [
+    {
+      "action": "carry",
+      "id": "cargo-1-0",
+      "x": 1,
+      "z": -2.5,
+      "cash": 660,
+      "trade": 1
+    },
+    {
+      "action": "carry",
+      "id": "cargo-1-1",
+      "x": 6,
+      "z": -2.5,
+      "cash": 660
+    },
+    {
+      "action": "carry",
+      "id": "cargo-1-0",
+      "x": 15.6,
+      "z": -1.55,
+      "cash": 660,
+      "trade": 2
+    },
+    {
+      "action": "carry",
+      "id": "cargo-1-1",
+      "x": 13.2,
+      "z": -1.55,
+      "cash": 2582
+    },
+    {
+      "action": "carry",
+      "id": "cargo-3-0",
+      "x": 1,
+      "z": 1.1,
+      "cash": 1902,
+      "trade": 3
+    },
+    {
+      "action": "carry",
+      "id": "cargo-3-1",
+      "x": 6,
+      "z": 1.1,
+      "cash": 1902
+    },
+    {
+      "action": "carry",
+      "id": "cargo-3-0",
+      "x": 15.6,
+      "z": -1.55,
+      "cash": 1902,
+      "trade": 4
+    },
+    {
+      "action": "carry",
+      "id": "cargo-3-1",
+      "x": 13.2,
+      "z": -1.55,
+      "cash": 2897
+    },
+    {
+      "action": "carry",
+      "id": "cargo-5-0",
+      "x": -4,
+      "z": -2.5,
+      "cash": 1007
+    },
+    {
+      "action": "carry",
+      "id": "cargo-6-0",
+      "x": 1,
+      "z": -2.5,
+      "cash": 647
+    },
+    {
+      "action": "carry",
+      "id": "cargo-5-0",
+      "x": 15.6,
+      "z": -1.55,
+      "cash": 647,
+      "trade": 7
+    },
+    {
+      "action": "carry",
+      "id": "cargo-6-0",
+      "x": 13.2,
+      "z": -1.55,
+      "cash": 2147
+    },
+    {
+      "action": "carry",
+      "id": "cargo-8-0",
+      "x": 1,
+      "z": -2.5,
+      "cash": 147,
+      "trade": 8
+    },
+    {
+      "action": "carry",
+      "id": "cargo-8-1",
+      "x": 6,
+      "z": -2.5,
+      "cash": 147,
+      "trade": 8
+    },
+    {
+      "action": "carry",
+      "id": "cargo-8-2",
+      "x": -4,
+      "z": 1.1,
+      "cash": 147,
+      "trade": 8
+    },
+    {
+      "action": "carry",
+      "id": "cargo-8-3",
+      "x": -9,
+      "z": 1.1,
+      "cash": 147
+    },
+    {
+      "action": "carry",
+      "id": "cargo-8-0",
+      "x": 18.05,
+      "z": -1.55,
+      "cash": 147,
+      "trade": 9
+    },
+    {
+      "action": "carry",
+      "id": "cargo-8-1",
+      "x": 15.8,
+      "z": -1.55,
+      "cash": 147,
+      "trade": 9
+    },
+    {
+      "action": "carry",
+      "id": "cargo-8-2",
+      "x": 13.55,
+      "z": -1.55,
+      "cash": 147,
+      "trade": 9
+    },
+    {
+      "action": "carry",
+      "id": "cargo-8-3",
+      "x": 11.3,
+      "z": -1.55,
+      "cash": 2163
+    },
+    {
+      "action": "carry",
+      "id": "cargo-10-0",
+      "x": -9,
+      "z": -2.5,
+      "cash": 1473
+    },
+    {
+      "action": "carry",
+      "id": "cargo-11-0",
+      "x": 1,
+      "z": 1.1,
+      "cash": 1113
+    },
+    {
+      "action": "carry",
+      "id": "cargo-10-0",
+      "x": 13.2,
+      "z": -1.55,
+      "cash": 1113,
+      "trade": 12
+    },
+    {
+      "action": "carry",
+      "id": "cargo-11-0",
+      "x": 15.6,
+      "z": -1.55,
+      "cash": 2863
+    }
+  ]
+}

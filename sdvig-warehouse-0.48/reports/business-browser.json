@@ -1,0 +1,964 @@
+{
+  "date": "2026-10-30T05:01:40.979Z",
+  "checks": [
+    "Fresh business, blocked upgrades, three offer cards, two-pallet start, explicit delivery price, eight rotating wheel pivots and stopped wheels when parked",
+    "Naturally earned campaign save opens annex, eight stock slots, contracts and four-item quantity selector; purchased four pallets physically fit truck",
+    "Game controls fit small portrait and landscape screens; fifth desktop application and growth page accessible on phone viewport",
+    "Actual browser migrates old v1 key to separate v2 key without overwriting legacy save; blur/Continue remains usable"
+  ],
+  "renderInfo": {
+    "lights": 0,
+    "pbr": 0,
+    "basic": 139,
+    "skinSamples": [
+      [
+        0,
+        0.9503591247009378,
+        0
+      ],
+      [
+        0,
+        0.9903591461586099,
+        0.12036000192165375
+      ],
+      [
+        0.007499999832361937,
+        1.330359179537211,
+        0.15199999511241913
+      ],
+      [
+        0,
+        1.4553590603279214,
+        0.06499999761581421
+      ],
+      [
+        0,
+        1.7391591854499917,
+        0
+      ],
+      [
+        0.0949999988079071,
+        1.5453590937065225,
+        0.11699999868869781
+      ],
+      [
+        -0.193381205201149,
+        0.8602592826485492,
+        0.1057560765237886
+      ],
+      [
+        0.027499999850988388,
+        0.9843591638015847,
+        0.14249999821186066
+      ],
+      [
+        -0.03279274329543114,
+        0.11056639091244747,
+        0.20520725846290588
+      ]
+    ],
+    "shadows": false
+  },
+  "spin": {
+    "a": {
+      "time": 0.36666666666666664,
+      "engine": "Jolt WASM 1.1.1",
+      "target": {
+        "x": 5,
+        "z": 1.1,
+        "height": 4.7
+      },
+      "hook": {
+        "position": [
+          5,
+          4.69999885559082,
+          1.100000023841858
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "anchor": [
+        5,
+        8.149999618530273,
+        1.100000023841858
+      ],
+      "active": null,
+      "selected": null,
+      "order": {
+        "number": "001",
+        "type": "crates",
+        "count": 1,
+        "loaded": 0
+      },
+      "totalLoaded": 0,
+      "finished": false,
+      "worker": {
+        "x": 10,
+        "z": 3.5,
+        "y": 0,
+        "angle": 0,
+        "state": "idle",
+        "path": [],
+        "job": null,
+        "timer": 0,
+        "step": 0,
+        "speed": 0,
+        "travelSpeed": 0,
+        "turnRate": 0
+      },
+      "forklift": {
+        "x": 17,
+        "z": 3.5,
+        "angle": 0,
+        "state": "idle",
+        "timer": 0
+      },
+      "truck": {
+        "offset": 23.2,
+        "state": "arriving",
+        "timer": 0.19999999999999998
+      },
+      "queue": [],
+      "items": [],
+      "suspension": {
+        "y": 0,
+        "roll": 0,
+        "pitch": 0,
+        "vy": 0,
+        "vroll": 0,
+        "vpitch": 0,
+        "load": 0,
+        "targetY": 0
+      },
+      "deckPose": null,
+      "economy": {
+        "cash": 1640,
+        "profit": 0,
+        "sales": 0,
+        "used": 1,
+        "free": 3,
+        "capacity": 4,
+        "maxLoad": 2,
+        "expanded": false,
+        "transportUnlocked": false,
+        "marketRound": 0,
+        "offers": [
+          {
+            "id": "quick-0",
+            "buyer": "Местный сервис",
+            "lines": {
+              "crates": 1
+            },
+            "price": 450
+          },
+          {
+            "id": "lot-0",
+            "buyer": "Оптовый покупатель",
+            "lines": {
+              "motors": 2
+            },
+            "price": 1922
+          },
+          {
+            "id": "mix-0",
+            "buyer": "Сборочный участок",
+            "lines": {
+              "motors": 1,
+              "crates": 1
+            },
+            "price": 1541
+          }
+        ],
+        "contractProgress": 0,
+        "contractCompleted": 0,
+        "contractOffer": null,
+        "trade": {
+          "kind": "buy",
+          "type": "crates",
+          "lines": {
+            "crates": 1
+          },
+          "count": 1,
+          "number": 1,
+          "spawned": false,
+          "ids": [],
+          "price": 360,
+          "fee": 40,
+          "loaded": 0
+        },
+        "history": [],
+        "task": "Машина в пути · 6 с"
+      },
+      "quality": "sharp",
+      "craneInspection": false,
+      "wheelAngles": [
+        -45.04854368932038,
+        -45.04854368932038,
+        -45.04854368932038,
+        -45.04854368932038,
+        -45.04854368932038,
+        -45.04854368932038,
+        -45.04854368932038,
+        -45.04854368932038
+      ],
+      "annexVisible": false,
+      "drumRotation": 8.68,
+      "craneMeshBatches": 3,
+      "cameraX": 7,
+      "cameraPosition": [
+        7,
+        13.831673051209627,
+        14.355294139736582
+      ],
+      "officePhase": "warehouse",
+      "officeProgress": null,
+      "stats": {
+        "fps": 0.6122948812147931,
+        "physicsMs": 0.20000001788139343,
+        "frameMs": 0.30000001192092896,
+        "shadowUpdates": 0,
+        "renderFrames": 24,
+        "workerPose": {
+          "time": 0.36666666666666664,
+          "walk": 0,
+          "rig": 0,
+          "turnPhase": 0,
+          "hipShiftX": 0,
+          "hipY": 0.8718393505559203,
+          "torsoPitch": 0,
+          "torsoRoll": 0,
+          "twist": 0,
+          "headPitch": 0,
+          "legs": [
+            {
+              "hip": -0.15827904992482136,
+              "knee": 0.3165580998496427,
+              "ankle": -0.15827904992482136,
+              "targetZ": 0,
+              "targetY": 0.08,
+              "stance": true
+            },
+            {
+              "hip": -0.15827904992482136,
+              "knee": 0.3165580998496427,
+              "ankle": -0.15827904992482136,
+              "targetZ": 0,
+              "targetY": 0.08,
+              "stance": true
+            }
+          ],
+          "arms": [
+            {
+              "shoulder": 0,
+              "elbow": -0.18,
+              "wrist": 0
+            },
+            {
+              "shoulder": 0,
+              "elbow": -0.18,
+              "wrist": 0
+            }
+          ]
+        },
+        "drawCalls": 79,
+        "triangles": 56242,
+        "renderPixels": 1088000,
+        "shadowMaps": 0,
+        "postPasses": 0,
+        "workerBatches": 9,
+        "skippedFrames": 3,
+        "geometries": 91
+      }
+    },
+    "b": {
+      "time": 1.3666666666666654,
+      "engine": "Jolt WASM 1.1.1",
+      "target": {
+        "x": 5,
+        "z": 1.1,
+        "height": 4.7
+      },
+      "hook": {
+        "position": [
+          5,
+          4.69999885559082,
+          1.100000023841858
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "anchor": [
+        5,
+        8.149999618530273,
+        1.100000023841858
+      ],
+      "active": null,
+      "selected": null,
+      "order": {
+        "number": "001",
+        "type": "crates",
+        "count": 1,
+        "loaded": 0
+      },
+      "totalLoaded": 0,
+      "finished": false,
+      "worker": {
+        "x": 10,
+        "z": 3.5,
+        "y": 0,
+        "angle": 0,
+        "state": "idle",
+        "path": [],
+        "job": null,
+        "timer": 0,
+        "step": 0,
+        "speed": 0,
+        "travelSpeed": 0,
+        "turnRate": 0
+      },
+      "forklift": {
+        "x": 17,
+        "z": 3.5,
+        "angle": 0,
+        "state": "idle",
+        "timer": 0
+      },
+      "truck": {
+        "offset": 19.200000000000003,
+        "state": "arriving",
+        "timer": 1.1999999999999993
+      },
+      "queue": [],
+      "items": [],
+      "suspension": {
+        "y": 0,
+        "roll": 0,
+        "pitch": 0,
+        "vy": 0,
+        "vroll": 0,
+        "vpitch": 0,
+        "load": 0,
+        "targetY": 0
+      },
+      "deckPose": null,
+      "economy": {
+        "cash": 1640,
+        "profit": 0,
+        "sales": 0,
+        "used": 1,
+        "free": 3,
+        "capacity": 4,
+        "maxLoad": 2,
+        "expanded": false,
+        "transportUnlocked": false,
+        "marketRound": 0,
+        "offers": [
+          {
+            "id": "quick-0",
+            "buyer": "Местный сервис",
+            "lines": {
+              "crates": 1
+            },
+            "price": 450
+          },
+          {
+            "id": "lot-0",
+            "buyer": "Оптовый покупатель",
+            "lines": {
+              "motors": 2
+            },
+            "price": 1922
+          },
+          {
+            "id": "mix-0",
+            "buyer": "Сборочный участок",
+            "lines": {
+              "motors": 1,
+              "crates": 1
+            },
+            "price": 1541
+          }
+        ],
+        "contractProgress": 0,
+        "contractCompleted": 0,
+        "contractOffer": null,
+        "trade": {
+          "kind": "buy",
+          "type": "crates",
+          "lines": {
+            "crates": 1
+          },
+          "count": 1,
+          "number": 1,
+          "spawned": false,
+          "ids": [],
+          "price": 360,
+          "fee": 40,
+          "loaded": 0
+        },
+        "history": [],
+        "task": "Машина в пути · 5 с"
+      },
+      "quality": "sharp",
+      "craneInspection": false,
+      "wheelAngles": [
+        -37.28155339805826,
+        -37.28155339805826,
+        -37.28155339805826,
+        -37.28155339805826,
+        -37.28155339805826,
+        -37.28155339805826,
+        -37.28155339805826,
+        -37.28155339805826
+      ],
+      "annexVisible": false,
+      "drumRotation": 8.68,
+      "craneMeshBatches": 3,
+      "cameraX": 7,
+      "cameraPosition": [
+        7,
+        13.831673051209627,
+        14.355294139736582
+      ],
+      "officePhase": "warehouse",
+      "officeProgress": null,
+      "stats": {
+        "fps": 0.6122948812147931,
+        "physicsMs": 0.20000001788139343,
+        "frameMs": 0.30000001192092896,
+        "shadowUpdates": 0,
+        "renderFrames": 25,
+        "workerPose": {
+          "time": 1.3666666666666654,
+          "walk": 0,
+          "rig": 0,
+          "turnPhase": 0,
+          "hipShiftX": 0,
+          "hipY": 0.8718900918899877,
+          "torsoPitch": 0,
+          "torsoRoll": 0,
+          "twist": 0,
+          "headPitch": 0,
+          "legs": [
+            {
+              "hip": -0.15827904992482136,
+              "knee": 0.3165580998496427,
+              "ankle": -0.15827904992482136,
+              "targetZ": 0,
+              "targetY": 0.08,
+              "stance": true
+            },
+            {
+              "hip": -0.15827904992482136,
+              "knee": 0.3165580998496427,
+              "ankle": -0.15827904992482136,
+              "targetZ": 0,
+              "targetY": 0.08,
+              "stance": true
+            }
+          ],
+          "arms": [
+            {
+              "shoulder": 0,
+              "elbow": -0.18,
+              "wrist": 0
+            },
+            {
+              "shoulder": 0,
+              "elbow": -0.18,
+              "wrist": 0
+            }
+          ]
+        },
+        "drawCalls": 79,
+        "triangles": 56242,
+        "renderPixels": 1088000,
+        "shadowMaps": 0,
+        "postPasses": 0,
+        "workerBatches": 9,
+        "skippedFrames": 3,
+        "geometries": 91
+      }
+    }
+  },
+  "advanced": {
+    "time": 7.133333333333313,
+    "engine": "Jolt WASM 1.1.1",
+    "target": {
+      "x": 15.6,
+      "z": -1.55,
+      "height": 5.8
+    },
+    "hook": {
+      "position": [
+        15.600027084350586,
+        5.799998760223389,
+        -1.5500025749206543
+      ],
+      "quaternion": [
+        3.565833708307764e-7,
+        -8.85552221829844e-12,
+        0.000004118241577089066,
+        1
+      ]
+    },
+    "anchor": [
+      15.600007057189941,
+      8.149999618530273,
+      -1.550000786781311
+    ],
+    "active": null,
+    "selected": null,
+    "order": {
+      "number": "013",
+      "type": "crates",
+      "count": 4,
+      "loaded": 0
+    },
+    "totalLoaded": 12,
+    "finished": false,
+    "worker": {
+      "x": 10,
+      "z": 3.5,
+      "y": 0,
+      "angle": 0,
+      "state": "idle",
+      "path": [],
+      "job": null,
+      "timer": 0,
+      "step": 0,
+      "speed": 0,
+      "travelSpeed": 0,
+      "turnRate": 0
+    },
+    "forklift": {
+      "x": 17,
+      "z": 3.5,
+      "angle": 0,
+      "state": "idle",
+      "timer": 0
+    },
+    "truck": {
+      "offset": 0,
+      "state": "parked",
+      "timer": 0
+    },
+    "dockMessage": "Разгружено 0 / 4 · поставь груз в жёлтую разметку",
+    "queue": [],
+    "items": [
+      {
+        "id": "cargo-13-0",
+        "type": "crates",
+        "bay": "01",
+        "position": [
+          11.299761772155762,
+          1.9595590829849243,
+          -1.5499989986419678
+        ],
+        "quaternion": [
+          2.322703807067228e-9,
+          1.4699839652812519e-12,
+          0.0000650954243610613,
+          1
+        ],
+        "height": 1.6,
+        "rigged": false,
+        "shipped": false,
+        "transit": false,
+        "supported": true,
+        "eye": [
+          11.299576901150576,
+          3.379559076967796,
+          -1.5499989920454886
+        ],
+        "incoming": true,
+        "reserved": false,
+        "cost": 338
+      },
+      {
+        "id": "cargo-13-1",
+        "type": "crates",
+        "bay": "02",
+        "position": [
+          13.549761772155762,
+          1.9598499536514282,
+          -1.5499989986419678
+        ],
+        "quaternion": [
+          1.282564632276717e-8,
+          2.3526697083553483e-12,
+          0.00006508789374493062,
+          1
+        ],
+        "height": 1.6,
+        "rigged": false,
+        "shipped": false,
+        "transit": false,
+        "supported": true,
+        "eye": [
+          13.549576922537526,
+          3.379849947635692,
+          -1.5499989622171317
+        ],
+        "incoming": true,
+        "reserved": false,
+        "cost": 338
+      },
+      {
+        "id": "cargo-13-2",
+        "type": "crates",
+        "bay": "03",
+        "position": [
+          15.799761772155762,
+          1.9601408243179321,
+          -1.5499989986419678
+        ],
+        "quaternion": [
+          1.256159976037452e-8,
+          2.341013233958522e-12,
+          0.00006509676313726231,
+          1
+        ],
+        "height": 1.6,
+        "rigged": false,
+        "shipped": false,
+        "transit": false,
+        "supported": true,
+        "eye": [
+          15.799576897348452,
+          3.380140818300556,
+          -1.549998962967024
+        ],
+        "incoming": true,
+        "reserved": false,
+        "cost": 337
+      },
+      {
+        "id": "cargo-13-3",
+        "type": "crates",
+        "bay": "04",
+        "position": [
+          18.049766540527344,
+          1.9604315757751465,
+          -1.549999713897705
+        ],
+        "quaternion": [
+          3.917460844604648e-8,
+          4.5564975403866725e-12,
+          0.00006509623199235648,
+          1
+        ],
+        "height": 1.6,
+        "rigged": false,
+        "shipped": false,
+        "transit": false,
+        "supported": true,
+        "eye": [
+          18.049581667228484,
+          3.3804315697578664,
+          -1.5499996026418164
+        ],
+        "incoming": true,
+        "reserved": false,
+        "cost": 337
+      }
+    ],
+    "suspension": {
+      "y": -0.08000148737162183,
+      "roll": 1.8858537661826786e-8,
+      "pitch": 0.00012925775949996018,
+      "vy": 0.0005384332530279045,
+      "vroll": 2.7763392477944056e-8,
+      "vpitch": -8.134758223244042e-7,
+      "load": 1280,
+      "targetY": -0.08
+    },
+    "deckPose": {
+      "position": [
+        14.700000762939453,
+        -0.08000504970550537,
+        -1.5499999523162842
+      ],
+      "quaternion": [
+        8.324323452768567e-9,
+        -5.418466239928699e-13,
+        0.00006509197555715218,
+        1
+      ]
+    },
+    "economy": {
+      "cash": 1513,
+      "profit": 2713,
+      "sales": 5,
+      "used": 4,
+      "free": 4,
+      "capacity": 8,
+      "maxLoad": 4,
+      "expanded": true,
+      "transportUnlocked": true,
+      "marketRound": 5,
+      "offers": [
+        {
+          "id": "quick-5",
+          "buyer": "Местный сервис",
+          "lines": {
+            "motors": 1
+          },
+          "price": 935
+        },
+        {
+          "id": "lot-5",
+          "buyer": "Оптовый покупатель",
+          "lines": {
+            "crates": 2
+          },
+          "price": 1017
+        },
+        {
+          "id": "mix-5",
+          "buyer": "Сборочный участок",
+          "lines": {
+            "motors": 1,
+            "crates": 1
+          },
+          "price": 1595
+        },
+        {
+          "id": "bulk-5",
+          "buyer": "Региональная база",
+          "lines": {
+            "crates": 4
+          },
+          "price": 2088
+        },
+        {
+          "id": "bulk-mix-5",
+          "buyer": "Комплектовщик",
+          "lines": {
+            "motors": 2,
+            "crates": 2
+          },
+          "price": 3216
+        }
+      ],
+      "contractProgress": 0,
+      "contractCompleted": 1,
+      "contractOffer": {
+        "id": "contract-1-0",
+        "buyer": "Постоянный клиент «Сборка»",
+        "lines": {
+          "motors": 1,
+          "crates": 1
+        },
+        "price": 1500,
+        "contract": true,
+        "title": "Комплектные поставки · 1 / 2"
+      },
+      "trade": {
+        "kind": "buy",
+        "type": "crates",
+        "lines": {
+          "crates": 4
+        },
+        "count": 4,
+        "number": 13,
+        "spawned": true,
+        "ids": [
+          "cargo-13-0",
+          "cargo-13-1",
+          "cargo-13-2",
+          "cargo-13-3"
+        ],
+        "price": 1350,
+        "fee": 70,
+        "loaded": 0
+      },
+      "history": [
+        {
+          "kind": "sell",
+          "type": "motors",
+          "lines": {
+            "motors": 1,
+            "crates": 1
+          },
+          "buyer": "Постоянный клиент «Сборка»",
+          "count": 2,
+          "price": 1500,
+          "profit": 450,
+          "number": 12
+        },
+        {
+          "kind": "buy",
+          "type": "crates",
+          "lines": {
+            "crates": 1
+          },
+          "count": 1,
+          "price": 360,
+          "profit": 0,
+          "number": 11
+        },
+        {
+          "kind": "buy",
+          "type": "motors",
+          "lines": {
+            "motors": 1
+          },
+          "count": 1,
+          "price": 690,
+          "profit": 0,
+          "number": 10
+        },
+        {
+          "kind": "sell",
+          "type": "crates",
+          "lines": {
+            "crates": 4
+          },
+          "buyer": "Региональная база",
+          "count": 4,
+          "price": 2016,
+          "profit": 666,
+          "number": 9
+        },
+        {
+          "kind": "buy",
+          "type": "crates",
+          "lines": {
+            "crates": 4
+          },
+          "count": 4,
+          "price": 1350,
+          "profit": 0,
+          "number": 8
+        },
+        {
+          "kind": "sell",
+          "type": "motors",
+          "lines": {
+            "motors": 1,
+            "crates": 1
+          },
+          "buyer": "Постоянный клиент «Сборка»",
+          "count": 2,
+          "price": 1500,
+          "profit": 450,
+          "number": 7
+        },
+        {
+          "kind": "buy",
+          "type": "crates",
+          "lines": {
+            "crates": 1
+          },
+          "count": 1,
+          "price": 360,
+          "profit": 0,
+          "number": 6
+        },
+        {
+          "kind": "buy",
+          "type": "motors",
+          "lines": {
+            "motors": 1
+          },
+          "count": 1,
+          "price": 690,
+          "profit": 0,
+          "number": 5
+        }
+      ],
+      "task": "Разгружено 0 / 4 · поставь груз в жёлтую разметку"
+    },
+    "quality": "sharp",
+    "craneInspection": false,
+    "wheelAngles": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "annexVisible": true,
+    "drumRotation": 5.6000000000000005,
+    "craneMeshBatches": 3,
+    "cameraX": 12,
+    "cameraPosition": [
+      12,
+      14.684029937636412,
+      15.380786018718808
+    ],
+    "officePhase": "warehouse",
+    "officeProgress": null,
+    "stats": {
+      "fps": 0.6666666666666666,
+      "physicsMs": 0.20000001788139343,
+      "frameMs": 0.30000001192092896,
+      "shadowUpdates": 0,
+      "renderFrames": 23,
+      "workerPose": {
+        "time": 7.133333333333313,
+        "walk": 0,
+        "rig": 0,
+        "turnPhase": 0,
+        "hipShiftX": 0,
+        "hipY": 0.8708106827055354,
+        "torsoPitch": 0,
+        "torsoRoll": 0,
+        "twist": 0,
+        "headPitch": 0,
+        "legs": [
+          {
+            "hip": -0.15827904992482136,
+            "knee": 0.3165580998496427,
+            "ankle": -0.15827904992482136,
+            "targetZ": 0,
+            "targetY": 0.08,
+            "stance": true
+          },
+          {
+            "hip": -0.15827904992482136,
+            "knee": 0.3165580998496427,
+            "ankle": -0.15827904992482136,
+            "targetZ": 0,
+            "targetY": 0.08,
+            "stance": true
+          }
+        ],
+        "arms": [
+          {
+            "shoulder": 0,
+            "elbow": -0.18,
+            "wrist": 0
+          },
+          {
+            "shoulder": 0,
+            "elbow": -0.18,
+            "wrist": 0
+          }
+        ]
+      },
+      "drawCalls": 145,
+      "triangles": 144522,
+      "renderPixels": 1088000,
+      "shadowMaps": 0,
+      "postPasses": 0,
+      "workerBatches": 9,
+      "skippedFrames": 4,
+      "geometries": 128
+    }
+  },
+  "errors": [],
+  "limitation": "Chromium SwiftShader and emulated mobile viewports, not hardware performance measurements."
+}
