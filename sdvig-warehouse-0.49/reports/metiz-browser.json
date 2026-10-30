@@ -1,13 +1,14 @@
 {
-  "date": "2026-10-30T06:54:32.700Z",
+  "date": "2026-10-30T07:14:11.160Z",
   "checks": [
     "Actual UI: 30 searchable/filterable positions, mixed 12-box basket, one truck and one partial physical case",
     "Real source at packing station; mouse drag, batch transfer, 25-cell case, partial count, undo and blocked premature seal",
     "Packing view and game controls fit phone portrait/landscape; pause and resume retain draft",
-    "Real touchscreen pointer events drag one carton into a partially filled case on portrait phone"
+    "Real touchscreen pointer events drag one carton into a partially filled case on portrait phone",
+    "Stock write-off requires separate confirmation, cancel leaves goods intact, confirmed loss removes one case without crediting cash"
   ],
   "initial": {
-    "time": 0.06666666666666667,
+    "time": 0.03333333333333333,
     "engine": "Jolt WASM 1.1.1",
     "target": {
       "x": 5,
@@ -17,7 +18,7 @@
     "hook": {
       "position": [
         5,
-        4.69976806640625,
+        4.698802947998047,
         1.100000023841858
       ],
       "quaternion": [
@@ -189,18 +190,18 @@
     ],
     "officeProgress": null,
     "stats": {
-      "fps": 0.5607581450120563,
-      "physicsMs": 3.9000000059604645,
-      "frameMs": 9.300000011920929,
+      "fps": 0.5000250012500626,
+      "physicsMs": 8.899999976158142,
+      "frameMs": 13.200000017881393,
       "shadowUpdates": 0,
-      "renderFrames": 3,
+      "renderFrames": 2,
       "workerPose": {
-        "time": 0.06666666666666667,
+        "time": 0.03333333333333333,
         "walk": 0,
         "rig": 0,
         "turnPhase": 0,
         "hipShiftX": 0,
-        "hipY": 0.8703591366218667,
+        "hipY": 0.8701798920194384,
         "torsoPitch": 0,
         "torsoRoll": 0,
         "twist": 0,
@@ -523,11 +524,11 @@
     "officePhase": "warehouse",
     "officeProgress": null,
     "stats": {
-      "fps": 0.5607581450120563,
-      "physicsMs": 0.10000002384185791,
-      "frameMs": 0.10000002384185791,
+      "fps": 0.5000250012500626,
+      "physicsMs": 5.5,
+      "frameMs": 5.5999999940395355,
       "shadowUpdates": 0,
-      "renderFrames": 18,
+      "renderFrames": 20,
       "workerPose": {
         "time": 7.133333333333313,
         "walk": 0,
@@ -752,8 +753,8 @@
       "cash": 7570,
       "profit": 0,
       "sales": 0,
-      "used": 3,
-      "free": 1,
+      "used": 2,
+      "free": 2,
       "capacity": 4,
       "maxLoad": 2,
       "expanded": false,
@@ -927,9 +928,9 @@
     ],
     "officeProgress": null,
     "stats": {
-      "fps": 0.6122573930080205,
-      "physicsMs": 1.800000011920929,
-      "frameMs": 2,
+      "fps": 0.5357047195585793,
+      "physicsMs": 0.30000001192092896,
+      "frameMs": 0.4000000059604645,
       "shadowUpdates": 0,
       "renderFrames": 6,
       "workerPose": {

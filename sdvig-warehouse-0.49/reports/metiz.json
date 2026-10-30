@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-30T06:54:12.543Z",
+  "date": "2026-10-30T07:13:02.603Z",
   "method": "Normal mixed purchase, physical crane/rigger moves, table transfers and serialized reloads. No grants or cargo teleports.",
   "checks": [
     "30 unique SKUs; a single-box purchase creates one partially filled case; invalid/oversized baskets rejected",
@@ -9,7 +9,9 @@
     "Natural one-box order: empty source case reused, 1/25 sealed and crane-loaded, payment correct after save/reload",
     "Two more natural orders fund the annex and transport; a 100-box purchase arrives as four real cases, all crane-unloaded into eight-slot warehouse",
     "Both hardware contract shipments, leftover source reuse, persistent one-time bonus and global cash/inventory/profit ledger balance",
-    "One order gathered from two different physical source cases, including same SKU split 1+3; intermediate reload, partial-source return and final ledger conservation"
+    "One order gathered from two different physical source cases, including same SKU split 1+3; intermediate reload, partial-source return and final ledger conservation",
+    "Full four-case warehouse: accept order, keep partial source, create fifth physical dispatch at dedicated table, reload and ship without blocking or loss",
+    "Full irrelevant stock recovered by one explicit write-off; no cash refund, exact loss, repeat rejected, normal one-box purchase and sale work"
   ],
   "final": {
     "version": 3,
@@ -956,6 +958,118 @@
       "role": "dispatch",
       "boxes": 12,
       "cash": 9908
+    },
+    {
+      "id": "metiz-1-0",
+      "x": 1,
+      "z": -2.5,
+      "role": "raw",
+      "boxes": 25,
+      "cash": 8230
+    },
+    {
+      "id": "metiz-1-1",
+      "x": 6,
+      "z": -2.5,
+      "role": "raw",
+      "boxes": 1,
+      "cash": 8230
+    },
+    {
+      "id": "metiz-2-0",
+      "x": 1,
+      "z": 1.1,
+      "role": "raw",
+      "boxes": 25,
+      "cash": 6430
+    },
+    {
+      "id": "metiz-2-1",
+      "x": 6,
+      "z": 1.1,
+      "role": "raw",
+      "boxes": 1,
+      "cash": 6430
+    },
+    {
+      "id": "metiz-1-0",
+      "x": 9.15,
+      "z": 1.1,
+      "role": "raw",
+      "boxes": 25,
+      "cash": 6430
+    },
+    {
+      "id": "metiz-1-0",
+      "x": 1,
+      "z": -2.5,
+      "role": "raw",
+      "boxes": 13,
+      "cash": 6430
+    },
+    {
+      "id": "dispatch-3",
+      "x": 13.2,
+      "z": -1.55,
+      "role": "dispatch",
+      "boxes": 12,
+      "cash": 8808
+    },
+    {
+      "id": "metiz-1-0",
+      "x": 1,
+      "z": -2.5,
+      "role": "raw",
+      "boxes": 25,
+      "cash": 8640
+    },
+    {
+      "id": "metiz-1-1",
+      "x": 6,
+      "z": -2.5,
+      "role": "raw",
+      "boxes": 25,
+      "cash": 8640
+    },
+    {
+      "id": "metiz-2-0",
+      "x": 1,
+      "z": 1.1,
+      "role": "raw",
+      "boxes": 25,
+      "cash": 5280
+    },
+    {
+      "id": "metiz-2-1",
+      "x": 6,
+      "z": 1.1,
+      "role": "raw",
+      "boxes": 25,
+      "cash": 5280
+    },
+    {
+      "id": "metiz-3-0",
+      "x": 1,
+      "z": -2.5,
+      "role": "raw",
+      "boxes": 1,
+      "cash": 4995
+    },
+    {
+      "id": "metiz-3-0",
+      "x": 9.15,
+      "z": 1.1,
+      "role": "raw",
+      "boxes": 1,
+      "cash": 4995
+    },
+    {
+      "id": "metiz-3-0",
+      "x": 13.2,
+      "z": -1.55,
+      "role": "dispatch",
+      "boxes": 1,
+      "cash": 5376
     }
   ]
 }
